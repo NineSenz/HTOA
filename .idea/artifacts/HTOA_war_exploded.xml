@@ -7,6 +7,14 @@
         <element id="directory" name="classes">
           <element id="module-output" name="HTOA" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="hibernate 4.3.11" />
+          <element id="library" level="project" name="spring 4.3.2" />
+          <element id="library" level="project" name="struts2 2.3.29" />
+          <element id="library" level="project" name="mysql-connector" />
+          <element id="library" level="project" name="proxool" />
+          <element id="library" level="module" name="JUnit4" module-name="HTOA" />
+        </element>
       </element>
     </root>
   </artifact>

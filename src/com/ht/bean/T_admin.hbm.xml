@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping package="com.ht.bean">
+	
+	<class name="T_admin" table="t_admin">
+		<id name="t_adm_id" column="t_adm_id"></id>
+		<property name="t_adm_name" column="t_adm_name" />
+		<property name="t_adm_email" column="t_adm_email" />
+		<property name="t_adm_pwd" column="t_adm_pwd" />
+		<property name="t_adm_phone" column="t_adm_phone" />
+		<property name="t_adm_identity" column="t_adm_identity" />
+	</class>
+   
+</hibernate-mapping>

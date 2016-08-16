@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="T_ssummarizeAction-package" extends="my-package" namespace="/ssummarize">
+        <action name="*" class="com.ht.action.T_ssummarizeAction" method="{1}">
+            <result name="save">/Test.jsp</result>
+            <result name="queryall">/Test.jsp</result>
+            <result name="query">/Test.jsp</result>
+            <result name="delete">/Test.jsp</result>
+            <result name="update">/Test.jsp</result>
+        </action>
+    </package>
+</struts>

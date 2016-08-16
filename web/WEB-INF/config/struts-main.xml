@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+    
+<struts>
+
+	<constant name="struts.devMode" value="true"/><!-- 是否为开发模式，可支持struts提供的debug功能 -->
+	<constant name="struts.action.extension" value=",action,do"/><!-- action的扩展名 -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+	<constant name="struts.multipart.maxSize" value="20971520"/><!-- 单位是字节 -->
+	<package name="my-package" extends="struts-default"/>
+	<package name="test-package" extends="my-package" namespace="/test">
+		<action name="*" class="com.ht.action.TestAction" method="{1}">
+			<result name="query">/test.jsp</result>
+			<result name="save">/test.jsp</result>
+		</action>
+	</package>
+	<include file="../config/struts-T_staff.xml"></include>
+	<include file="../config/struts-T_departmentAction.xml"></include>
+	<include file="../config/struts-T_admin.xml"></include>
+	<include file="../config/struts-T_reply.xml"></include>
+	<include file="../config/struts-T_grade.xml"></include>
+	<include file="../config/struts-T_ssummarize.xml"></include>
+	<include file="../config/struts-T_obtainjob.xml"></include>
+</struts>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping package="com.ht.bean">
+	
+	<class name="T_staff" table="t_staff">
+		<id name="t_sta_id" column="t_sta_id"></id>
+		<property name="t_sta_depid" column="t_sta_depid" />
+		<property name="t_sta_name" column="t_sta_name" />
+		<property name="t_sta_sex" column="t_sta_sex" />
+		<property name="t_sta_place" column="t_sta_place" />
+		<property name="t_sta_phone" column="t_sta_phone" />
+		<property name="t_sta_icard" column="t_sta_icard" />
+		<property name="t_sta_edu" column="t_sta_edu" />
+		<property name="t_sta_anton" column="t_sta_anton" />
+		<property name="t_sta_addr" column="t_sta_addr" />
+		<property name="t_sta_create" column="t_sta_create" />
+		<property name="t_sta_status" column="t_sta_status" />
+		<property name="t_sta_email" column="t_sta_email"/>
+	</class>
+   
+</hibernate-mapping>

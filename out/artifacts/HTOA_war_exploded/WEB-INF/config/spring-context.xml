@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd  
+    ">
+  
+  <bean id="t_staffDAO" class="com.ht.dao.T_staffDAOImpl" autowire="byType"/>
+  <bean id="t_staffService" class="com.ht.service.T_staffServiceImpl" autowire="byType"/>
+  <bean id="t_staffAction" class="com.ht.action.T_staffAction" autowire="byType"/>
+  <bean id="t_staff" class="com.ht.bean.T_staff" autowire="byType"/>
+
+  <bean id="t_departmentDAO" class="com.ht.dao.T_departmentDAOImpl" autowire="byType"/>
+  <bean id="t_departmentService" class="com.ht.service.T_departmentServiceImpl" autowire="byType"/>
+  <bean id="t_departmentAction" class="com.ht.action.T_departmentAction" autowire="byType"/>
+  <bean id="t_department" class="com.ht.bean.T_department" autowire="byType"/>
+
+  <bean id="t_adminDAO" class="com.ht.dao.T_adminDAOImpl" autowire="byType"/>
+  <bean id="t_adminService" class="com.ht.service.T_adminServiceImpl" autowire="byType"/>
+  <bean id="t_adminAction" class="com.ht.action.T_adminAction" autowire="byType"/>
+  <bean id="t_admin" class="com.ht.bean.T_admin" autowire="byType"/>
+
+  <bean id="testDAO" class="com.ht.dao.TestDAOImpl" autowire="byType"/>
+  <bean id="testService" class="com.ht.service.TestServiceImpl" autowire="byType"/>
+  <bean id="testAction" class="com.ht.action.TestAction" autowire="byType"/>
+  <bean id="test" class="com.ht.bean.TTest" autowire="byType"/>
+
+  <bean id="t_gradeDAO" class="com.ht.dao.T_gradeDAOImpl" autowire="byType"/>
+  <bean id="t_gradeService" class="com.ht.service.T_gradeServiceImpl" autowire="byType"/>
+  <bean id="t_gradeAction" class="com.ht.action.T_gradeAction" autowire="byType"/>
+  <bean id="t_grade" class="com.ht.bean.T_grade" autowire="byType"/>
+
+  <bean id="t_replyDAO" class="com.ht.dao.T_replyDAOImpl" autowire="byType"/>
+  <bean id="t_replyService" class="com.ht.service.T_replyServiceImpl" autowire="byType"/>
+  <bean id="t_replyAction" class="com.ht.action.T_replyAction" autowire="byType"/>
+  <bean id="t_reply" class="com.ht.bean.T_reply" autowire="byType"/>
+
+  <bean id="t_ssummarizeDAO" class="com.ht.dao.T_ssummarizeDAOImpl" autowire="byType"/>
+  <bean id="t_ssummarizeService" class="com.ht.service.T_ssummarizeServiceImpl" autowire="byType"/>
+  <bean id="t_ssummarizeAction" class="com.ht.action.T_ssummarizeAction" autowire="byType"/>
+  <bean id="t_ssummarize" class="com.ht.bean.T_ssummarize" autowire="byType"/>
+
+  <bean id="t_obtainjobDAO" class="com.ht.dao.T_obtainjobDAOImpl" autowire="byType"/>
+  <bean id="t_obtainjobService" class="com.ht.service.T_obtainjobServiceImpl" autowire="byType"/>
+  <bean id="t_obtainjobAction" class="com.ht.action.T_obtainjobAction" autowire="byType"/>
+  <bean id="t_obtainjob" class="com.ht.bean.T_obtainjob" autowire="byType"/>
+</beans>  

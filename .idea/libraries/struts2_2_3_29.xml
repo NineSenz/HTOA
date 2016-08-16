@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="struts2 2.3.29">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/struts/asm-3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/asm-commons-3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/asm-tree-3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/commons-fileupload-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/commons-io-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/commons-lang3-3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/freemarker-2.3.22.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/javassist-3.11.0.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/log4j-api-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/log4j-core-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/ognl-3.0.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/struts2-core-2.3.29.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/struts2-json-plugin-2.3.29.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/struts2-spring-plugin-2.3.29.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts/xwork-core-2.3.29.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

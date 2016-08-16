@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping package="com.ht.bean">
+	
+	<class name="T_reply" table="t_reply">
+		<id name="t_rep_id" column="t_rep_id"></id>
+		<property name="t_rep_name" column="t_rep_name" />
+		<property name="t_rep_staid" column="t_rep_staid" />
+		<property name="t_rep_stuid" column="t_rep_stuid" />
+		<property name="t_rep_score" column="t_rep_score" />
+		<property name="t_rep_date" column="t_rep_date" />
+	</class>
+   
+</hibernate-mapping>

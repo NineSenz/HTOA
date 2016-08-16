@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ht.bean">
+    <class name="T_ssummarize" table="t_ssummarize">
+        <id name="t_summ_id" column="t_summ_id"></id>
+        <property name="t_summ_stuid" column="t_summ_stuid"></property>
+        <property name="t_summ_remark" column="t_summ_remark"></property>
+    </class>
+
+</hibernate-mapping>
