@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ht.bean">
+
+    <class name="T_feedback" table="t_feedback">
+        <id name="t_fb_id" column="t_fb_id"></id>
+        <property name="t_fb_staid" column="t_fb_staid" />
+        <property name="t_fb_question" column="t_fb_question" />
+        <property name="t_fb_answer" column="t_fb_answer" />
+    </class>
+
+</hibernate-mapping>

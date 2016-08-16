@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping package="com.ht.bean">
+	
+	<class name="T_wages" table="T_wages">
+		<id name="t_wag_id" column="t_wag_id"></id>
+		<property name="t_wag_staid" column="t_wag_staid" />
+		<property name="t_wag_deduct" column="t_wag_deduct" />
+		<property name="t_wag_award" column="t_wag_award" />
+		<property name="t_wag_salary" column="t_wag_salary" />
+		<property name="t_wag_subsidy" column="t_wag_subsidy" />
+		<property name="t_wag_surplus" column="t_wag_surplus" />
+		<property name="t_wag_cause" column="t_wag_cause" />
+	</class>
+   
+</hibernate-mapping>
