@@ -72,7 +72,7 @@ public class T_departmentDAOImpl implements T_departmentDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_department> Pagelist(Pager4EasyUI pager) {
+    public Pager4EasyUI<T_department> pagerList(Pager4EasyUI pager) {
         return null;
     }
 }

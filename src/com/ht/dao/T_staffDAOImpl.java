@@ -76,7 +76,7 @@ public class T_staffDAOImpl implements T_staffDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_staff> Pagelist(Pager4EasyUI pager) {
+    public Pager4EasyUI<T_staff> pagerList(Pager4EasyUI pager) {
         return null;
     }
 

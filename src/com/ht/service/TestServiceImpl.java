@@ -24,7 +24,7 @@ public class TestServiceImpl implements TestService {
     }
 
     @Override
-    public Pager4EasyUI<TTest> Pagelist(Pager4EasyUI pager) {
-        return null;
+    public Pager4EasyUI<TTest> pagerList(Pager4EasyUI pager) {
+        return testDAO.pagerList(pager);
     }
 }

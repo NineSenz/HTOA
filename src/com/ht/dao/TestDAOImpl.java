@@ -62,7 +62,7 @@ public class TestDAOImpl implements TestDAO {
     }
 
     @Override
-    public Pager4EasyUI<TTest> Pagelist(Pager4EasyUI pager) {
+    public Pager4EasyUI<TTest> pagerList(Pager4EasyUI pager) {
         sion = sessionFactory.getCurrentSession();
         sion.beginTransaction();
         Query query = sion.createQuery("from TTest");

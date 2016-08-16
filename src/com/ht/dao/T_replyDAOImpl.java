@@ -74,7 +74,7 @@ public class T_replyDAOImpl implements T_replyDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_reply> Pagelist(Pager4EasyUI pager) {
+    public Pager4EasyUI<T_reply> pagerList(Pager4EasyUI pager) {
         return null;
     }
 }

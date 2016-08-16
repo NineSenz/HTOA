@@ -53,7 +53,8 @@ public class T_obtainjobServiceImpl implements T_obtainjobService {
     }
 
     @Override
-    public Pager4EasyUI<T_obtainjob> Pagelist(Pager4EasyUI pager) {
+    public Pager4EasyUI<T_obtainjob> pagerList(Pager4EasyUI pager) {
+
         return null;
     }
 }

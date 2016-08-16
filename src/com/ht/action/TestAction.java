@@ -38,5 +38,8 @@ public class TestAction{
         testService.save(test);
         return "save";
     }
+    public String pagerList(){
 
+        return "pager";
+    }
 }

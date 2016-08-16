@@ -9,6 +9,6 @@ import com.ht.util.Pager4EasyUI;
 public interface TestService {
     public void save(TTest test);
     public TTest query(String id);
-    public Pager4EasyUI<TTest> Pagelist(Pager4EasyUI pager);
+    public Pager4EasyUI<TTest> pagerList(Pager4EasyUI pager);
 
 }
