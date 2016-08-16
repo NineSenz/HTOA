@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping package="com.ht.bean">
+	
+	<class name="T_expend" table="t_expend">
+		<id name="t_exp_id" column="t_exp_id"></id>
+		<property name="t_exp_money" column="t_exp_money" />
+		<property name="t_exp_cause" column="t_exp_cause" />
+		<property name="t_exp_balid" column="t_exp_balid" />
+		<property name="t_exp_time" column="t_exp_time" />
+	</class>
+   
+</hibernate-mapping>
