@@ -93,7 +93,7 @@ public class T_adminAction extends ActionSupport {
 
     public String queryEmailPwd(){
         t_staff = t_staffService.query(email);
-        if(){}
+
         return "yes";
     }
 

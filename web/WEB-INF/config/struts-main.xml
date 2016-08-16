@@ -17,11 +17,12 @@
 			<result name="save">/test.jsp</result>
 		</action>
 	</package>
-	<include file="../config/struts-T_staff.xml"></include>
-	<include file="../config/struts-T_departmentAction.xml"></include>
-	<include file="../config/struts-T_admin.xml"></include>
-	<include file="../config/struts-T_reply.xml"></include>
-	<include file="../config/struts-T_grade.xml"></include>
-	<include file="../config/struts-T_ssummarize.xml"></include>
-	<include file="../config/struts-T_obtainjob.xml"></include>
+	<include file="../config/struts-T_staff.xml"/>
+	<include file="../config/struts-T_departmentAction.xml"/>
+	<include file="../config/struts-T_admin.xml"/>
+	<include file="../config/struts-T_reply.xml"/>
+	<include file="../config/struts-T_grade.xml"/>
+	<include file="../config/struts-T_ssummarize.xml"/>
+	<include file="../config/struts-T_obtainjob.xml"/>
+	<include file="../config/struts-json.xml"/>
 </struts>
