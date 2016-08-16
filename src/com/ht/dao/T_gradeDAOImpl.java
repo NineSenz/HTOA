@@ -75,7 +75,7 @@ public class T_gradeDAOImpl implements T_gradeDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_grade> Pagelist(Pager4EasyUI pager) {
+    public Pager4EasyUI<T_grade> pagerList(Pager4EasyUI pager) {
         return null;
     }
 }

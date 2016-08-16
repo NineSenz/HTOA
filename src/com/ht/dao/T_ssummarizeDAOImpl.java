@@ -76,7 +76,7 @@ public class T_ssummarizeDAOImpl implements T_ssummarizeDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_ssummarize> Pagelist(Pager4EasyUI pager) {
+    public Pager4EasyUI<T_ssummarize> pagerList(Pager4EasyUI pager) {
         return null;
     }
 }

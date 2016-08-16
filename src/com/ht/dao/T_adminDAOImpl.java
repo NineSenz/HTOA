@@ -74,7 +74,7 @@ public class T_adminDAOImpl implements T_adminDAO {
     }
 
     @Override
-    public Pager4EasyUI<T_admin> Pagelist(Pager4EasyUI Pager) {
+    public Pager4EasyUI<T_admin> pagerList(Pager4EasyUI Pager) {
         return null;
     }
 

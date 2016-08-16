@@ -53,7 +53,7 @@ public class T_departmentServiceImpl implements T_departmentService{
     }
 
     @Override
-    public Pager4EasyUI<T_department> Pagelist(Pager4EasyUI pager) {
+    public Pager4EasyUI<T_department> pagerList(Pager4EasyUI pager) {
         return null;
     }
 }

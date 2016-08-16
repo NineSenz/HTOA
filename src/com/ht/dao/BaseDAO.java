@@ -15,5 +15,5 @@ public interface BaseDAO<T,PK> {
     public T query(PK p);
     public void close();
     public int count();
-    public Pager4EasyUI<T> Pagelist(Pager4EasyUI pager);
+    public Pager4EasyUI<T> pagerList(Pager4EasyUI pager);
 }
