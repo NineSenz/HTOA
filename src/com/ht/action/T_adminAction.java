@@ -101,7 +101,7 @@ public class T_adminAction extends ActionSupport {
         t_admin = t_adminService.query(gly+"管理");
         System.out.println("管理"+t_admin.getT_adm_identity());
         t_admin.setT_adm_name(t_staff.getT_sta_name());
-        t_admin.setT_adm_email(t_staff.getT_sta_email());
+        //t_admin.setT_adm_email(t_staff.getT_sta_email());
         t_admin.setT_adm_pwd("123456");
         t_admin.setT_adm_phone(t_staff.getT_sta_phone());
         t_adminService.update(t_admin);

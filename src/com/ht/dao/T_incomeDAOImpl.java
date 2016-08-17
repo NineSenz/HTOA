@@ -1,6 +1,7 @@
 package com.ht.dao;
 
 import com.ht.bean.T_income;
+import com.ht.util.Pager4EasyUI;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -66,5 +67,15 @@ public class T_incomeDAOImpl implements T_incomeDAO {
     @Override
     public void close() {
         session.close();
+    }
+
+    @Override
+    public int count() {
+        return 0;
+    }
+
+    @Override
+    public Pager4EasyUI<T_income> pagerList(Pager4EasyUI pager) {
+        return null;
     }
 }

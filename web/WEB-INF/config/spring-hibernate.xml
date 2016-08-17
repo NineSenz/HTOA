@@ -53,28 +53,26 @@
                  <value>com/ht/bean/T_reply.hbm.xml</value>
                  <value>com/ht/bean/T_ssummarize.hbm.xml</value>
                  <value>com/ht/bean/T_obtainjob.hbm.xml</value>
-<<<<<<< HEAD
+
                  <value>com/ht/bean/T_inquire.hbm.xml</value>
                  <value>com/ht/bean/T_OfficeDepot.hbm.xml</value>
                  <value>com/ht/bean/T_students.hbm.xml</value>
                  <value>com/ht/bean/T_class.hbm.xml</value>
                  <value>com/ht/bean/T_rap.hbm.xml</value>
                  <value>com/ht/bean/T_talk.hbm.xml</value>
-=======
+
                  <value>com/ht/bean/T_expend.hbm.xml</value>
                  <value>com/ht/bean/T_wages.hbm.xml</value>
                  <value>com/ht/bean/T_course.hbm.xml</value>
                  <value>com/ht/bean/T_feedback.hbm.xml</value>
-<<<<<<< HEAD
+
                  <value>com/ht/bean/T_seminar.hbm.xml</value>
                  <value>com/ht/bean/T_schedule.hbm.xml</value>
                  <value>com/ht/bean/T_announcement.hbm.xml</value>
                  <value>com/ht/bean/T_opinion.hbm.xml</value>
                  <value>com/ht/bean/T_computer.hbm.xml</value>
                  <value>com/ht/bean/T_income.hbm.xml</value>
-=======
->>>>>>> cdf11f0f75da3bc0e6cd53b9f02b010e0fd405d8
->>>>>>> 2e9be9353610f930f00b05a633666609be26deb1
+
              </list>
          </property>
     </bean>

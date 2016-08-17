@@ -1,6 +1,7 @@
 package com.ht.dao;
 
 import com.ht.bean.T_computer;
+import com.ht.util.Pager4EasyUI;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -65,5 +66,15 @@ public class T_computerDAOImpl implements T_computerDAO {
     @Override
     public void close() {
         session.close();
+    }
+
+    @Override
+    public int count() {
+        return 0;
+    }
+
+    @Override
+    public Pager4EasyUI<T_computer> pagerList(Pager4EasyUI pager) {
+        return null;
     }
 }

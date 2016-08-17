@@ -44,7 +44,6 @@
   <bean id="t_obtainjobAction" class="com.ht.action.T_obtainjobAction" autowire="byType"/>
   <bean id="t_obtainjob" class="com.ht.bean.T_obtainjob" autowire="byType"/>
 
-<<<<<<< HEAD
   <bean id="t_inquireDAO" class="com.ht.dao.T_inquireDAOImpl" autowire="byType"/>
   <bean id="t_inquireService" class="com.ht.service.T_inquireServiceImpl" autowire="byType"/>
   <bean id="tInquireAction" class="com.ht.action.T_inquireAction" autowire="byType"/>
@@ -74,7 +73,7 @@
   <bean id="t_talkService" class="com.ht.service.T_talkServiceImpl" autowire="byType"/>
   <bean id="t_talkAction" class="com.ht.action.T_talkAction" autowire="byType"/>
   <bean id="t_talk" class="com.ht.bean.T_talk" autowire="byType"/>
-=======
+
   <bean id="t_expendDAO" class="com.ht.dao.T_expendDAOImpl" autowire="byType"/>
   <bean id="t_expendService" class="com.ht.service.T_expendServiceImpl" autowire="byType"/>
   <bean id="t_expendAction" class="com.ht.action.T_expendAction" autowire="byType"/>
@@ -94,7 +93,6 @@
   <bean id="t_feedbackService" class="com.ht.service.T_feedbackServiceImpl" autowire="byType"/>
   <bean id="t_feedbackAction" class="com.ht.action.T_feedbackAction" autowire="byType"/>
   <bean id="t_feedback" class="com.ht.bean.T_feedback" autowire="byType"/>
-<<<<<<< HEAD
 
   <bean id="t_seminarDAO" class="com.ht.dao.T_seminarDAOImpl" autowire="byType"/>
   <bean id="t_seminarService" class="com.ht.service.T_seminarServiceImpl" autowire="byType"/>
@@ -125,7 +123,5 @@
   <bean id="t_incomeService" class="com.ht.service.T_incomeServiceImpl" autowire="byType" />
   <bean id="t_incomeAction" class="com.ht.action.T_incomeAction" autowire="byType" />
   <bean id="t_income" class="com.ht.bean.T_income" autowire="byType" />
-=======
->>>>>>> cdf11f0f75da3bc0e6cd53b9f02b010e0fd405d8
->>>>>>> 2e9be9353610f930f00b05a633666609be26deb1
+
 </beans>  
