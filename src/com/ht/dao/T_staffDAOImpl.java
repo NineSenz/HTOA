@@ -58,17 +58,20 @@ public class T_staffDAOImpl implements T_staffDAO{
     public T_staff query(String p) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
-        Query query = session.createQuery("from T_staff t where t_sta_id=:id");
-        query.setString("id",p);
+        Query query = session.createQuery("from T_staff t where t_sta_email=:email");
+        query.setString("email",p);
         T_staff t_staff = (T_staff) query.uniqueResult();
         session.getTransaction().commit();
         return t_staff;
     }
 
+
     @Override
     public void close() {
         session.close();
     }
+
+
 
     @Override
     public int count() {

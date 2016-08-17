@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ht.bean">
+
+    <class name="T_course" table="t_course">
+        <id name="t_cou_id" column="t_cou_id"></id>
+        <property name="t_cou_teach" column="t_cou_teach"></property>
+        <property name="t_cou_staid" column="t_cou_staid"></property>
+    </class>
+</hibernate-mapping>

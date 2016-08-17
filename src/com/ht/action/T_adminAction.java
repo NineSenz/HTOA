@@ -18,7 +18,7 @@ import java.util.Date;
 public class T_adminAction extends ActionSupport {
     private T_adminService t_adminService;
     private T_admin t_admin;
-    private String id;
+    private String email;
     private T_staff t_staff;
     private T_staffService t_staffService;
     private String gly;
@@ -46,12 +46,12 @@ public class T_adminAction extends ActionSupport {
         this.t_admin = t_admin;
     }
 
-    public String getId() {
-        return id;
+    public String getEmail() {
+        return email;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String save() throws ParseException {
@@ -91,8 +91,13 @@ public class T_adminAction extends ActionSupport {
         return "queryall";
     }
 
+    public String queryEmailPwd(){
+        t_staff = t_staffService.query(email);
+        return "yes";
+    }
+
     public String SetManage() throws ParseException { //超级管理员添加普通管理员
-        t_staff = t_staffService.query(id);
+        t_staff = t_staffService.query(email);
         t_admin = t_adminService.query(gly+"管理");
         System.out.println("管理"+t_admin.getT_adm_identity());
         t_admin.setT_adm_name(t_staff.getT_sta_name());
@@ -100,7 +105,6 @@ public class T_adminAction extends ActionSupport {
         t_admin.setT_adm_pwd("123456");
         t_admin.setT_adm_phone(t_staff.getT_sta_phone());
         t_adminService.update(t_admin);
-
         return "query";
     }
 

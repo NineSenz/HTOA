@@ -44,6 +44,7 @@
   <bean id="t_obtainjobAction" class="com.ht.action.T_obtainjobAction" autowire="byType"/>
   <bean id="t_obtainjob" class="com.ht.bean.T_obtainjob" autowire="byType"/>
 
+<<<<<<< HEAD
   <bean id="t_inquireDAO" class="com.ht.dao.T_inquireDAOImpl" autowire="byType"/>
   <bean id="t_inquireService" class="com.ht.service.T_inquireServiceImpl" autowire="byType"/>
   <bean id="tInquireAction" class="com.ht.action.T_inquireAction" autowire="byType"/>
@@ -73,4 +74,25 @@
   <bean id="t_talkService" class="com.ht.service.T_talkServiceImpl" autowire="byType"/>
   <bean id="t_talkAction" class="com.ht.action.T_talkAction" autowire="byType"/>
   <bean id="t_talk" class="com.ht.bean.T_talk" autowire="byType"/>
+=======
+  <bean id="t_expendDAO" class="com.ht.dao.T_expendDAOImpl" autowire="byType"/>
+  <bean id="t_expendService" class="com.ht.service.T_expendServiceImpl" autowire="byType"/>
+  <bean id="t_expendAction" class="com.ht.action.T_expendAction" autowire="byType"/>
+  <bean id="t_expend" class="com.ht.bean.T_expend" autowire="byType"/>
+
+  <bean id="t_wagesDAO" class="com.ht.dao.T_wagesDAOImpl" autowire="byType"/>
+  <bean id="t_wagesService" class="com.ht.service.T_wagesServiceImpl" autowire="byType"/>
+  <bean id="t_wagesAction" class="com.ht.action.T_wagesAction" autowire="byType"/>
+  <bean id="t_wages" class="com.ht.bean.T_wages" autowire="byType"/>
+
+  <bean id="t_courseDAO" class="com.ht.dao.T_courseDAOImpl" autowire="byType"/>
+  <bean id="t_courseService" class="com.ht.service.T_courseServiceImpl" autowire="byType"/>
+  <bean id="t_courseAction" class="com.ht.action.T_courseAction" autowire="byType"/>
+  <bean id="t_course" class="com.ht.bean.T_course" autowire="byType"/>
+
+  <bean id="t_feedbackDAO" class="com.ht.dao.T_feedbackDAOImpl" autowire="byType"/>
+  <bean id="t_feedbackService" class="com.ht.service.T_feedbackServiceImpl" autowire="byType"/>
+  <bean id="t_feedbackAction" class="com.ht.action.T_feedbackAction" autowire="byType"/>
+  <bean id="t_feedback" class="com.ht.bean.T_feedback" autowire="byType"/>
+>>>>>>> cdf11f0f75da3bc0e6cd53b9f02b010e0fd405d8
 </beans>  

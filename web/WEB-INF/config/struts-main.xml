@@ -17,17 +17,32 @@
 			<result name="save">/test.jsp</result>
 		</action>
 	</package>
-	<include file="../config/struts-T_staff.xml"></include>
-	<include file="../config/struts-T_departmentAction.xml"></include>
+	<include file="../config/struts-T_staff.xml"/>
+	<include file="../config/struts-T_departmentAction.xml"/>
+	<include file="../config/struts-T_admin.xml"/>
+	<include file="../config/struts-T_reply.xml"/>
+	<include file="../config/struts-T_grade.xml"/>
+	<include file="../config/struts-T_ssummarize.xml"/>
+	<include file="../config/struts-T_obtainjob.xml"/>
+	<include file="../config/struts-json.xml"/>
+	<include file="../config/struts-T_staff.xml"/>
+	<include file="../config/struts-T_departmentAction.xml"/>
 	<include file="../config/struts-T_admin.xml"></include>
 	<include file="../config/struts-T_reply.xml"></include>
 	<include file="../config/struts-T_grade.xml"></include>
 	<include file="../config/struts-T_ssummarize.xml"></include>
 	<include file="../config/struts-T_obtainjob.xml"></include>
+<<<<<<< HEAD
 	<include file="../config/struts-inquire.xml"/>
 	<include file="../config/struts-office.xml"/>
 	<include file="../config/struts-student.xml"/>
 	<include file="../config/struts-class.xml"/>
 	<include file="../config/struts-rap.xml"/>
 	<include file="../config/struts-talk.xml"/>
+=======
+	<include file="../config/struts-T_expend.xml"></include>
+	<include file="../config/struts-T_wages.xml"></include>
+	<include file="../config/struts-T_course.xml"></include>
+	<include file="../config/struts-T_feedback.xml"></include>
+>>>>>>> cdf11f0f75da3bc0e6cd53b9f02b010e0fd405d8
 </struts>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <package name="Testjson-struts" extends="json-default" namespace="/TJson">
+        <action name="*" class="com.ht.action.TestAction" method="{1}">
+            <result type="json"/>
+            <result name="all">/product/products.jsp</result>
+        </action>
+    </package>
+</struts>

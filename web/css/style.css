@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+div {
+    display: block;
+}
+html {
+    display: block;
+}
+#user{
+	margin: auto;
+	float: right;
+	line-height: 50px;
+}
+.body{
+    background: url("../img/74.JPG")no-repeat center center fixed;
+}
+#tx{
+	margin-left:10px;
+	width: 105px;
+	height: 105px;
+	padding:5px;
+}
+#img-1,#img-2,#img-3,#img-4,#img-5,#img-6{
+	width: 100px;
+	height: 100px;
+}
