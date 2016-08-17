@@ -63,4 +63,34 @@
   <bean id="t_feedbackService" class="com.ht.service.T_feedbackServiceImpl" autowire="byType"/>
   <bean id="t_feedbackAction" class="com.ht.action.T_feedbackAction" autowire="byType"/>
   <bean id="t_feedback" class="com.ht.bean.T_feedback" autowire="byType"/>
+
+  <bean id="t_seminarDAO" class="com.ht.dao.T_seminarDAOImpl" autowire="byType"/>
+  <bean id="t_seminarService" class="com.ht.service.T_seminarServiceImpl" autowire="byType"/>
+  <bean id="t_seminarAction" class="com.ht.action.T_seminarAction" autowire="byType"/>
+  <bean id="t_seminar" class="com.ht.bean.T_seminar" autowire="byType"/>
+
+  <bean id="t_scheduleDAO" class="com.ht.dao.T_scheduleDAOImpl" autowire="byType"/>
+  <bean id="t_scheduleService" class="com.ht.service.T_scheduleServiceImpl" autowire="byType"/>
+  <bean id="t_scheduleAction" class="com.ht.action.T_scheduleAction" autowire="byType"/>
+  <bean id="t_schedule" class="com.ht.bean.T_schedule" autowire="byType"/>
+
+  <bean id="t_announcementDAO" class="com.ht.dao.T_announcementDAOImpl" autowire="byType"/>
+  <bean id="t_announcementService" class="com.ht.service.T_announcementServiceImpl" autowire="byType"/>
+  <bean id="t_announcementAction" class="com.ht.action.T_announcementAction" autowire="byType"/>
+  <bean id="t_announcement" class="com.ht.bean.T_announcement" autowire="byType"/>
+
+  <bean id="t_opinionDAO" class="com.ht.dao.T_opinionDAOImpl" autowire="byType"/>
+  <bean id="t_opinionService" class="com.ht.service.T_opinionServiceImpl" autowire="byType"/>
+  <bean id="t_opinionAction" class="com.ht.action.T_opinionAction" autowire="byType"/>
+  <bean id="t_opinion" class="com.ht.bean.T_opinion" autowire="byType"/>
+
+  <bean id="t_computerDAO" class="com.ht.dao.T_computerDAOImpl" autowire="byType" />
+  <bean id="t_computerService" class="com.ht.service.T_computerServiceImpl" autowire="byType" />
+  <bean id="t_computerAction" class="com.ht.action.T_computerAction" autowire="byType" />
+  <bean id="t_computer" class="com.ht.bean.T_computer" autowire="byType" />
+
+  <bean id="t_incomeDAO" class="com.ht.dao.T_incomeDAOImpl" autowire="byType" />
+  <bean id="t_incomeService" class="com.ht.service.T_incomeServiceImpl" autowire="byType" />
+  <bean id="t_incomeAction" class="com.ht.action.T_incomeAction" autowire="byType" />
+  <bean id="t_income" class="com.ht.bean.T_income" autowire="byType" />
 </beans>  

@@ -72,7 +72,7 @@ public class T_wagesDAOImpl implements T_wagesDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_wages> Pagelist(Pager4EasyUI pager) {
+    public Pager4EasyUI<T_wages> pagerList(Pager4EasyUI pager) {
         return null;
     }
 }

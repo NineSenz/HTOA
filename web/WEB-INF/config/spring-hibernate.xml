@@ -57,6 +57,12 @@
                  <value>com/ht/bean/T_wages.hbm.xml</value>
                  <value>com/ht/bean/T_course.hbm.xml</value>
                  <value>com/ht/bean/T_feedback.hbm.xml</value>
+                 <value>com/ht/bean/T_seminar.hbm.xml</value>
+                 <value>com/ht/bean/T_schedule.hbm.xml</value>
+                 <value>com/ht/bean/T_announcement.hbm.xml</value>
+                 <value>com/ht/bean/T_opinion.hbm.xml</value>
+                 <value>com/ht/bean/T_computer.hbm.xml</value>
+                 <value>com/ht/bean/T_income.hbm.xml</value>
              </list>
          </property>
     </bean>

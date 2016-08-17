@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ht.bean">
+    <class name="T_opinion">
+        <id name="t_op_id" column="t_op_id"></id>
+        <property name="t_op_stuid" column="t_op_stuid" ></property>
+        <property name="t_op_title" column="t_op_title" ></property>
+        <property name="t_op_content" column="t_op_content" ></property>
+        <property name="t_op_date" column="t_op_date" ></property>
+    </class>
+</hibernate-mapping>

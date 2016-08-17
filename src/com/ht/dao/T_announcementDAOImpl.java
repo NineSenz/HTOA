@@ -1,17 +1,16 @@
 package com.ht.dao;
 
-import com.ht.bean.T_expend;
+import com.ht.bean.T_announcement;
 import com.ht.util.Pager4EasyUI;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-
 import java.util.List;
 
 /**
- * Created by DengMin on 2016/8/16.
+ * Created by DengMin on 2016/8/17.
  */
-public class T_expendDAOImpl implements T_expendDAO{
+public class T_announcementDAOImpl implements T_announcementDAO {
     private SessionFactory sessionFactory;
     private Session session;
 
@@ -19,47 +18,51 @@ public class T_expendDAOImpl implements T_expendDAO{
         this.sessionFactory = sessionFactory;
     }
 
+    public void setSession(Session session) {
+        this.session = session;
+    }
+
     @Override
-    public void save(T_expend t_expend) {
+    public void save(T_announcement t_announcement) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
-        session.save(t_expend);
+        session.save(t_announcement);
         session.getTransaction().commit();
     }
 
     @Override
-    public void delete(T_expend t_expend) {
+    public void delete(T_announcement t_announcement) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
-        session.delete(t_expend);
+        session.delete(t_announcement);
         session.getTransaction().commit();
     }
 
     @Override
-    public T_expend update(T_expend t_expend) {
+    public T_announcement update(T_announcement t_announcement) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
-        session.update(t_expend);
+        session.update(t_announcement);
         session.getTransaction().commit();
-        return t_expend;
+        return t_announcement;
     }
 
     @Override
-    public List<T_expend> queryAll() {
+    public List<T_announcement> queryAll() {
         session = sessionFactory.openSession();
-        Query query = session.createQuery("from T_expend");
-        List<T_expend> list = query.list();
+        Query query = session.createQuery("from T_announcement");
+        List<T_announcement> list = query.list();
         return list;
     }
 
     @Override
-    public T_expend query(String p) {
+    public T_announcement query(String p) {
         return null;
     }
 
     @Override
     public void close() {
-
+        session.close();
     }
 
     @Override
@@ -68,7 +71,7 @@ public class T_expendDAOImpl implements T_expendDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_expend> pagerList(Pager4EasyUI pager) {
+    public Pager4EasyUI<T_announcement> pagerList(Pager4EasyUI pager) {
         return null;
     }
 }

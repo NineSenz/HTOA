@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ht.bean">
+
+    <class name="T_seminar" table="t_seminar">
+        <id name="t_sn_id" column="t_sn_id"></id>
+        <property name="t_sn_title" column="t_sn_title" />
+        <property name="t_sn_date" column="t_sn_date" />
+        <property name="t_sn_staid" column="t_sn_staid" />
+        <property name="t_sn_content" column="t_sn_content" />
+        <property name="t_sn_question" column="t_sn_question" />
+        <property name="t_sn_result" column="t_sn_result" />
+    </class>
+
+</hibernate-mapping>
