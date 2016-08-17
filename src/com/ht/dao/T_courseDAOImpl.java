@@ -72,7 +72,7 @@ public class T_courseDAOImpl implements T_courseDAO {
     }
 
     @Override
-    public Pager4EasyUI<T_course> Pagelist(Pager4EasyUI pager) {
+    public Pager4EasyUI<T_course> pagerList(Pager4EasyUI pager) {
         return null;
     }
 }

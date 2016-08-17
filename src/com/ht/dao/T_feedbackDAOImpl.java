@@ -73,7 +73,7 @@ public class T_feedbackDAOImpl implements T_feedbackDAO {
     }
 
     @Override
-    public Pager4EasyUI<T_feedback> Pagelist(Pager4EasyUI pager) {
+    public Pager4EasyUI<T_feedback> pagerList(Pager4EasyUI pager) {
         return null;
     }
 }

@@ -68,7 +68,8 @@ public class T_expendDAOImpl implements T_expendDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_expend> Pagelist(Pager4EasyUI pager) {
+    public Pager4EasyUI<T_expend> pagerList(Pager4EasyUI pager) {
         return null;
     }
+
 }
