@@ -43,4 +43,34 @@
   <bean id="t_obtainjobService" class="com.ht.service.T_obtainjobServiceImpl" autowire="byType"/>
   <bean id="t_obtainjobAction" class="com.ht.action.T_obtainjobAction" autowire="byType"/>
   <bean id="t_obtainjob" class="com.ht.bean.T_obtainjob" autowire="byType"/>
+
+  <bean id="t_inquireDAO" class="com.ht.dao.T_inquireDAOImpl" autowire="byType"/>
+  <bean id="t_inquireService" class="com.ht.service.T_inquireServiceImpl" autowire="byType"/>
+  <bean id="tInquireAction" class="com.ht.action.T_inquireAction" autowire="byType"/>
+  <bean id="t_inquire" class="com.ht.bean.T_inquire" autowire="byType"/>
+
+  <bean id="t_officeDepotDAO" class="com.ht.dao.T_OfficeDepotDAOImpl" autowire="byType"/>
+  <bean id="t_officeDepotService" class="com.ht.service.T_OfficeDepotServiceImpl" autowire="byType"/>
+  <bean id="t_officeDepotAction" class="com.ht.action.T_OfficeDepotAction" autowire="byType"/>
+  <bean id="t_officeDepot" class="com.ht.bean.T_OfficeDepot" autowire="byType"/>
+
+  <bean id="t_studentsDAO" class="com.ht.dao.T_studentsDAOImpl" autowire="byType"/>
+  <bean id="t_studentsService" class="com.ht.service.T_studentsServiceImpl" autowire="byType"/>
+  <bean id="t_studentsAction" class="com.ht.action.T_studentsAction" autowire="byType"/>
+  <bean id="t_students" class="com.ht.bean.T_students" autowire="byType"/>
+
+  <bean id="t_classDAO" class="com.ht.dao.T_classDAOImpl" autowire="byType"/>
+  <bean id="t_classService" class="com.ht.service.T_classServiceImpl" autowire="byType"/>
+  <bean id="t_classAction" class="com.ht.action.T_classAction" autowire="byType"/>
+  <bean id="t_class" class="com.ht.bean.T_class" autowire="byType"/>
+
+  <bean id="t_rapDAO" class="com.ht.dao.T_rapDAOImpl" autowire="byType"/>
+  <bean id="t_rapService" class="com.ht.service.T_rapServiceImpl" autowire="byType"/>
+  <bean id="t_rapAction" class="com.ht.action.T_rapAction" autowire="byType"/>
+  <bean id="t_rap" class="com.ht.bean.T_rap" autowire="byType"/>
+
+  <bean id="t_talkDAO" class="com.ht.dao.T_talkDAOImpl" autowire="byType"/>
+  <bean id="t_talkService" class="com.ht.service.T_talkServiceImpl" autowire="byType"/>
+  <bean id="t_talkAction" class="com.ht.action.T_talkAction" autowire="byType"/>
+  <bean id="t_talk" class="com.ht.bean.T_talk" autowire="byType"/>
 </beans>  

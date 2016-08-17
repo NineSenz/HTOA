@@ -24,4 +24,10 @@
 	<include file="../config/struts-T_grade.xml"></include>
 	<include file="../config/struts-T_ssummarize.xml"></include>
 	<include file="../config/struts-T_obtainjob.xml"></include>
+	<include file="../config/struts-inquire.xml"/>
+	<include file="../config/struts-office.xml"/>
+	<include file="../config/struts-student.xml"/>
+	<include file="../config/struts-class.xml"/>
+	<include file="../config/struts-rap.xml"/>
+	<include file="../config/struts-talk.xml"/>
 </struts>
