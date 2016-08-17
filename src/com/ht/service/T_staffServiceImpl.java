@@ -34,14 +34,4 @@ public class T_staffServiceImpl implements T_staffService{
     public void delete(T_staff t_staff) {
         t_staffDAO.delete(t_staff);
     }
-
-    @Override
-    public T_staff query(String id) {
-        return t_staffDAO.query(id);
-    }
-
-    @Override
-    public void close() {
-        t_staffDAO.close();
-    }
 }

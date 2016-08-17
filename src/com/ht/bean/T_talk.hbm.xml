@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping package="com.ht.bean">
+    <class name="T_talk" table="t_talk">
+        <id name="t_talk_id" column="t_talk_id">
+        </id>
+        <property name="t_talk_title" column="t_talk_title"></property>
+        <property name="t_talk_details" column="t_talk_details"></property>
+        <property name="t_talk_staid" column="t_talk_staid"></property>
+        <property name="t_talk_stuid" column="t_talk_stuid"></property>
+        <property name="t_talk_time" column="t_talk_time"></property>
+        <property name="t_talk_number" column="t_talk_number"></property>
+    </class>
+</hibernate-mapping>
+

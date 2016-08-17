@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="T-computerAction-package" extends="my-package" namespace="/computer">
+       <action name="*" class="com.ht.action.T_computerAction" method="{1}" >
+           <result name="save">/index.jsp</result>
+           <result name="delete">/index.jsp</result>
+           <result name="update">/index.jsp</result>
+           <result name="queryAll">/index.jsp</result>
+           <result name="query">/index.jsp</result>
+       </action>
+    </package>
+</struts>

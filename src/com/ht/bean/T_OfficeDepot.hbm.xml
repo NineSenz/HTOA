@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ht.bean">
+    <class name="T_OfficeDepot" table="officedepot">
+        <id name="t_work_id" column="t_work_id"></id>
+        <property name="t_work_name" column="t_work_name"></property>
+        <property name="t_work_type" column="t_work_type"></property>
+        <property name="t_work_count" column="t_work_count"></property>
+    </class>
+</hibernate-mapping>
