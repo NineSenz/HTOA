@@ -73,6 +73,446 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/backstage/videoQuery.jsp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/backstage/videosAdd.jsp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/backstage/zx.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/EasyTest.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/about.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/bootstrap-3.0.1/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/bootstrap-3.0.1/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/contact.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/courses.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/admin_login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/custom-fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/fancybox/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/fancybox/fancybox_loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/fancybox/fancybox_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/fancybox/fancybox_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/fancybox/jquery.fancybox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/customicon/Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/customicon/Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/customicon/Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/customicon/Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/icomoon.dev.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/icomoon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/icomoon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/icomoon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/fonts/icomoon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/image/bj7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/image/logo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/image/nh1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/image/xr.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/bg_direction_nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/border-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/client1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/client2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/client3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/e1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/e2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/e3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/guan.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/jy1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/jy2.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/jy3.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/liu.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/login/admin-login-btnbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/logo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/nivo-bullets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/onCorrect.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/onError.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/onFocus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/onShow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/qiu.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/service1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/service2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/service3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/slides/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/slides/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/slides/OA1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/slides/OA2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/tab-thbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/team1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/team2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/team3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/team4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/works/cy1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/works/cy2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/works/cy3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/works/cy4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/works/yd1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/works/yd2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/works/yd3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/works/yq1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/works/yq2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/works/yq3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/works/yq4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/works/yq5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/img/zeng.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/easyloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/jquery.easyui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/license_freeware.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/locale/easyui-lang-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/locale/easyui-lang-zh_CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/combo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/combobox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/datagrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/datalist.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/datebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/filebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/accordion_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/calendar_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/combo_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/datagrid_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/datebox_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/layout_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/linkbutton_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/menu_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/messager_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/pagination_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/panel_tools.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/searchbox_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/slider_handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/spinner_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/tabs_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/tree_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/images/validatebox_warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/linkbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/menubutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/messager.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/numberbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/panel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/propertygrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/searchbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/spinner.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/splitbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/switchbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/textbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/tree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/validatebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/black/window.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/combo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/combobox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/datagrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/datalist.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/datebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/filebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/accordion_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/calendar_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/combo_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/datagrid_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/datebox_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/layout_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/linkbutton_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/menu_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/messager_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/pagination_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/panel_tools.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/searchbox_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/slider_handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/spinner_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/tabs_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/tree_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/images/validatebox_warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/linkbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/menubutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/messager.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/numberbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/panel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/propertygrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/searchbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/spinner.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/splitbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/switchbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/textbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/tree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/validatebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/bootstrap/window.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/color.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/combo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/combobox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/datagrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/datalist.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/datebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/filebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/accordion_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/calendar_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/combo_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/datagrid_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/datebox_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/layout_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/linkbutton_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/menu_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/messager_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/pagination_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/panel_tools.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/searchbox_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/slider_handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/spinner_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/tabs_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/tree_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/images/validatebox_warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/linkbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/menubutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/messager.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/numberbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/panel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/propertygrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/searchbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/spinner.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/splitbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/switchbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/textbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/tree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/validatebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/default/window.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/combo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/combobox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/datagrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/datalist.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/datebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/filebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/accordion_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/calendar_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/combo_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/datagrid_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/datebox_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/layout_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/linkbutton_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/menu_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/messager_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/pagination_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/panel_tools.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/searchbox_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/slider_handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/spinner_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/tabs_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/tree_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/images/validatebox_warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/linkbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/menubutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/messager.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/numberbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/panel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/propertygrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/searchbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/spinner.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/splitbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/switchbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/textbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/tree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/validatebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/gray/window.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/cancel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/clear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/cut.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/edit_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/edit_remove.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/filesave.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/filter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/help.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/large_chart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/large_clipart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/large_picture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/large_shapes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/large_smartart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/man.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/mini_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/mini_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/mini_refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/no.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/ok.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/pencil.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/print.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/redo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/reload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/sum.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/tip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/icons/undo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/combo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/combobox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/datagrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/datalist.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/datebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/filebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/accordion_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/calendar_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/combo_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/datagrid_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/datebox_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/layout_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/linkbutton_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/menu_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/messager_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/pagination_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/panel_tools.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/searchbox_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/slider_handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/spinner_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/tabs_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/tree_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/images/validatebox_warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/linkbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/menubutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/messager.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/numberbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/panel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/propertygrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/searchbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/spinner.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/splitbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/switchbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/textbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/tree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/validatebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/material/window.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/combo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/combobox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/datagrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/datalist.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/datebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/filebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/accordion_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/calendar_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/combo_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/datagrid_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/datebox_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/layout_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/linkbutton_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/menu_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/messager_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/pagination_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/panel_tools.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/searchbox_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/slider_handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/spinner_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/tabs_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/tree_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/images/validatebox_warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/linkbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/menubutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/messager.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/numberbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/panel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/propertygrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/searchbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/spinner.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/splitbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/switchbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/textbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/tree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/validatebox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/metro/window.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/jquery-easyui-1.4.5/themes/mobile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/pricing.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/products.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/services.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/tabs.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/test.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/top.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/classes/com/ht/action/T_adminAction.class" afterPath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/classes/com/ht/action/T_adminAction.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/classes/com/ht/action/T_staffAction.class" afterPath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/classes/com/ht/action/T_staffAction.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/classes/com/ht/action/TestAction.class" afterPath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/classes/com/ht/action/TestAction.class" />
@@ -87,23 +527,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HTOA/com/ht/dao/T_staffDAOImpl.class" afterPath="$PROJECT_DIR$/out/production/HTOA/com/ht/dao/T_staffDAOImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HTOA/com/ht/service/T_staffService.class" afterPath="$PROJECT_DIR$/out/production/HTOA/com/ht/service/T_staffService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HTOA/com/ht/service/T_staffServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/HTOA/com/ht/service/T_staffServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/HTOA_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/HTOA_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/classes/com/ht/bean/T_staff.hbm.xml" afterPath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/classes/com/ht/bean/T_staff.hbm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/config/spring-context.xml" afterPath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/config/spring-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/config/spring-hibernate.xml" afterPath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/config/spring-hibernate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/config/struts-main.xml" afterPath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/WEB-INF/config/struts-main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/test.jsp" afterPath="$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/proscenium/test.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HTOA/com/ht/bean/T_staff.hbm.xml" afterPath="$PROJECT_DIR$/out/production/HTOA/com/ht/bean/T_staff.hbm.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ht/action/T_adminAction.java" afterPath="$PROJECT_DIR$/src/com/ht/action/T_adminAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ht/dao/T_computerDAOImpl.java" afterPath="$PROJECT_DIR$/src/com/ht/dao/T_computerDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ht/dao/T_incomeDAOImpl.java" afterPath="$PROJECT_DIR$/src/com/ht/dao/T_incomeDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ht/service/T_staffService.java" afterPath="$PROJECT_DIR$/src/com/ht/service/T_staffService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ht/service/T_staffServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/ht/service/T_staffServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/jdbc.properties" afterPath="$PROJECT_DIR$/web/WEB-INF/config/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/spring-context.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/spring-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/spring-hibernate.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/spring-hibernate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/struts-main.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/struts-main.xml" />
     </list>
     <ignored path="HTOA.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,42 +555,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="T_expendAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ht/action/T_expendAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ht/dao/BaseDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="T_adminAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ht/action/T_adminAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
+            <state relative-caret-position="1898">
               <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-context.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spring-context.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="192">
               <caret line="118" column="37" selection-start-line="118" selection-start-column="37" selection-end-line="118" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EasyTest.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/test/EasyTest.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding>
+                <marker date="1471409136742" expanded="true" signature="1661:1684" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding>
+                <marker date="1471402566079" expanded="true" signature="1281:1304" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,7 +602,7 @@
       <file leaf-file-name="T_staffServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ht/service/T_staffServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="390">
               <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="e#635#636#0" expanded="true" />
@@ -185,9 +619,11 @@
       <file leaf-file-name="T_staffService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ht/service/T_staffService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
+            <state relative-caret-position="156">
               <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,21 +633,8 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="T_computerDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ht/dao/T_computerDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="17" />
               <folding>
-                <element signature="e#2022#2023#0" expanded="true" />
-                <element signature="e#2046#2047#0" expanded="true" />
-                <element signature="e#2129#2130#0" expanded="true" />
-                <element signature="e#2156#2157#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -220,9 +643,23 @@
       <file leaf-file-name="T_courseDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ht/dao/T_courseDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="1430">
               <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#439#440#0" expanded="false" />
+                <element signature="e#491#492#0" expanded="false" />
+                <element signature="e#538#539#0" expanded="false" />
+                <element signature="e#576#577#0" expanded="false" />
+                <element signature="e#1583#1584#0" expanded="false" />
+                <element signature="e#1610#1611#0" expanded="false" />
+                <element signature="e#1651#1652#0" expanded="false" />
+                <element signature="e#1682#1683#0" expanded="false" />
+                <element signature="e#1722#1723#0" expanded="false" />
+                <element signature="e#1746#1747#0" expanded="false" />
+                <element signature="e#1827#1828#0" expanded="false" />
+                <element signature="e#1854#1855#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -230,13 +667,14 @@
       <file leaf-file-name="T_incomeDAOImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ht/dao/T_incomeDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="1638">
               <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="17" />
               <folding>
-                <element signature="e#1969#1970#0" expanded="true" />
-                <element signature="e#1993#1994#0" expanded="true" />
-                <element signature="e#2074#2075#0" expanded="true" />
-                <element signature="e#2101#2102#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#451#452#0" expanded="false" />
+                <element signature="e#503#504#0" expanded="false" />
+                <element signature="e#1898#1899#0" expanded="false" />
+                <element signature="e#1929#1930#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -301,7 +739,6 @@
         <option value="$PROJECT_DIR$/web/top.jsp" />
         <option value="$PROJECT_DIR$/web/test/top.jsp" />
         <option value="$PROJECT_DIR$/web/test/tabs.jsp" />
-        <option value="$PROJECT_DIR$/web/test/EasyTest.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/config/jdbc.properties" />
         <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-context.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-hibernate.xml" />
@@ -311,6 +748,7 @@
         <option value="$PROJECT_DIR$/src/com/ht/action/T_adminAction.java" />
         <option value="$PROJECT_DIR$/src/com/ht/service/T_staffService.java" />
         <option value="$PROJECT_DIR$/src/com/ht/service/T_staffServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/test/EasyTest.jsp" />
       </list>
     </option>
   </component>
@@ -358,7 +796,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -379,102 +816,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ht" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ht" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -488,17 +832,17 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\project\HTOA\web\test" />
-      <recent name="F:\project\HTOA\web\img" />
-      <recent name="F:\project\HTOA\web\htoa" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\HTOA" />
       <recent name="F:\project\HTOA\src\com\ht\service" />
       <recent name="F:\project\HTOA\src\com\ht\dao" />
       <recent name="F:\project\HTOA\src\com\ht\bean" />
       <recent name="F:\project\HTOA\src\com\ht\action" />
-      <recent name="F:\project\HTOA\web\htoa\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project\HTOA\web\test" />
+      <recent name="F:\project\HTOA\web\img" />
+      <recent name="F:\project\HTOA\web\htoa" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.32">
@@ -928,8 +1272,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 8.0.32" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.32" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="HTOA:war exploded">
           <settings>
@@ -995,9 +1338,8 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="HTOA:war exploded" />
-        </option>
+        <option name="Make" enabled="false" />
+        <option name="MakeProject" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="HTOA:war exploded" />
         </option>
@@ -1023,11 +1365,12 @@
       <workItem from="1471315412901" duration="5315000" />
       <workItem from="1471327717695" duration="5628000" />
       <workItem from="1471392248422" duration="12711000" />
+      <workItem from="1471409042406" duration="1144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23654000" />
+    <option name="totallyTimeSpent" value="24798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1042,7 +1385,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4704918" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46885246" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1085,36 +1428,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/products.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/htoa/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1586">
           <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1471402566079" expanded="true" signature="1281:1304" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1150,16 +1467,6 @@
     <entry file="file://$PROJECT_DIR$/web/img/Stick_15.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/test/EasyTest.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
-          <folding>
-            <marker date="1471403061218" expanded="true" signature="1662:1685" ph="..." />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/img/Stick_36.jpg">
@@ -1363,7 +1670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1371,7 +1677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1379,7 +1684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1433,43 +1737,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ht/dao/T_computerDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
+        <state relative-caret-position="1612">
           <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="17" />
           <folding>
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2046#2047#0" expanded="true" />
-            <element signature="e#2129#2130#0" expanded="true" />
-            <element signature="e#2156#2157#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#427#428#0" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+            <element signature="e#1951#1952#0" expanded="false" />
+            <element signature="e#1982#1983#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ht/dao/T_courseDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="1430">
           <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#491#492#0" expanded="false" />
+            <element signature="e#538#539#0" expanded="false" />
+            <element signature="e#576#577#0" expanded="false" />
+            <element signature="e#1583#1584#0" expanded="false" />
+            <element signature="e#1610#1611#0" expanded="false" />
+            <element signature="e#1651#1652#0" expanded="false" />
+            <element signature="e#1682#1683#0" expanded="false" />
+            <element signature="e#1722#1723#0" expanded="false" />
+            <element signature="e#1746#1747#0" expanded="false" />
+            <element signature="e#1827#1828#0" expanded="false" />
+            <element signature="e#1854#1855#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ht/dao/T_incomeDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="1638">
           <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="17" />
           <folding>
-            <element signature="e#1969#1970#0" expanded="true" />
-            <element signature="e#1993#1994#0" expanded="true" />
-            <element signature="e#2074#2075#0" expanded="true" />
-            <element signature="e#2101#2102#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
+            <element signature="e#503#504#0" expanded="false" />
+            <element signature="e#1898#1899#0" expanded="false" />
+            <element signature="e#1929#1930#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ht/service/T_staffService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
+        <state relative-caret-position="156">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1477,13 +1799,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ht/service/T_staffServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="390">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="e#635#636#0" expanded="true" />
@@ -1498,7 +1822,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ht/action/T_adminAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
+        <state relative-caret-position="1898">
           <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
           <folding />
         </state>
@@ -1506,9 +1830,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="192">
           <caret line="118" column="37" selection-start-line="118" selection-start-column="37" selection-end-line="118" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/test/EasyTest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <marker date="1471409136742" expanded="true" signature="1661:1684" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/HTOA_war_exploded/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <marker date="1471402566079" expanded="true" signature="1281:1304" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

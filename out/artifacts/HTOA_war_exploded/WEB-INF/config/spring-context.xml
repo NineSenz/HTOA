@@ -43,4 +43,85 @@
   <bean id="t_obtainjobService" class="com.ht.service.T_obtainjobServiceImpl" autowire="byType"/>
   <bean id="t_obtainjobAction" class="com.ht.action.T_obtainjobAction" autowire="byType"/>
   <bean id="t_obtainjob" class="com.ht.bean.T_obtainjob" autowire="byType"/>
+
+  <bean id="t_inquireDAO" class="com.ht.dao.T_inquireDAOImpl" autowire="byType"/>
+  <bean id="t_inquireService" class="com.ht.service.T_inquireServiceImpl" autowire="byType"/>
+  <bean id="tInquireAction" class="com.ht.action.T_inquireAction" autowire="byType"/>
+  <bean id="t_inquire" class="com.ht.bean.T_inquire" autowire="byType"/>
+
+  <bean id="t_officeDepotDAO" class="com.ht.dao.T_OfficeDepotDAOImpl" autowire="byType"/>
+  <bean id="t_officeDepotService" class="com.ht.service.T_OfficeDepotServiceImpl" autowire="byType"/>
+  <bean id="t_officeDepotAction" class="com.ht.action.T_OfficeDepotAction" autowire="byType"/>
+  <bean id="t_officeDepot" class="com.ht.bean.T_OfficeDepot" autowire="byType"/>
+
+  <bean id="t_studentsDAO" class="com.ht.dao.T_studentsDAOImpl" autowire="byType"/>
+  <bean id="t_studentsService" class="com.ht.service.T_studentsServiceImpl" autowire="byType"/>
+  <bean id="t_studentsAction" class="com.ht.action.T_studentsAction" autowire="byType"/>
+  <bean id="t_students" class="com.ht.bean.T_students" autowire="byType"/>
+
+  <bean id="t_classDAO" class="com.ht.dao.T_classDAOImpl" autowire="byType"/>
+  <bean id="t_classService" class="com.ht.service.T_classServiceImpl" autowire="byType"/>
+  <bean id="t_classAction" class="com.ht.action.T_classAction" autowire="byType"/>
+  <bean id="t_class" class="com.ht.bean.T_class" autowire="byType"/>
+
+  <bean id="t_rapDAO" class="com.ht.dao.T_rapDAOImpl" autowire="byType"/>
+  <bean id="t_rapService" class="com.ht.service.T_rapServiceImpl" autowire="byType"/>
+  <bean id="t_rapAction" class="com.ht.action.T_rapAction" autowire="byType"/>
+  <bean id="t_rap" class="com.ht.bean.T_rap" autowire="byType"/>
+
+  <bean id="t_talkDAO" class="com.ht.dao.T_talkDAOImpl" autowire="byType"/>
+  <bean id="t_talkService" class="com.ht.service.T_talkServiceImpl" autowire="byType"/>
+  <bean id="t_talkAction" class="com.ht.action.T_talkAction" autowire="byType"/>
+  <bean id="t_talk" class="com.ht.bean.T_talk" autowire="byType"/>
+
+  <bean id="t_expendDAO" class="com.ht.dao.T_expendDAOImpl" autowire="byType"/>
+  <bean id="t_expendService" class="com.ht.service.T_expendServiceImpl" autowire="byType"/>
+  <bean id="t_expendAction" class="com.ht.action.T_expendAction" autowire="byType"/>
+  <bean id="t_expend" class="com.ht.bean.T_expend" autowire="byType"/>
+
+  <bean id="t_wagesDAO" class="com.ht.dao.T_wagesDAOImpl" autowire="byType"/>
+  <bean id="t_wagesService" class="com.ht.service.T_wagesServiceImpl" autowire="byType"/>
+  <bean id="t_wagesAction" class="com.ht.action.T_wagesAction" autowire="byType"/>
+  <bean id="t_wages" class="com.ht.bean.T_wages" autowire="byType"/>
+
+  <bean id="t_courseDAO" class="com.ht.dao.T_courseDAOImpl" autowire="byType"/>
+  <bean id="t_courseService" class="com.ht.service.T_courseServiceImpl" autowire="byType"/>
+  <bean id="t_courseAction" class="com.ht.action.T_courseAction" autowire="byType"/>
+  <bean id="t_course" class="com.ht.bean.T_course" autowire="byType"/>
+
+  <bean id="t_feedbackDAO" class="com.ht.dao.T_feedbackDAOImpl" autowire="byType"/>
+  <bean id="t_feedbackService" class="com.ht.service.T_feedbackServiceImpl" autowire="byType"/>
+  <bean id="t_feedbackAction" class="com.ht.action.T_feedbackAction" autowire="byType"/>
+  <bean id="t_feedback" class="com.ht.bean.T_feedback" autowire="byType"/>
+
+  <bean id="t_seminarDAO" class="com.ht.dao.T_seminarDAOImpl" autowire="byType"/>
+  <bean id="t_seminarService" class="com.ht.service.T_seminarServiceImpl" autowire="byType"/>
+  <bean id="t_seminarAction" class="com.ht.action.T_seminarAction" autowire="byType"/>
+  <bean id="t_seminar" class="com.ht.bean.T_seminar" autowire="byType"/>
+
+  <bean id="t_scheduleDAO" class="com.ht.dao.T_scheduleDAOImpl" autowire="byType"/>
+  <bean id="t_scheduleService" class="com.ht.service.T_scheduleServiceImpl" autowire="byType"/>
+  <bean id="t_scheduleAction" class="com.ht.action.T_scheduleAction" autowire="byType"/>
+  <bean id="t_schedule" class="com.ht.bean.T_schedule" autowire="byType"/>
+
+  <bean id="t_announcementDAO" class="com.ht.dao.T_announcementDAOImpl" autowire="byType"/>
+  <bean id="t_announcementService" class="com.ht.service.T_announcementServiceImpl" autowire="byType"/>
+  <bean id="t_announcementAction" class="com.ht.action.T_announcementAction" autowire="byType"/>
+  <bean id="t_announcement" class="com.ht.bean.T_announcement" autowire="byType"/>
+
+  <bean id="t_opinionDAO" class="com.ht.dao.T_opinionDAOImpl" autowire="byType"/>
+  <bean id="t_opinionService" class="com.ht.service.T_opinionServiceImpl" autowire="byType"/>
+  <bean id="t_opinionAction" class="com.ht.action.T_opinionAction" autowire="byType"/>
+  <bean id="t_opinion" class="com.ht.bean.T_opinion" autowire="byType"/>
+
+  <bean id="t_computerDAO" class="com.ht.dao.T_computerDAOImpl" autowire="byType" />
+  <bean id="t_computerService" class="com.ht.service.T_computerServiceImpl" autowire="byType" />
+  <bean id="t_computerAction" class="com.ht.action.T_computerAction" autowire="byType" />
+  <bean id="t_computer" class="com.ht.bean.T_computer" autowire="byType" />
+
+  <bean id="t_incomeDAO" class="com.ht.dao.T_incomeDAOImpl" autowire="byType" />
+  <bean id="t_incomeService" class="com.ht.service.T_incomeServiceImpl" autowire="byType" />
+  <bean id="t_incomeAction" class="com.ht.action.T_incomeAction" autowire="byType" />
+  <bean id="t_income" class="com.ht.bean.T_income" autowire="byType" />
+
 </beans>  
