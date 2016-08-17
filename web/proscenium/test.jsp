@@ -80,7 +80,7 @@
 </head>
 <body class="easyui-layout">
 <div data-options="region:'north'" style="height: 10%;">
-    <img class="img1" src="<%=path %>/image/logo1.png" >
+    <img class="img1" src="<%=path %>/img/logo1.png" >
     <div style="float:right; margin-right: 30px;">晚上好！ <a href="#">安全退出</a></div>
     <marquee behavior="alternate" width="70%" scrollamount="13">
         <p align="center"><font color="#ff33ff" size="6" face="华文行楷"></font>
