@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>hello</title>
+<title>Test</title>
 <link rel="stylesheet" type="text/css" href="<%=path %>/jquery-easyui/themes/default/easyui.css">
 <link rel="stylesheet" type="text/css" href="<%=path %>/jquery-easyui/themes/icon.css">
 <link rel="stylesheet" type="text/css" href="<%=path %>/htoa/css/style.css">
