@@ -17,7 +17,6 @@
 		<property name="t_sta_addr" column="t_sta_addr" />
 		<property name="t_sta_create" column="t_sta_create" />
 		<property name="t_sta_status" column="t_sta_status" />
-		<property name="t_sta_email" column="t_sta_email"/>
 	</class>
    
 </hibernate-mapping>

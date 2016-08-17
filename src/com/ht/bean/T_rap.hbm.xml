@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ht.bean">
+    <class name="T_rap" table="t_rap">
+        <id name="t_rap_id" column="t_rap_id"></id>
+        <property name="t_rap_title" column="t_rap_title"></property>
+        <property name="t_rap_datails" column="t_rap_datails"></property>
+        <property name="t_rap_stuid" column="t_rap_stuid"></property>
+        <property name="t_rap_time" column="t_rap_time"></property>
+        <property name="t_rap_status" column="t_rap_status"></property>
+    </class>
+</hibernate-mapping>

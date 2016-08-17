@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ht.bean">
+
+    <class name="T_income" table="t_income">
+        <id name="t_inc_id" column="t_inc_id"></id>
+        <property name="t_inc_money" column="t_adm_name" />
+        <property name="t_inc_balid" column="t_inc_balid" />
+        <property name="t_inc_cause" column="t_inc_cause" />
+        <property name="t_inc_time" column="t_inc_time" />
+    </class>
+
+</hibernate-mapping>

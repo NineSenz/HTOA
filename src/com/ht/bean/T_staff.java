@@ -16,7 +16,6 @@ public class T_staff {
     private String t_sta_addr;
     private String t_sta_create;
     private int t_sta_status;
-    private String t_sta_email;
 
     public T_staff() {
 
@@ -35,14 +34,6 @@ public class T_staff {
         this.t_sta_addr = t_sta_addr;
         this.t_sta_create = t_sta_create;
         this.t_sta_status = t_sta_status;
-    }
-
-    public String getT_sta_email() {
-        return t_sta_email;
-    }
-
-    public void setT_sta_email(String t_sta_email) {
-        this.t_sta_email = t_sta_email;
     }
 
     public String getT_sta_id() {

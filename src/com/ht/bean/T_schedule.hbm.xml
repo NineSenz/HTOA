@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ht.bean">
+    <class name="T_schedule" table="t_schedule">
+        <id name="t_sch_id" column="t_sch_id"></id>
+        <property name="t_sch_couid" column="t_sch_couid"></property>
+        <property name="t_sch_stuid" column="t_sch_stuid"></property>
+        <property name="t_sch_content" column="t_sch_content"></property>
+    </class>
+</hibernate-mapping>

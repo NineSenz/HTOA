@@ -3,25 +3,15 @@ package com.ht.action;
 import com.ht.bean.T_staff;
 import com.ht.service.T_staffService;
 import com.opensymphony.xwork2.ActionSupport;
-
 import java.util.List;
 
 /**
  * Created by DengMin on 2016/8/12.
  */
-public class T_staffAction extends ActionSupport {
+public class T_staffAction extends ActionSupport{
 
     private T_staffService t_staffService;
     private T_staff t_staff;
-    private List<T_staff> sta;
-
-    public List<T_staff> getSta() {
-        return sta;
-    }
-
-    public void setSta(List<T_staff> sta) {
-        this.sta = sta;
-    }
 
     public void setT_staffService(T_staffService t_staffService) {
         this.t_staffService = t_staffService;
@@ -38,8 +28,7 @@ public class T_staffAction extends ActionSupport {
     }
 
     public String queryall(){
-        sta = t_staffService.queryAll();
-        t_staffService.close();
+        List<T_staff> list = t_staffService.queryAll();
         //把list中的数据传递到页面
         return "queryall";
     }

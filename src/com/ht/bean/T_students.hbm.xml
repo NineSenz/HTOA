@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ht.bean">
+<class name="T_students" table="t_students">
+    <id name="t_stu_id" column="t_stu_id"></id>
+    <property name="t_stu_dormid" column="t_stu_dormid"></property>
+    <property name="t_stu_claid" column="t_stu_claid"></property>
+    <property name="t_stu_name" column="t_stu_name"></property>
+    <property name="t_stu_sex" column="t_stu_sex"></property>
+    <property name="t_stu_age" column="t_stu_age"></property>
+    <property name="t_stu_phone" column="t_stu_phone"></property>
+    <property name="t_stu_parcall" column="t_stu_parcall"></property>
+    <property name="t_stu_parname" column="t_stu_parname"></property>
+    <property name="t_stu_icard" column="t_stu_icard"></property>
+    <property name="t_stu_scholl" column="t_stu_scholl"></property>
+    <property name="t_stu_birth" column="t_stu_birth"></property>
+    <property name="t_stu_addr" column="t_stu_addr"></property>
+    <property name="t_stu_create" column="t_stu_create"></property>
+    <property name="t_stu_status" column="t_stu_status"></property>
+</class>
+</hibernate-mapping>

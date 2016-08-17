@@ -1,7 +1,6 @@
 package com.ht.service;
 
 import com.ht.bean.T_staff;
-
 import java.util.List;
 
 /**
@@ -12,6 +11,4 @@ public interface T_staffService {
     public List<T_staff> queryAll();
     public void save(T_staff t_staff);
     public void delete(T_staff t_staff);
-    public T_staff query(String id);
-    public void close();
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ht.bean">
+    <class name="T_class" table="t_class">
+        <id name="t_cla_id" column="t_cla_id"></id>
+        <property name="t_cla_name" column="t_cla_name"></property>
+        <property name="t_cla_num" column="t_cla_num"></property>
+        <property name="t_cla_teach" column="t_cla_teach"></property>
+        <property name="t_cla_coach" column="t_cla_coach"></property>
+        <property name="t_cla_claadm" column="t_cla_claadm"></property>
+        <property name="t_cla_adds" column="t_cla_adds"></property>
+        <property name="t_cla_create" column="t_cla_create"></property>
+    </class>
+</hibernate-mapping>
