@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_department;
 import com.ht.dao.T_departmentDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -53,7 +53,7 @@ public class T_departmentServiceImpl implements T_departmentService{
     }
 
     @Override
-    public Pager4EasyUI<T_department> pagerList(Pager4EasyUI pager) {
+    public Pager<T_department> pagerList(Pager pager) {
         return null;
     }
 }

@@ -1,7 +1,7 @@
 package com.ht.dao;
 
 import com.ht.bean.T_inquire;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -68,7 +68,7 @@ public class T_inquireDAOImpl implements T_inquireDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_inquire> pagerList(Pager4EasyUI pager) {
+    public Pager<T_inquire> pagerList(Pager pager) {
         return null;
     }
 }

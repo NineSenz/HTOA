@@ -1,7 +1,7 @@
 package com.ht.service;
 
 import com.ht.bean.T_feedback;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -16,5 +16,5 @@ public interface T_feedbackService {
     public T_feedback query(String p);
     public void close();
     public int count();
-    public Pager4EasyUI<T_feedback> Pagelist(Pager4EasyUI pager);
+    public Pager<T_feedback> Pagelist(Pager pager);
 }

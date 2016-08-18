@@ -1,7 +1,7 @@
 package com.ht.dao;
 
 import com.ht.bean.T_computer;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -74,7 +74,7 @@ public class T_computerDAOImpl implements T_computerDAO {
     }
 
     @Override
-    public Pager4EasyUI<T_computer> pagerList(Pager4EasyUI pager) {
+    public Pager<T_computer> pagerList(Pager pager) {
         return null;
     }
 }

@@ -1,6 +1,6 @@
 package com.ht.dao;
 
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -15,5 +15,5 @@ public interface BaseDAO<T,PK> {
     public T query(PK p);
     public void close();
     public int count();
-    public Pager4EasyUI<T> pagerList(Pager4EasyUI pager);
+    public Pager<T> pagerList(Pager pager);
 }

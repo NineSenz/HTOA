@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_ssummarize;
 import com.ht.dao.T_ssummarizeDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -53,7 +53,7 @@ public class T_ssummarizeServiceImpl implements T_ssummarizeService {
     }
 
     @Override
-    public Pager4EasyUI<T_ssummarize> pagerList(Pager4EasyUI pager) {
+    public Pager<T_ssummarize> pagerList(Pager pager) {
         return null;
     }
 }

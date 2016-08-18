@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_seminar;
 import com.ht.dao.T_seminarDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import java.util.List;
 
 /**
@@ -51,7 +51,7 @@ public class T_seminarServiceImpl implements T_seminarService{
     }
 
     @Override
-    public Pager4EasyUI<T_seminar> pagerList(Pager4EasyUI pager) {
+    public Pager<T_seminar> pagerList(Pager pager) {
         return null;
     }
 }

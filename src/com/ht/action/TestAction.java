@@ -3,14 +3,9 @@ package com.ht.action;
 import com.ht.bean.TTest;
 import com.ht.dao.TestDAO;
 import com.ht.service.TestService;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import com.ht.util.StampUtil;
-import org.apache.struts2.json.annotations.JSON;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -20,7 +15,7 @@ public class TestAction{
     private TestDAO testDAO;
     private TestService testService;
     private TTest test;
-    private Pager4EasyUI<TTest> pager;
+    private Pager<TTest> pager;
     private String pageNo;
     private String pageSize;
 
@@ -40,11 +35,11 @@ public class TestAction{
         this.pageSize = pageSize;
     }
 
-    public Pager4EasyUI<TTest> getPager() {
+    public Pager<TTest> getPager() {
         return pager;
     }
 
-    public void setPager(Pager4EasyUI<TTest> pager) {
+    public void setPager(Pager<TTest> pager) {
         this.pager = pager;
     }
 
@@ -82,7 +77,7 @@ public class TestAction{
     public String pagerList(){
         pager.setPageNo(Integer.parseInt(pageNo));
         pager.setPageSize(Integer.parseInt(pageSize));
-        Pager4EasyUI<TTest> pagerlist = testService.pagerList(pager);
+        Pager<TTest> pagerlist = testService.pagerList(pager);
         testDAO.close();
         return "pager";
     }

@@ -1,7 +1,7 @@
 package com.ht.dao;
 
 import com.ht.bean.T_announcement;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -71,7 +71,7 @@ public class T_announcementDAOImpl implements T_announcementDAO {
     }
 
     @Override
-    public Pager4EasyUI<T_announcement> pagerList(Pager4EasyUI pager) {
+    public Pager<T_announcement> pagerList(Pager pager) {
         return null;
     }
 }

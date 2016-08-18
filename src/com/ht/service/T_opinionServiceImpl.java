@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_opinion;
 import com.ht.dao.T_opinionDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -52,7 +52,7 @@ public class T_opinionServiceImpl implements T_opinionService{
     }
 
     @Override
-    public Pager4EasyUI<T_opinion> pagerList(Pager4EasyUI pager) {
+    public Pager<T_opinion> pagerList(Pager pager) {
         return null;
     }
 }

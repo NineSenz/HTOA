@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_rap;
 import com.ht.dao.T_rapDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -52,7 +52,7 @@ public class T_rapServiceImpl implements T_rapService {
     }
 
     @Override
-    public Pager4EasyUI<T_rap> pagerList(Pager4EasyUI pager) {
+    public Pager<T_rap> pagerList(Pager pager) {
         return null;
     }
 }

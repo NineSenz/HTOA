@@ -2,13 +2,13 @@ package com.ht.util;
 
 import java.util.List;
 
-public class Pager4EasyUI<T> {
+public class Pager<T> {
 	
-	private int pageNo;
-	private int pageSize;
-	
-	private int total;
-	private List<T> rows;
+	private int pageNo;  //当前页
+	private int pageSize; //一页个数
+	private int total; //总条数
+	private List<T> rows; //数据存放
+
 	public int getTotal() {
 		return total;
 	}
@@ -37,5 +37,14 @@ public class Pager4EasyUI<T> {
 	public void setPageSize(int pageSize) {
 		this.pageSize = pageSize;
 	}
-	
+
+    @Override
+    public String toString() {
+        return "Pager{" +
+                "pageNo=" + pageNo +
+                ", pageSize=" + pageSize +
+                ", total=" + total +
+                ", rows=" + rows +
+                '}';
+    }
 }

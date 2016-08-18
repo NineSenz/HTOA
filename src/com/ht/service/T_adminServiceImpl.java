@@ -2,6 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_admin;
 import com.ht.dao.T_adminDAO;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -50,6 +51,11 @@ public class T_adminServiceImpl implements T_adminService{
     @Override
     public void close() {
         t_adminDAO.close();
+    }
+
+    @Override
+    public Pager<T_admin> pagerList(Pager Pager) {
+        return t_adminDAO.pagerList(Pager);
     }
 
 

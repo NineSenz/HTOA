@@ -1,7 +1,7 @@
 package com.ht.dao;
 
 import com.ht.bean.T_talk;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -73,7 +73,7 @@ public class T_talkDAOImpl implements T_talkDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_talk> pagerList(Pager4EasyUI pager) {
+    public Pager<T_talk> pagerList(Pager pager) {
         return null;
     }
 }

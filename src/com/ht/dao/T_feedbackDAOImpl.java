@@ -2,7 +2,7 @@ package com.ht.dao;
 
 
 import com.ht.bean.T_feedback;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -73,7 +73,7 @@ public class T_feedbackDAOImpl implements T_feedbackDAO {
     }
 
     @Override
-    public Pager4EasyUI<T_feedback> pagerList(Pager4EasyUI pager) {
+    public Pager<T_feedback> pagerList(Pager pager) {
         return null;
     }
 }

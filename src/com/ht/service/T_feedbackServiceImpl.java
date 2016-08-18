@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_feedback;
 import com.ht.dao.T_feedbackDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -52,7 +52,7 @@ public class T_feedbackServiceImpl implements T_feedbackService {
     }
 
     @Override
-    public Pager4EasyUI<T_feedback> Pagelist(Pager4EasyUI pager) {
+    public Pager<T_feedback> Pagelist(Pager pager) {
         return null;
     }
 }

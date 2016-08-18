@@ -1,7 +1,7 @@
 package com.ht.dao;
 
 import com.ht.bean.T_schedule;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -71,7 +71,7 @@ public class T_scheduleDAOImpl implements T_scheduleDAO {
     }
 
     @Override
-    public Pager4EasyUI<T_schedule> pagerList(Pager4EasyUI pager) {
+    public Pager<T_schedule> pagerList(Pager pager) {
         return null;
     }
 }
