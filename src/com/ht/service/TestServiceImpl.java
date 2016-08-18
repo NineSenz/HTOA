@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.TTest;
 import com.ht.dao.TestDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 /**
  * Created by GMB on 2016/8/11.
@@ -24,7 +24,7 @@ public class TestServiceImpl implements TestService {
     }
 
     @Override
-    public Pager4EasyUI<TTest> pagerList(Pager4EasyUI pager) {
+    public Pager<TTest> pagerList(Pager pager) {
         return testDAO.pagerList(pager);
     }
 }

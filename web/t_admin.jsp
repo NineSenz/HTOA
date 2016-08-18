@@ -51,9 +51,7 @@
             }
         }
 
-        function add(){
-            $("#addWin").window("open");
-        }
+
 
         function doEdit() {
             if ($("#editForm").form("validate")) { // 验证整个表单里的所有validatabox是否通过验证
@@ -72,23 +70,17 @@
                         },"JSON")
             }
         }
+        function add() {
+            $("#addWin").window("open");
+        }
 
         function doAdd(){
+
             if($("#addForm").form("validate")){
-                $.post(
-                        'product/add',
-                        $("#addForm").serialize(),
-                        function(data){
-                            if(data.result == 'success'){
-                                $.messager.alert("提示",data.msg,"info",function(){
-                                    $("#addWin").window("close");
-                                    $("#list").datagrid("reload");
-                                    $("#addForm").form("clear");
-                                });
-                            }else{
-                                $.messager.alert("提示",data.msg,"info");
-                            }
-                        },"JSON");
+                $.post('<%=path%>/admin/save',$("#addForm").serialize());
+                $("#addWin").window("close");
+                $("#list").datagrid("reload");
+                $("#addForm").form("clear");
             }
         }
         function removePro(){
@@ -111,7 +103,7 @@
 </head>
 <body>
 <table id="list" class="easyui-datagrid" toolbar="#tb" data-options="
-		url:'<%=path %>/product/queryByPager',
+		url:'<%=path %>/admin/queryByPager',
 		method:'get',
 		rownumbers:true,
 		singleSelect:true,
@@ -126,6 +118,7 @@
         <th field="t_adm_email"  width="100">邮箱</th>
         <th field="t_adm_pwd"  width="100">密码</th>
         <th field="t_adm_phone"  width="100">电话</th>
+        <th field="t_adm_identity" width="100">管理部门</th>
     </tr>
     </thead>
 </table>
@@ -135,37 +128,44 @@
     <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" onclick="edit();">修改</a>
     <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" onclick="removePro();">移除</a>
 </div>
+
 <div id="addWin" class="easyui-window" title="添加管理员" data-options="iconCle:'icon-edit',closable:true, closed:true" style="width:300px;height:200px;padding:5px;">
     <form id="addForm" enctype="multipart/form-data">
         <table>
             <tr>
                 <td>管理编号</td>
                 <td>
-                    <input class="textbox" name="id"  />
+                    <input class="textbox" name="t_admin.t_adm_id"  />
                 </td>
             </tr>
             <tr>
                 <td>姓名</td>
                 <td>
-                    <input class="easyui-validatebox textbox" name="name" data-options="required:true, novalidate:true" />
+                    <input class="easyui-validatebox textbox" name="t_admin.t_adm_name" data-options="required:true, novalidate:true" />
                 </td>
             </tr>
             <tr>
                 <td>邮箱</td>
                 <td>
-                    <input class="easyui-validatebox easyui-numberbox" name="price" data-options="required:true, novalidate:true, precision:2"/>
+                    <input class="easyui-validatebox textbox" name="t_admin.t_adm_email" data-options="required:true, novalidate:true"/>
                 </td>
             </tr>
             <tr>
                 <td>密码</td>
                 <td>
-                    <input class="easyui-validatebox easyui-numberbox" name="price" data-options="required:true, novalidate:true, precision:2"/>
+                    <input class="easyui-validatebox textbox" name="t_admin.t_adm_pwd" data-options="required:true, novalidate:true"/>
                 </td>
             </tr>
             <tr>
                 <td>电话</td>
                 <td>
-                    <input class="easyui-validatebox easyui-numberbox" name="price" data-options="required:true, novalidate:true, precision:2"/>
+                    <input class="easyui-validatebox textbox" name="t_admin.t_adm_phone" data-options="required:true, novalidate:true"/>
+                </td>
+            </tr>
+            <tr>
+                <td>管理部门</td>
+                <td>
+                    <input class="easyui-validatebox textbox" name="t_admin.t_adm_identity" data-options="required:true, novalidate:true"/>
                 </td>
             </tr>
             <tr>

@@ -1,6 +1,7 @@
 package com.ht.service;
 
 import com.ht.bean.T_admin;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -14,4 +15,5 @@ public interface T_adminService {
     public List<T_admin> queryAll();
     public T_admin query(String p);
     public void close();
+    public Pager<T_admin> pagerList(Pager Pager);
 }

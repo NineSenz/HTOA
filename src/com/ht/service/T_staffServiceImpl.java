@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_staff;
 import com.ht.dao.T_staffDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -42,7 +42,7 @@ public class T_staffServiceImpl implements T_staffService{
     }
 
     @Override
-    public Pager4EasyUI<T_staff> pagerList(Pager4EasyUI pager) {
+    public Pager<T_staff> pagerList(Pager pager) {
         return null;
     }
 

@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_OfficeDepot;
 import com.ht.dao.T_OfficeDepotDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -52,7 +52,7 @@ public class T_OfficeDepotServiceImpl implements T_OfficeDepotService {
     }
 
     @Override
-    public Pager4EasyUI<T_OfficeDepot> pagerList(Pager4EasyUI pager) {
+    public Pager<T_OfficeDepot> pagerList(Pager pager) {
         return null;
     }
 }

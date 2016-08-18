@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_inquire;
 import com.ht.dao.T_inquireDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -52,7 +52,7 @@ public class T_inquireServiceImpl implements T_inquireService {
     }
 
     @Override
-    public Pager4EasyUI<T_inquire> pagerList(Pager4EasyUI pager) {
+    public Pager<T_inquire> pagerList(Pager pager) {
         return null;
     }
 }

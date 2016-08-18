@@ -1,7 +1,7 @@
 package com.ht.service;
 
 import com.ht.bean.T_announcement;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -16,5 +16,5 @@ public interface T_announcementService {
     public T_announcement query(String p);
     public void close();
     public int count();
-    public Pager4EasyUI<T_announcement> pagerList(Pager4EasyUI pager);
+    public Pager<T_announcement> pagerList(Pager pager);
 }

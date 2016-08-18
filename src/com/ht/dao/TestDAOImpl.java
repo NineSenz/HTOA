@@ -1,7 +1,7 @@
 package com.ht.dao;
 
 import com.ht.bean.TTest;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -62,7 +62,7 @@ public class TestDAOImpl implements TestDAO {
     }
 
     @Override
-    public Pager4EasyUI<TTest> pagerList(Pager4EasyUI pager) {
+    public Pager<TTest> pagerList(Pager pager) {
         sion = sessionFactory.getCurrentSession();
         sion.beginTransaction();
         Query query = sion.createQuery("from TTest");

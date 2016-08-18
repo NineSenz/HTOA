@@ -1,7 +1,7 @@
 package com.ht.dao;
 
 import com.ht.bean.T_OfficeDepot;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -72,7 +72,7 @@ public class T_OfficeDepotDAOImpl implements T_OfficeDepotDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_OfficeDepot> pagerList(Pager4EasyUI pager) {
+    public Pager<T_OfficeDepot> pagerList(Pager pager) {
         return null;
     }
 }

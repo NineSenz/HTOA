@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_obtainjob;
 import com.ht.dao.T_obtainjobDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -53,7 +53,7 @@ public class T_obtainjobServiceImpl implements T_obtainjobService {
     }
 
     @Override
-    public Pager4EasyUI<T_obtainjob> pagerList(Pager4EasyUI pager) {
+    public Pager<T_obtainjob> pagerList(Pager pager) {
 
         return null;
     }

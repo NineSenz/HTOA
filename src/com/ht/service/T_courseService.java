@@ -1,7 +1,7 @@
 package com.ht.service;
 
 import com.ht.bean.T_course;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import java.util.List;
 
 /**
@@ -15,5 +15,5 @@ public interface T_courseService {
     public T_course query(String p);
     public void close();
     public int count();
-    public Pager4EasyUI<T_course> Pagelist(Pager4EasyUI pager);
+    public Pager<T_course> Pagelist(Pager pager);
 }

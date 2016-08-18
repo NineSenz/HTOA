@@ -5,9 +5,9 @@
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 
 <struts>
-    <package name="T_adminAction-package" extends="my-package" namespace="/admin">
+    <package name="T_adminAction-package" extends="json-default" namespace="/admin">
        <action name="*" class="com.ht.action.T_adminAction" method="{1}">
-           <result name="queryall" >/index.jsp</result>
+           <result type="json"></result>
            <result name="query" >/index.jsp</result>
        </action>
     </package>

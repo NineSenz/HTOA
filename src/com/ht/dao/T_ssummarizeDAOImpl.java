@@ -1,8 +1,7 @@
 package com.ht.dao;
 
-import com.ht.bean.T_department;
 import com.ht.bean.T_ssummarize;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -76,7 +75,7 @@ public class T_ssummarizeDAOImpl implements T_ssummarizeDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_ssummarize> pagerList(Pager4EasyUI pager) {
+    public Pager<T_ssummarize> pagerList(Pager pager) {
         return null;
     }
 }

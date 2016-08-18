@@ -1,7 +1,7 @@
 package com.ht.dao;
 
 import com.ht.bean.T_department;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -72,7 +72,7 @@ public class T_departmentDAOImpl implements T_departmentDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_department> pagerList(Pager4EasyUI pager) {
+    public Pager<T_department> pagerList(Pager pager) {
         return null;
     }
 }

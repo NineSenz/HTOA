@@ -1,7 +1,7 @@
 package com.ht.service;
 
 import com.ht.bean.T_seminar;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import java.util.List;
 
 /**
@@ -15,5 +15,5 @@ public interface T_seminarService {
     public T_seminar query(String p);
     public void close();
     public int count();
-    public Pager4EasyUI<T_seminar> pagerList(Pager4EasyUI pager);
+    public Pager<T_seminar> pagerList(Pager pager);
 }

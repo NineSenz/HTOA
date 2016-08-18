@@ -1,8 +1,7 @@
 package com.ht.dao;
 
-import com.ht.bean.T_admin;
 import com.ht.bean.T_obtainjob;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -68,7 +67,7 @@ public class T_obtainjobDAOImpl implements T_obtainjobDAO {
     }
 
     @Override
-    public Pager4EasyUI<T_obtainjob> pagerList(Pager4EasyUI pager) {
+    public Pager<T_obtainjob> pagerList(Pager pager) {
         return null;
     }
 }

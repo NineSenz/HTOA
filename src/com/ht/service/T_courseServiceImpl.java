@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_course;
 import com.ht.dao.T_courseDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -52,7 +52,7 @@ public class T_courseServiceImpl implements T_courseService{
     }
 
     @Override
-    public Pager4EasyUI<T_course> Pagelist(Pager4EasyUI pager) {
+    public Pager<T_course> Pagelist(Pager pager) {
         return null;
     }
 }

@@ -1,12 +1,15 @@
 package com.ht.dao;
 
 import com.ht.bean.T_admin;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
+import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Projections;
 
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by please fresh on 2016/8/12.
@@ -70,13 +73,26 @@ public class T_adminDAOImpl implements T_adminDAO {
 
     @Override
     public int count() {
-        return 0;
+        session = sessionFactory.openSession();
+        session.beginTransaction();
+        Criteria criteria = session.createCriteria(T_admin.class);
+        criteria.setProjection(Projections.rowCount());
+        Object object = criteria.uniqueResult();
+        session.getTransaction().commit();
+        return Integer.valueOf(object.toString());
     }
 
     @Override
-    public Pager4EasyUI<T_admin> pagerList(Pager4EasyUI Pager) {
-        return null;
+    public Pager<T_admin> pagerList(Pager Pager) {
+        session = sessionFactory.openSession();
+        session.beginTransaction();
+        Query query = session.createQuery("from T_admin ");
+        query.setFirstResult(Pager.getBeginIndex());
+        query.setMaxResults(Pager.getPageSize());
+        Pager.setRows(query.list());
+        Pager.setTotal(count());
+        System.out.println(Pager.getRows()+"================="+Pager.getTotal());
+        return Pager;
     }
-
 
 }

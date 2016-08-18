@@ -1,7 +1,7 @@
 package com.ht.dao;
 
 import com.ht.bean.T_rap;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -69,7 +69,7 @@ public class T_rapDAOImpl implements T_rapDAO {
     }
 
     @Override
-    public Pager4EasyUI<T_rap> pagerList(Pager4EasyUI pager) {
+    public Pager<T_rap> pagerList(Pager pager) {
         return null;
     }
 }

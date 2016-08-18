@@ -1,8 +1,7 @@
 package com.ht.dao;
 
-import com.ht.bean.T_admin;
 import com.ht.bean.T_staff;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -70,7 +69,7 @@ public class T_staffDAOImpl implements T_staffDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_staff> pagerList(Pager4EasyUI pager) {
+    public Pager<T_staff> pagerList(Pager pager) {
         return null;
     }
 }

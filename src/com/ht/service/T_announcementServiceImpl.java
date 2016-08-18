@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_announcement;
 import com.ht.dao.T_announcementDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import java.util.List;
 
 /**
@@ -51,7 +51,7 @@ public class T_announcementServiceImpl implements T_announcementService{
     }
 
     @Override
-    public Pager4EasyUI<T_announcement> pagerList(Pager4EasyUI pager) {
+    public Pager<T_announcement> pagerList(Pager pager) {
         return null;
     }
 }

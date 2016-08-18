@@ -1,7 +1,7 @@
 package com.ht.dao;
 
 import com.ht.bean.T_expend;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -68,7 +68,7 @@ public class T_expendDAOImpl implements T_expendDAO{
     }
 
     @Override
-    public Pager4EasyUI<T_expend> pagerList(Pager4EasyUI pager) {
+    public Pager<T_expend> pagerList(Pager pager) {
         return null;
     }
 

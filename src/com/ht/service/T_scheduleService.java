@@ -1,7 +1,7 @@
 package com.ht.service;
 
 import com.ht.bean.T_schedule;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 import java.util.List;
 
 /**
@@ -15,5 +15,5 @@ public interface T_scheduleService {
     public T_schedule query(String p);
     public void close();
     public int count();
-    public Pager4EasyUI<T_schedule> pagerList(Pager4EasyUI pager);
+    public Pager<T_schedule> pagerList(Pager pager);
 }

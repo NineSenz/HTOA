@@ -2,7 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_talk;
 import com.ht.dao.T_talkDAO;
-import com.ht.util.Pager4EasyUI;
+import com.ht.util.Pager;
 
 
 import java.util.List;
@@ -53,7 +53,7 @@ public class T_talkServiceImpl implements T_talkService{
     }
 
     @Override
-    public Pager4EasyUI<T_talk> pagerList(Pager4EasyUI pager) {
+    public Pager<T_talk> pagerList(Pager pager) {
         return null;
     }
 }
