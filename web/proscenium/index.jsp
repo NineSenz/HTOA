@@ -15,9 +15,7 @@
     <!-- css -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-    <link href="css/jcarousel.css" rel="stylesheet" />
     <link href="css/flexslider.css" rel="stylesheet" />
-    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
@@ -343,6 +341,5 @@
 <script src="js/jquery.flexslider.js"></script>
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
-<script src="js/owl-carousel/owl.carousel.js"></script>
 </body>
 </html>

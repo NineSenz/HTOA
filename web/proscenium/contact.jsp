@@ -15,14 +15,9 @@
     <!-- css -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-    <link href="css/jcarousel.css" rel="stylesheet" />
     <link href="css/flexslider.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
 
 </head>
 <body>
@@ -75,21 +70,21 @@
                     </div>
                     <div class="contact-form">
 
-                        <form method="post" action="contact.php" id="contactform" class="contact">
+                        <form method="post" action="#" id="contactform" class="contact">
                             <div class="form-group has-feedback">
                                 <label for="name">Name*</label>
-                                <input type="text" class="form-control" name="name" placeholder="">
+                                <input id="name" type="text" class="form-control" name="name" placeholder=""/>
                                 <i class="fa fa-user form-control-feedback"></i>
                             </div>
                             <div class="form-group has-feedback">
                                 <label for="email">Email*</label>
-                                <input type="email" class="form-control" name="email" placeholder="">
+                                <input id="email" type="email" class="form-control" name="email" placeholder="">
                                 <i class="fa fa-envelope form-control-feedback"></i>
                             </div>
 
                             <div class="form-group has-feedback">
                                 <label for="message">Message*</label>
-                                <textarea class="form-control" rows="6" name="comment" placeholder=""></textarea>
+                                <textarea id="message" class="form-control" rows="6" name="comment" placeholder="" aria-label=""></textarea>
                                 <i class="fa fa-pencil form-control-feedback"></i>
                             </div>
                             <input type="submit" value="Submit" id="submit" class="submit btn btn-default">
@@ -99,7 +94,12 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:600px;"><div id="gmap_canvas" style="height:500px;width:600px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.trivoo.net" id="get-map-data">trivoo</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(40.805478,-73.96522499999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.805478, -73.96522499999998)});infowindow = new google.maps.InfoWindow({content:"<b>The Breslin</b><br/>2880 Broadway<br/> New York" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                <div style="overflow:hidden;height:500px;width:600px;">
+                <div id="gmap_canvas" style="height:500px;width:600px;"></div>
+
+                    <a class="google-map-code" href="http://www.trivoo.net" id="get-map-data">trivoo</a>
+                </div>
+
                 </div>
             </div>
         </div>
