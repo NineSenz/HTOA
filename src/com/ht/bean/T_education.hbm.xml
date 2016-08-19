@@ -10,7 +10,8 @@
             <property name="t_EndTime" column="t_EndTime"></property>
             <property name="t_school" column="t_school"></property>
             <property name="t_education" column="t_education"></property>
-
+        <!--
             <many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_staff_id"></many-to-one>
+        -->
         </class>
 </hibernate-mapping>

@@ -118,10 +118,10 @@
         </thead>
     </table>
     <div id="tb" style="padding:10px;">
-        <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-book-add'" onclick="add();">添加</a>
+        <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-picture-add'" onclick="add();">添加</a>
         <!-- 链接按钮控件 -->
-        <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-book-edit'" onclick="edit();">修改</a>
-        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-book-remove'" onclick="removePro();">移除</a>
+        <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-picture-edit'" onclick="edit();">修改</a>
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-picture-delete'" onclick="removePro();">移除</a>
     </div>
 
     <div id="addWin" class="easyui-window" title="添加管理员" data-options="iconCle:'icon-monitor-edit',closable:true, closed:true" style="width:300px;height:200px;padding:5px;">

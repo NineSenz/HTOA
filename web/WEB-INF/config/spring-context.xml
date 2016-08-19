@@ -124,4 +124,48 @@
   <bean id="t_incomeAction" class="com.ht.action.T_incomeAction" autowire="byType" />
   <bean id="t_income" class="com.ht.bean.T_income" autowire="byType" />
 
-</beans>  
+  <bean id="t_education" class="com.ht.bean.T_education" autowire="byType"/>
+  <bean id="t_educationAction" class="com.ht.action.T_educationAction" autowire="byType"/>
+  <bean id="t_educationDAO" class="com.ht.dao.T_educationDAOImpl" autowire="byType"/>
+  <bean id="t_educationService" class="com.ht.service.T_educationServiceImpl" autowire="byType"/>
+
+  <bean id="t_beonduty" class="com.ht.bean.T_beonduty" autowire="byType"/>
+  <bean id="t_beondutyAction" class="com.ht.action.T_beondutyAction" autowire="byType"/>
+  <bean id="t_beondutyDAO" class="com.ht.dao.T_beondutyDAOImpl" autowire="byType"/>
+  <bean id="t_beondutyService" class="com.ht.service.T_beondutyServiceImpl" autowire="byType"/>
+
+  <bean id="t_familysDAO" class="com.ht.dao.T_familysDAOImpl" autowire="byType"/>
+  <bean id="t_familysService" class="com.ht.service.T_familysServiceImpl" autowire="byType"/>
+  <bean id="t_familysAction" class="com.ht.action.T_familysAction" autowire="byType"/>
+  <bean id="t_familys" class="com.ht.bean.T_familys" autowire="byType"/>
+
+  <bean id="t_journalDAO" class="com.ht.dao.T_journalDAOImpl" autowire="byType"/>
+  <bean id="t_journalService" class="com.ht.service.T_journalServiceImpl" autowire="byType"/>
+  <bean id="t_journalAction" class="com.ht.action.T_journalAction" autowire="byType"/>
+  <bean id="t_journal" class="com.ht.bean.T_journal" autowire="byType"/>
+
+  <bean id="t_workcheckunusualDAO" class="com.ht.dao.T_workcheckunusualDAOImpl" autowire="byType"/>
+  <bean id="t_workcheckunusualService" class="com.ht.service.T_workcheckunusualServiceImpl" autowire="byType"/>
+  <bean id="t_workcheckunusualAction" class="com.ht.action.T_workcheckunusualAction" autowire="byType"/>
+  <bean id="t_workcheckunusual" class="com.ht.bean.T_workcheckunusual" autowire="byType"/>
+
+  <bean id="t_workcheck" class="com.ht.bean.T_workcheck" autowire="byType"/>
+  <bean id="t_workcheckAction" class="com.ht.action.T_workcheckAction" autowire="byType"/>
+  <bean id="t_workcheckDAO" class="com.ht.dao.T_workcheckDAOImpl" autowire="byType"/>
+  <bean id="t_workcheckService" class="com.ht.service.T_workcheckServiceImpl" autowire="byType"/>
+
+  <bean id="t_tickling" class="com.ht.bean.T_tickling" autowire="byType"/>
+  <bean id="t_ticklingAction" class="com.ht.action.T_ticklingAction" autowire="byType"/>
+  <bean id="t_ticklingDAO" class="com.ht.dao.T_ticklingDAOImpl" autowire="byType"/>
+  <bean id="t_ticklingService" class="com.ht.service.T_ticklingServiceImpl" autowire="byType"/>
+
+  <bean id="t_undergo" class="com.ht.bean.T_undergo" autowire="byType"/>
+  <bean id="t_undergoAction" class="com.ht.action.T_undergoAction" autowire="byType"/>
+  <bean id="t_undergoDAO" class="com.ht.dao.T_undergoDAOImpl" autowire="byType"/>
+  <bean id="t_undergoService" class="com.ht.service.T_undergoServiceImpl" autowire="byType"/>
+
+  <bean id="t_dormitoryDAO" class="com.ht.dao.T_dormitoryDAOImpl" autowire="byType"/>
+  <bean id="t_dormitoryService" class="com.ht.service.T_dormitoryServiceImpl" autowire="byType"/>
+  <bean id="t_dormitoryAction" class="com.ht.action.T_dormitoryAction" autowire="byType"/>
+  <bean id="t_dormitory" class="com.ht.bean.T_dormitory" autowire="byType"/>
+</beans>

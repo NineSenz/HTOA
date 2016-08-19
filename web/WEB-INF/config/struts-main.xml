@@ -17,45 +17,37 @@
 			<result name="save">/test.jsp</result>
 		</action>
 	</package>
-	<include file="../config/struts-T_staff.xml"/>
-	<include file="../config/struts-T_departmentAction.xml"/>
 	<include file="../config/struts-T_admin.xml"/>
-	<include file="../config/struts-T_reply.xml"/>
-	<include file="../config/struts-T_grade.xml"/>
-	<include file="../config/struts-T_ssummarize.xml"/>
-	<include file="../config/struts-T_obtainjob.xml"/>
-	<include file="../config/struts-json.xml"/>
-
-	<include file="../config/struts-T_staff.xml"></include>
-	<include file="../config/struts-T_departmentAction.xml"></include>
-
-	<include file="../config/struts-T_staff.xml"/>
+	<include file="../config/struts-T_announcementes.xml"/>
+	<include file="../config/struts-T_beonduty.xml"/>
+	<include file="../config/struts-T_class.xml"/>
+	<include file="../config/struts-T_computer.xml"/>
+	<include file="../config/struts-T_course.xml"/>
 	<include file="../config/struts-T_departmentAction.xml"/>
-
-	<include file="../config/struts-T_admin.xml"></include>
-	<include file="../config/struts-T_reply.xml"></include>
-	<include file="../config/struts-T_grade.xml"></include>
-	<include file="../config/struts-T_ssummarize.xml"></include>
-	<include file="../config/struts-T_obtainjob.xml"></include>
-
-	<include file="../config/struts-inquire.xml"/>
-	<include file="../config/struts-office.xml"/>
-	<include file="../config/struts-student.xml"/>
-	<include file="../config/struts-class.xml"/>
-	<include file="../config/struts-rap.xml"/>
-	<include file="../config/struts-talk.xml"/>
-
-	<include file="../config/struts-T_expend.xml"></include>
-	<include file="../config/struts-T_wages.xml"></include>
-	<include file="../config/struts-T_course.xml"></include>
-	<include file="../config/struts-T_feedback.xml"></include>
-
-	<include file="../config/struts-T_seminar.xml"></include>
-	<include file="../config/struts-T_schedule.xml"></include>
-	<include file="../config/struts-T_announcementes.xml"></include>
-	<include file="../config/struts-T_opinion.xml"></include>
-	<include file="../config/struts-T_computer.xml"></include>
-	<include file="../config/struts-T_income.xml"></include>
-	<include file="../config/struts-T_staff.xml"></include>
+	<include file="../config/struts-T_dormitory.xml"/>
+	<include file="../config/struts-T_education.xml"/>
+	<include file="../config/struts-T_expend.xml"/>
+	<include file="../config/struts-T_familys.xml"/>
+	<include file="../config/struts-T_feedback.xml"/>
+	<include file="../config/struts-T_grade.xml"/>
+	<include file="../config/struts-T_income.xml"/>
+	<include file="../config/struts-T_inquire.xml"/>
+	<include file="../config/struts-T_journal.xml"/>
+	<include file="../config/struts-T_obtainjob.xml"/>
+	<include file="../config/struts-T_office.xml"/>
+	<include file="../config/struts-T_opinion.xml"/>
+	<include file="../config/struts-T_rap.xml"/>
+	<include file="../config/struts-T_reply.xml"/>
+	<include file="../config/struts-T_schedule.xml"/>
+	<include file="../config/struts-T_seminar.xml"/>
+	<include file="../config/struts-T_ssummarize.xml"/>
+	<include file="../config/struts-T_staff.xml"/>
+	<include file="../config/struts-T_student.xml"/>
+	<include file="../config/struts-T_talk.xml"/>
+	<include file="../config/struts-T_tickling.xml"/>
+	<include file="../config/struts-T_undergo.xml"/>
+	<include file="../config/struts-T_wages.xml"/>
+	<include file="../config/struts-T_workcheck.xml"/>
+	<include file="../config/struts-T_workcheckunusual.xml"/>
 
 </struts>

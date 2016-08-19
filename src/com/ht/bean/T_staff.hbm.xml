@@ -25,10 +25,10 @@
 		<many-to-one name="t_department" class="com.ht.bean.T_department" column="t_sta_depid"></many-to-one>
 
 		<!--一个员工对用对应多个教育经历-->
-		<set name="t_educations" inverse="true">
+		<!--<set name="t_educations" inverse="true">
 			<key column="t_staff_id"></key>
 			<one-to-many class="com.ht.bean.T_education"></one-to-many>
-		</set>
+		</set>-->
 		<!--一个员工对应多个考勤记录-->
 		<set name="t_workchecks" inverse="true">
 			<key column="t_staff_id"></key>

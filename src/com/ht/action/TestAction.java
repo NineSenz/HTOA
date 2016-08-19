@@ -63,7 +63,6 @@ public class TestAction{
     public String query() throws ParseException {
         test = testService.query(test.getId());
         System.out.println(test);
-        testDAO.close();
         return "query";
     }
     public String save()throws ParseException{

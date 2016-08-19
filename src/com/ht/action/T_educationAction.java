@@ -14,6 +14,14 @@ public class T_educationAction {
     private T_educationService t_educationService;
     private T_education t_education;
 
+    public void setT_educationService(T_educationService t_educationService) {
+        this.t_educationService = t_educationService;
+    }
+
+    public void setT_education(T_education t_education) {
+        this.t_education = t_education;
+    }
+
     public String save(){
         Date cld = Calendar.getInstance().getTime();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
