@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ht.bean" >
+        <class name="T_workcheck" table="t_workcheck">
+            <id name="t_work_id" column="t_work_id"></id>
+            <property name="t_staff_id" column="t_staff_id"></property>
+            <property name="t_time" column="t_time"></property>
+            <property name="t_clock_TimeOne" column="t_clock_TimeOne"></property>
+            <property name="t_clock_TimeTwo" column="t_clock_TimeTwo"></property>
+            <property name="t_clock_TimeThree" column="t_clock_TimeThree"></property>
+            <property name="t_clock_TimeFour" column="t_clock_TimeFour"></property>
+
+            <!--<many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_sta_id"></many-to-one>-->
+        </class>
+</hibernate-mapping>

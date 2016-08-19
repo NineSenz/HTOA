@@ -4,18 +4,13 @@ import com.ht.bean.T_admin;
 import com.ht.bean.T_staff;
 import com.ht.service.T_adminService;
 import com.ht.service.T_staffService;
-import com.ht.util.Pager;
 import com.ht.util.StampUtil;
 import com.opensymphony.xwork2.ActionSupport;
-import org.apache.struts2.ServletActionContext;
 
-import javax.servlet.http.HttpServletRequest;
-import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
 
 /**
  * Created by please fresh on 2016/8/12.
@@ -23,29 +18,10 @@ import java.util.List;
 public class T_adminAction extends ActionSupport {
     private T_adminService t_adminService;
     private T_admin t_admin;
-    private List<T_admin> admins;
     private String email;
     private T_staff t_staff;
     private T_staffService t_staffService;
     private String gly;
-
-
-    private List<T_admin> rows;  //只需get()
-    private int total; //只需get()
-    private Pager<T_admin> pager; //不用get()和set()
-    private String id; //只需set();
-
-    public List<T_admin> getRows() {
-        return rows;
-    }
-
-    public int getTotal() {
-        return total;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
 
     public String getGly() {
         return gly;
@@ -63,22 +39,9 @@ public class T_adminAction extends ActionSupport {
         this.t_staffService = t_staffService;
     }
 
-    public List<T_admin> getAdmins() {
-        return admins;
-    }
-
-    public void setAdmins(List<T_admin> admins) {
-        this.admins = admins;
-    }
-
     public void setT_adminService(T_adminService t_adminService) {
         this.t_adminService = t_adminService;
     }
-
-    public T_admin getT_admin() {
-        return t_admin;
-    }
-
     public void setT_admin(T_admin t_admin) {
         this.t_admin = t_admin;
     }
@@ -92,8 +55,15 @@ public class T_adminAction extends ActionSupport {
     }
 
     public String save() throws ParseException {
-        System.out.println("[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[");
-        System.out.println(t_admin);
+        Date time = Calendar.getInstance().getTime(); //获取当前时间
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String date = sdf.format(time); //把获取到的当前时间转换为设定的格式并用String类型接收
+        t_admin.setT_adm_id(StampUtil.dateToStamp(date));
+        t_admin.setT_adm_name("猫猫");
+        t_admin.setT_adm_email("123@168.com");
+        t_admin.setT_adm_pwd("123456");
+        t_admin.setT_adm_phone("15970771234");
+        t_admin.setT_adm_identity("部门管理");
         t_adminService.save(t_admin);
         return "save";
     }
@@ -116,7 +86,7 @@ public class T_adminAction extends ActionSupport {
     }
 
     public String queryAll(){
-        admins = t_adminService.queryAll();
+        t_adminService.queryAll();
         t_adminService.close();
         return "queryall";
     }
@@ -136,22 +106,6 @@ public class T_adminAction extends ActionSupport {
         t_admin.setT_adm_phone(t_staff.getT_sta_phone());
         t_adminService.update(t_admin);
         return "query";
-    }
-
-    public String queryByPager() throws IOException {
-        HttpServletRequest req = ServletActionContext.getRequest();
-
-        int page = Integer.valueOf(req.getParameter("page"));
-        int pageSize = Integer.valueOf(req.getParameter("rows"));
-
-        pager = new Pager<T_admin>();
-        pager = t_adminService.pagerList(pager);
-        pager.setPageNo(page);
-        pager.setPageSize(pageSize);
-
-        rows = pager.getRows();
-        total = pager.getTotal();
-        return "success";
     }
 
 }

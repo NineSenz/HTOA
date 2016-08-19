@@ -52,7 +52,8 @@ public class T_feedbackServiceImpl implements T_feedbackService {
     }
 
     @Override
-    public Pager<T_feedback> Pagelist(Pager pager) {
+    public Pager<T_feedback> pagerList(Pager pager) {
         return null;
     }
+
 }

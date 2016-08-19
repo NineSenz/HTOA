@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ht.bean">
+    <class name="T_familys" table="t_familys">
+        <id name="t_family_id" column="t_family_id"></id>
+        <property name="t_staff_id" column="t_staff_id"></property>
+        <property name="t_family_name" column="t_family_name"></property>
+        <property name="t_family_post" column="t_family_post"></property>
+        <property name="t_relation" column="t_relation"></property>
+        <property name="t_contact_phone" column="t_contact_phone"></property>
+
+        <!--<many-to-one name="t_staff" class="com.ht.bean.T_familys" column="t_sta_id"></many-to-one>-->
+    </class>
+</hibernate-mapping>

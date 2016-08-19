@@ -3,6 +3,8 @@ package com.ht.service;
 import com.ht.bean.T_admin;
 import com.ht.bean.T_expend;
 import com.ht.dao.T_expendDAO;
+import com.ht.util.Pager;
+
 import java.util.List;
 
 /**
@@ -44,5 +46,15 @@ public class T_expendServiceImpl implements T_expendService{
     @Override
     public void close() {
 
+    }
+
+    @Override
+    public int count() {
+        return 0;
+    }
+
+    @Override
+    public Pager<T_expend> pagerList(Pager pager) {
+        return null;
     }
 }

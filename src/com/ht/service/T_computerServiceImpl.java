@@ -2,6 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_computer;
 import com.ht.dao.T_computerDAO;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -44,5 +45,15 @@ public class T_computerServiceImpl implements T_computerService {
     @Override
     public void close() {
         t_computerDAO.close();
+    }
+
+    @Override
+    public int count() {
+        return 0;
+    }
+
+    @Override
+    public Pager<T_computer> pagerList(Pager pager) {
+        return null;
     }
 }

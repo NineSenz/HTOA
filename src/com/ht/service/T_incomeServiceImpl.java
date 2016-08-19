@@ -3,6 +3,7 @@ package com.ht.service;
 import com.ht.bean.T_income;
 import com.ht.dao.T_computerDAO;
 import com.ht.dao.T_incomeDAO;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -46,5 +47,15 @@ public class T_incomeServiceImpl implements T_incomeService {
     @Override
     public void close() {
         t_incomeDAO.close();
+    }
+
+    @Override
+    public int count() {
+        return 0;
+    }
+
+    @Override
+    public Pager<T_income> pagerList(Pager pager) {
+        return null;
     }
 }

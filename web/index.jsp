@@ -293,6 +293,16 @@
                 <li iconCls="icon-application-osx-error"><a href="javascript:void(0)" class="cs-navi-tab" src="#" data-icon="icon-application-osx-error">导航标题</a></li>
             </ul>
         </div>
+        <div title="测试" data-options="iconCls:'icon-wrench'" style="padding:5px;">
+            <ul class="easyui-tree wu-side-tree">
+                <li iconCls="icon-chart-organisation"><a href="javascript:void(0)" class="cs-navi-tab" src="backstage/Test.jsp" data-icon="icon-chart-organisation">Test管理</a></li>
+                <li iconCls="icon-users"><a href="javascript:void(0)" class="cs-navi-tab" src="#" data-icon="icon-users">导航标题</a></li>
+                <li iconCls="icon-user-group"><a href="javascript:void(0)" class="cs-navi-tab" src="#" data-icon="icon-user-group">导航标题</a></li>
+                <li iconCls="icon-book"><a href="javascript:void(0)" class="cs-navi-tab" src="#" data-icon="icon-book">导航标题</a></li>
+                <li iconCls="icon-cog"><a href="javascript:void(0)" class="cs-navi-tab" src="#" data-icon="icon-cog">导航标题</a></li>
+                <li iconCls="icon-application-osx-error"><a href="javascript:void(0)" class="cs-navi-tab" src="#" data-icon="icon-application-osx-error">导航标题</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 <div id="mainPanle" region="center" border="true" border="false">

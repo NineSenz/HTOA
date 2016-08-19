@@ -5,7 +5,12 @@ import com.ht.dao.TestDAO;
 import com.ht.service.TestService;
 import com.ht.util.Pager;
 import com.ht.util.StampUtil;
+import org.apache.struts2.json.annotations.JSON;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -56,12 +61,13 @@ public class TestAction{
     }
 
     public String query() throws ParseException {
-        test = testService.query("1470985128000");
+        test = testService.query(test.getId());
         System.out.println(test);
         testDAO.close();
         return "query";
     }
     public String save()throws ParseException{
+        //save?test.id=45885884&test.name=same&test.money=7845.59&test.birth=2016-10-11 12:25:35
         Date cld = Calendar.getInstance().getTime();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String date = sdf.format(cld);
@@ -73,6 +79,10 @@ public class TestAction{
         testService.save(test);
         testDAO.close();
         return "save";
+    }
+    public String update(){
+
+        return "update";
     }
     public String pagerList(){
         pager.setPageNo(Integer.parseInt(pageNo));

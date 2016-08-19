@@ -1,5 +1,6 @@
 package com.ht.dao;
 
+import com.ht.bean.T_department;
 import com.ht.bean.T_ssummarize;
 import com.ht.util.Pager;
 import org.hibernate.Query;

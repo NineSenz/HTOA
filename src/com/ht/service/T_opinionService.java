@@ -1,19 +1,11 @@
 package com.ht.service;
 
 import com.ht.bean.T_opinion;
-import com.ht.util.Pager;
-import java.util.List;
+import com.ht.dao.BaseDAO;
+
 
 /**
  * Created by DengMin on 2016/8/17.
  */
-public interface T_opinionService {
-    public void save(T_opinion t_opinion);
-    public void delete(T_opinion t_opinion);
-    public T_opinion update(T_opinion t_opinion);
-    public List<T_opinion> queryAll();
-    public T_opinion query(String p);
-    public void close();
-    public int count();
-    public Pager<T_opinion> pagerList(Pager pager);
+public interface T_opinionService extends BaseDAO<T_opinion,String> {
 }

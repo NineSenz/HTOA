@@ -1,7 +1,6 @@
 package com.ht.dao;
 
 import com.ht.util.Pager;
-
 import java.util.List;
 
 /**

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping package="com.ht.bean">
+        <class name="T_education" table="t_education">
+            <id name="t_educate_id" column="t_educate_id"></id>
+            <property name="t_staff_id" column="t_staff_id"></property>
+            <property name="t_StartTime" column="t_StartTime"></property>
+            <property name="t_EndTime" column="t_EndTime"></property>
+            <property name="t_school" column="t_school"></property>
+            <property name="t_education" column="t_education"></property>
+
+            <!--<many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_sta_id"></many-to-one>-->
+        </class>
+</hibernate-mapping>

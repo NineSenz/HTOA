@@ -2,6 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_grade;
 import com.ht.dao.T_gradeDAO;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -43,5 +44,15 @@ public class T_gradeServiceImpl implements T_gradeService{
     @Override
     public void close() {
         t_gradeDAO.close();
+    }
+
+    @Override
+    public int count() {
+        return 0;
+    }
+
+    @Override
+    public Pager<T_grade> pagerList(Pager pager) {
+        return null;
     }
 }

@@ -52,7 +52,7 @@ public class T_courseServiceImpl implements T_courseService{
     }
 
     @Override
-    public Pager<T_course> Pagelist(Pager pager) {
+    public Pager<T_course> pagerList(Pager pager) {
         return null;
     }
 }

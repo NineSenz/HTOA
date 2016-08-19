@@ -1,5 +1,6 @@
 package com.ht.dao;
 
+import com.ht.bean.T_admin;
 import com.ht.bean.T_staff;
 import com.ht.util.Pager;
 import org.hibernate.Query;

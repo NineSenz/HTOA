@@ -1,13 +1,12 @@
 package com.ht.action;
 
 import com.ht.bean.T_department;
+import com.ht.bean.T_staff;
 import com.ht.service.T_departmentService;
 import com.opensymphony.xwork2.ActionSupport;
 
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by liujie on 2016/8/12.
@@ -47,7 +46,16 @@ public class T_departmentAction extends ActionSupport {
     }
     public String queryAll(){
         List<T_department> list = t_departmentService.queryAll();
-        //把list数据传递到页面
+         for(T_department dep:list){
+            System.out.println("部门名称："+dep.getT_dep_name());
+            /*Set<T_staff> ssta = dep.getT_staffs();
+            Iterator<T_staff> ite = ssta.iterator();
+            while (ite.hasNext()) {
+                T_staff tsta = ite.next();
+                System.out.println("部门员工姓名："+tsta.getT_sta_name());
+            }*/
+        }
+        t_departmentService.close();
         return "queryall";
     }
 }

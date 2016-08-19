@@ -52,7 +52,7 @@ public class T_wagesServiceImpl implements T_wagesService{
     }
 
     @Override
-    public Pager<T_wages> Pagelist(Pager pager) {
+    public Pager<T_wages> pagerList(Pager pager) {
         return null;
     }
 }

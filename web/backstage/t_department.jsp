@@ -14,28 +14,34 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Insert title here</title>
-    <link rel="stylesheet" type="text/css" href="<%=path %>/jquery-easyui/themes/default/easyui.css">
-    <link rel="stylesheet" type="text/css" href="<%=path %>/jquery-easyui/themes/icon.css">
+    <style>
+        * {
+            margin:0px;
+            padding:0px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="<%=path %>/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="<%=path %>/htoa/css/icon.css">
     <link rel="stylesheet" type="text/css" href="<%=path %>/htoa/css/style.css"/>
     <script type="text/javascript" src="<%=path %>/htoa/js/jquery-3.0.0.min.js"></script>
-    <script type="text/javascript" src="<%=path %>/jquery-easyui/locale/easyui-lang-zh_CN.js"></script>
-    <script type="text/javascript" src="<%=path %>/jquery-easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="<%=path %>/locale/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript" src="<%=path %>/jquery.easyui.min.js"></script>
 
     <script>
 
-        function setPagination(tableId) {
-         var p = $("#" + tableId).datagrid("getPager"); // 获取由tableId指定的datagrid控件的分页组件
-         $(p).pagination({
-         pageList:[10, 15, 20],
-         beforePageText:"第",
-         afterPageText:"页    共{pages}页",
-         displayMsg:"当前显示{from} - {to} 条记录    共{total}条记录",
-         onBeforeRefresh:function() {
-         $(this).pagination("loading");
-         $(this).pagination("loaded");
-         }
-         });
-         }
+        /*function setPagination(tableId) {
+            var p = $("#" + tableId).datagrid("getPager"); // 获取由tableId指定的datagrid控件的分页组件
+            $(p).pagination({
+                pageList:[10, 15, 20],
+                beforePageText:"第",
+                afterPageText:"页    共{pages}页",
+                displayMsg:"当前显示{from} - {to} 条记录    共{total}条记录",
+                onBeforeRefresh:function() {
+                    $(this).pagination("loading");
+                    $(this).pagination("loaded");
+                }
+            });
+        }*/
 
         $(function() {
             setPagination("list");
@@ -47,11 +53,13 @@
                 $("#editForm").form("load", row);
                 $("#editWin").window("open");
             } else {
-                $.messager.alert('提示', '请选中需要修改的管理', 'info');// messager消息控件
+                $.messager.alert('提示', '请选中需要修改的部门', 'info');// messager消息控件
             }
         }
 
-
+        function add(){
+            $("#addWin").window("open");
+        }
 
         function doEdit() {
             if ($("#editForm").form("validate")) { // 验证整个表单里的所有validatabox是否通过验证
@@ -70,17 +78,23 @@
                         },"JSON")
             }
         }
-        function add() {
-            $("#addWin").window("open");
-        }
 
         function doAdd(){
-
             if($("#addForm").form("validate")){
-                $.post('<%=path%>/admin/save',$("#addForm").serialize());
-                $("#addWin").window("close");
-                $("#list").datagrid("reload");
-                $("#addForm").form("clear");
+                $.post(
+                        'product/add',
+                        $("#addForm").serialize(),
+                        function(data){
+                            if(data.result == 'success'){
+                                $.messager.alert("提示",data.msg,"info",function(){
+                                    $("#addWin").window("close");
+                                    $("#list").datagrid("reload");
+                                    $("#addForm").form("clear");
+                                });
+                            }else{
+                                $.messager.alert("提示",data.msg,"info");
+                            }
+                        },"JSON");
             }
         }
         function removePro(){
@@ -95,7 +109,7 @@
                             }
                         },"JSON");
             }else{
-                $.messager.alert("提示","请选择要移除的管理","info");
+                $.messager.alert("提示","请选择要移除的部门","info");
             }
         }
     </script>
@@ -103,7 +117,7 @@
 </head>
 <body>
 <table id="list" class="easyui-datagrid" toolbar="#tb" data-options="
-		url:'<%=path %>/admin/queryByPager',
+		url:'<%=path %>/product/queryByPager',
 		method:'get',
 		rownumbers:true,
 		singleSelect:true,
@@ -113,12 +127,10 @@
 		pageSize:10">
     <thead>
     <tr>
-        <th field="t_adm_id" width="100">管理编号</th>
-        <th field="t_adm_name" width="100">姓名</th>
-        <th field="t_adm_email"  width="100">邮箱</th>
-        <th field="t_adm_pwd"  width="100">密码</th>
-        <th field="t_adm_phone"  width="100">电话</th>
-        <th field="t_adm_identity" width="100">管理部门</th>
+        <th field="id" checkbox="true" width="100">部门编号</th>
+        <th field="name" width="100">部门名称</th>
+        <th field="price"  width="100">部门状态</th>
+        <th field="price"  width="100">创建时间</th>
     </tr>
     </thead>
 </table>
@@ -128,44 +140,31 @@
     <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" onclick="edit();">修改</a>
     <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" onclick="removePro();">移除</a>
 </div>
-
-<div id="addWin" class="easyui-window" title="添加管理员" data-options="iconCle:'icon-edit',closable:true, closed:true" style="width:300px;height:200px;padding:5px;">
+<div id="addWin" class="easyui-window" title="添加部门" data-options="iconCle:'icon-edit',closable:true, closed:true" style="width:300px;height:200px;padding:5px;">
     <form id="addForm" enctype="multipart/form-data">
         <table>
             <tr>
-                <td>管理编号</td>
+                <td>部门编号</td>
                 <td>
-                    <input class="textbox" name="t_admin.t_adm_id"  />
+                    <input class="textbox" name="id" />
                 </td>
             </tr>
             <tr>
-                <td>姓名</td>
+                <td>部门名称</td>
                 <td>
-                    <input class="easyui-validatebox textbox" name="t_admin.t_adm_name" data-options="required:true, novalidate:true" />
+                    <input class="easyui-validatebox textbox" name="name" data-options="required:true, novalidate:true" />
                 </td>
             </tr>
             <tr>
-                <td>邮箱</td>
+                <td>部门状态</td>
                 <td>
-                    <input class="easyui-validatebox textbox" name="t_admin.t_adm_email" data-options="required:true, novalidate:true"/>
+                    <input class="easyui-validatebox easyui-numberbox" name="price" data-options="required:true, novalidate:true, precision:2"/>
                 </td>
             </tr>
             <tr>
-                <td>密码</td>
+                <td>创建时间</td>
                 <td>
-                    <input class="easyui-validatebox textbox" name="t_admin.t_adm_pwd" data-options="required:true, novalidate:true"/>
-                </td>
-            </tr>
-            <tr>
-                <td>电话</td>
-                <td>
-                    <input class="easyui-validatebox textbox" name="t_admin.t_adm_phone" data-options="required:true, novalidate:true"/>
-                </td>
-            </tr>
-            <tr>
-                <td>管理部门</td>
-                <td>
-                    <input class="easyui-validatebox textbox" name="t_admin.t_adm_identity" data-options="required:true, novalidate:true"/>
+                    <input class="easyui-validatebox easyui-numberbox" name="price" data-options="required:true, novalidate:true, precision:2"/>
                 </td>
             </tr>
             <tr>
@@ -177,40 +176,33 @@
         </table>
     </form>
 </div>
-<div id="editWin" class="easyui-window" title="修改管理" data-options="iconCls:'icon-edit', closable:true, closed:true"  style="width:300px;height:200px;padding:5px;">
+<div id="editWin" class="easyui-window" title="修改部门" data-options="iconCls:'icon-edit', closable:true, closed:true"  style="width:300px;height:200px;padding:5px;">
     <form id="editForm" enctype="multipart/form-data">
         <table>
             <tr>
-                <td>管理编号</td>
+                <td>部门编号</td>
                 <td>
                     <input class="textbox" name="id" readonly />
                 </td>
             </tr>
             <tr>
-                <td>姓名</td>
+                <td>部门名称</td>
                 <td>
                     <input class="easyui-validatebox textbox" name="name" data-options="required:true, novalidate:true" />
                 </td>
             </tr>
             <tr>
-                <td>邮箱</td>
+                <td>部门状态</td>
                 <td>
                     <input class="easyui-validatebox easyui-numberbox" name="price" data-options="required:true, novalidate:true, precision:2"/>
                 </td>
             </tr>
             <tr>
-                <td>密码</td>
+                <td>创建时间</td>
                 <td>
                     <input class="easyui-validatebox easyui-numberbox" name="price" data-options="required:true, novalidate:true, precision:2"/>
                 </td>
             </tr>
-            <tr>
-                <td>电话</td>
-                <td>
-                    <input class="easyui-validatebox easyui-numberbox" name="price" data-options="required:true, novalidate:true, precision:2"/>
-                </td>
-            </tr>
-
             <tr>
                 <td></td>
                 <td>

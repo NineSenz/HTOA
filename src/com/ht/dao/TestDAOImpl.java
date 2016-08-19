@@ -20,21 +20,30 @@ public class TestDAOImpl implements TestDAO {
 
     @Override
     public void save(TTest test) {
-        Session sion = sessionFactory.getCurrentSession();
+        sion = sessionFactory.getCurrentSession();
         sion.beginTransaction();
-        System.out.println(test);
+        //System.out.println(test);
         sion.save(test);
         sion.getTransaction().commit();
     }
 
     @Override
     public void delete(TTest test) {
-
+        sion = sessionFactory.getCurrentSession();
+        sion.beginTransaction();
+        //System.out.println(test);
+        sion.delete(test);
+        sion.getTransaction().commit();
     }
 
     @Override
     public TTest update(TTest test) {
-        return null;
+        sion = sessionFactory.getCurrentSession();
+        sion.beginTransaction();
+        //System.out.println(test);
+        sion.update(test);
+        sion.getTransaction().commit();
+        return test;
     }
 
     @Override
@@ -58,7 +67,8 @@ public class TestDAOImpl implements TestDAO {
     @Override
     public int count() {
         sion = sessionFactory.openSession();
-        return 5;
+        int count=Integer.parseInt(sion.createQuery("select count(*) from TTest").uniqueResult().toString());
+        return count;
     }
 
     @Override
@@ -72,16 +82,4 @@ public class TestDAOImpl implements TestDAO {
         sion.getTransaction().commit();
         return pager;
     }
-    /*
-    @Override
-    public String UUID(){
-        sion = sfy.openSession();
-        Query uuid = sion.createSQLQuery("SELECT UUID();");
-        return uuid.toString();
-    }
-    public Date getTime(){
-        sion = sfy.openSession();
-        Query date = sion.createSQLQuery("SELECT NOW();");
-        return (Date)date;
-    }*/
 }

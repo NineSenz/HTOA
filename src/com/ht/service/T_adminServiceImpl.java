@@ -54,8 +54,13 @@ public class T_adminServiceImpl implements T_adminService{
     }
 
     @Override
-    public Pager<T_admin> pagerList(Pager Pager) {
-        return t_adminDAO.pagerList(Pager);
+    public int count() {
+        return 0;
+    }
+
+    @Override
+    public Pager<T_admin> pagerList(Pager pager) {
+        return null;
     }
 
 

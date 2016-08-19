@@ -2,6 +2,7 @@ package com.ht.service;
 
 import com.ht.bean.T_reply;
 import com.ht.dao.T_replyDAO;
+import com.ht.util.Pager;
 
 import java.util.List;
 
@@ -43,5 +44,15 @@ public class T_replyServiceImpl implements T_replyService{
     @Override
     public void close() {
         t_replyDAO.close();
+    }
+
+    @Override
+    public int count() {
+        return 0;
+    }
+
+    @Override
+    public Pager<T_reply> pagerList(Pager pager) {
+        return null;
     }
 }
