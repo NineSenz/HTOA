@@ -8,6 +8,7 @@ public class T_rap {
     private String t_rap_stuid;
     private String t_rap_time;
     private int t_rap_status;
+    private T_students t_students;
 
     public T_rap() {
     }
@@ -67,6 +68,14 @@ public class T_rap {
 
     public int getT_rap_status() {
         return t_rap_status;
+    }
+
+    public T_students getT_students() {
+        return t_students;
+    }
+
+    public void setT_students(T_students t_students) {
+        this.t_students = t_students;
     }
 
     @Override

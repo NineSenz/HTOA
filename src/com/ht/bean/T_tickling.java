@@ -8,7 +8,7 @@ public class T_tickling {
     private String t_staff_id;
     private String t_matter;
     private String t_result;
-    private com.ht.bean.T_staff t_staff;
+    private T_staff t_staff;
 
     public T_tickling(){}
 
@@ -51,11 +51,11 @@ public class T_tickling {
         this.t_result = t_result;
     }
 
-    public com.ht.bean.T_staff getT_staff() {
+    public T_staff getT_staff() {
         return t_staff;
     }
 
-    public void setT_staff(com.ht.bean.T_staff t_staff) {
+    public void setT_staff(T_staff t_staff) {
         this.t_staff = t_staff;
     }
 

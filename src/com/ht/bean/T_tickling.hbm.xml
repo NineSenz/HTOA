@@ -6,9 +6,9 @@
 <hibernate-mapping package="com.ht.bean">
     <class name="T_tickling" table="t_tickling">
         <id name="t_tickling_id" column="t_tickling_id"></id>
-        <property name="t_staff_id" column="t_staff_id"></property>
         <property name="t_matter" column="t_matter"></property>
         <property name="t_result" column="t_result"></property>
-       <!-- <many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_sta_id"></many-to-one>-->
+
+        <many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_staff_id"></many-to-one>
     </class>
 </hibernate-mapping>

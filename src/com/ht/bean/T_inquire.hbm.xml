@@ -5,8 +5,8 @@
 <hibernate-mapping package="com.ht.bean">
     <class name="T_inquire" table="t_inquire">
         <id name="t_inq_id" column="t_inq_id"></id>
-        <property name="t_staff_id" column="t_staff_id"></property>
         <property name="t_inq_name" column="t_inq_name"></property>
         <property name="t_inq_time" column="t_inq_time"></property>
+        <many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_staff_id"></many-to-one>
     </class>
 </hibernate-mapping>

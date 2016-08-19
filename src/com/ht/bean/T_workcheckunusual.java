@@ -8,7 +8,7 @@ public class T_workcheckunusual {
     private String t_work_id;
     private String t_StateTime;
     private String t_reason;
-    private com.ht.bean.T_staff t_staff;
+    private T_workcheck t_workcheck;
 
     public T_workcheckunusual() {
     }
@@ -52,12 +52,12 @@ public class T_workcheckunusual {
         return t_reason;
     }
 
-    public com.ht.bean.T_staff getT_staff() {
-        return t_staff;
+    public T_workcheck getT_workcheck() {
+        return t_workcheck;
     }
 
-    public void setT_staff(com.ht.bean.T_staff t_staff) {
-        this.t_staff = t_staff;
+    public void setT_workcheck(T_workcheck t_workcheck) {
+        this.t_workcheck = t_workcheck;
     }
 
     @Override

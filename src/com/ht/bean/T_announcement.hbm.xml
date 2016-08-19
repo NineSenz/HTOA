@@ -7,8 +7,8 @@
         <id name="t_ac_id" column="t_ac_id"></id>
         <property name="t_ac_title" column="t_ac_title"></property>
         <property name="t_ac_content" column="t_ac_content"></property>
-        <property name="t_ac_admid" column="t_ac_admid"></property>
         <property name="t_ac_status" column="t_ac_status"></property>
         <property name="t_ac_address" column="t_ac_address"></property>
+        <many-to-one name="t_admin" class="com.ht.bean.T_admin" column="t_ac_admid"></many-to-one>
     </class>
 </hibernate-mapping>

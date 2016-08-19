@@ -11,6 +11,7 @@ public class T_obtainjob {
     private String t_obt_salary;
     private String t_obt_describe;
     private String t_obt_date;
+    private T_students t_students;
 
     public T_obtainjob() {
     }
@@ -61,6 +62,14 @@ public class T_obtainjob {
 
     public void setT_obt_date(String t_obt_date) {
         this.t_obt_date = t_obt_date;
+    }
+
+    public T_students getT_students() {
+        return t_students;
+    }
+
+    public void setT_students(T_students t_students) {
+        this.t_students = t_students;
     }
 
     @Override

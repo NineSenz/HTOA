@@ -10,8 +10,8 @@
         <property name="t_obt_comanyname" column="t_obt_comanyname"></property>
         <property name="t_obt_salary" column="t_obt_salary"></property>
         <property name="t_obt_describe" column="t_obt_describe"></property>
-        <property name="t_obt_stuid" column="t_obt_stuid"></property>
         <property name="t_obt_date" column="t_obt_date"></property>
 
+        <many-to-one name="t_students" class="com.ht.bean.T_students" column="t_obt_stuid"></many-to-one>
     </class>
 </hibernate-mapping>

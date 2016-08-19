@@ -12,6 +12,7 @@ public class T_wages {
     private String t_wag_subsidy;
     private String t_wag_surplus;
     private String t_wag_cause;
+    private T_staff t_staff;
 
     public String getT_wag_id() {
         return t_wag_id;
@@ -75,5 +76,13 @@ public class T_wages {
 
     public void setT_wag_cause(String t_wag_cause) {
         this.t_wag_cause = t_wag_cause;
+    }
+
+    public T_staff getT_staff() {
+        return t_staff;
+    }
+
+    public void setT_staff(T_staff t_staff) {
+        this.t_staff = t_staff;
     }
 }

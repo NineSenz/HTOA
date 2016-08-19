@@ -5,7 +5,6 @@
 <hibernate-mapping package="com.ht.bean">
     <class name="T_undergo" table="t_undergo">
         <id name="t_undergo_id" column="t_undergo_id"></id>
-        <property name="t_staff_id" column="t_staff_id"></property>
         <property name="t_AirTime" column="t_AirTime"></property>
         <property name="t_FinishTime" column="t_FinishTime"></property>
         <property name="t_FirmName" column="t_FirmName"></property>
@@ -13,6 +12,6 @@
         <property name="t_prove" column="t_prove"></property>
         <property name="t_ProvePhone" column="t_ProvePhone"></property>
 
-       <!-- <many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_sta_id"></many-to-one>-->
+       <many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_staff_id"></many-to-one>
     </class>
 </hibernate-mapping>

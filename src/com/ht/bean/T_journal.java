@@ -15,7 +15,7 @@ public class T_journal {
     private String t_WeekFive;
     private String t_WeekSix;
     private String t_summary;
-    private com.ht.bean.T_staff t_staff;
+    private T_staff t_staff;
 
     public T_journal() {
     }
@@ -122,11 +122,11 @@ public class T_journal {
         return t_summary;
     }
 
-    public com.ht.bean.T_staff getT_staff() {
+    public T_staff getT_staff() {
         return t_staff;
     }
 
-    public void setT_staff(com.ht.bean.T_staff t_staff) {
+    public void setT_staff(T_staff t_staff) {
         this.t_staff = t_staff;
     }
 

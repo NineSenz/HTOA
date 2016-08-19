@@ -11,6 +11,15 @@
 		<property name="t_adm_pwd" column="t_adm_pwd" />
 		<property name="t_adm_phone" column="t_adm_phone" />
 		<property name="t_adm_identity" column="t_adm_identity" />
+		<set name="t_departments" inverse="true">
+			<key column="t_dep_admid"></key>
+			<one-to-many class="com.ht.bean.T_department"></one-to-many>
+		</set>
+
+		<set name="t_announcements" inverse="true">
+			<key column="t_ac_admid"></key>
+			<one-to-many class="com.ht.bean.T_announcement"></one-to-many>
+		</set>
 	</class>
    
 </hibernate-mapping>

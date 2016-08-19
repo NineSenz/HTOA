@@ -8,9 +8,10 @@
 		<id name="t_gr_id" column="t_gr_id"></id>
 		<property name="t_gr_grade" column="t_gr_grade" />
 		<property name="t_gr_scouid" column="t_gr_scouid" />
-		<property name="t_gr_stuid" column="t_gr_stuid" />
 		<property name="t_gr_claid" column="t_gr_claid" />
 		<property name="t_gr_time" column="t_gr_time" />
+
+		<many-to-one name="t_students" class="com.ht.bean.T_students" column="t_gr_stuid"></many-to-one>
 	</class>
    
 </hibernate-mapping>

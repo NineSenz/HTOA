@@ -7,6 +7,8 @@
         <id name="t_summ_id" column="t_summ_id"></id>
         <property name="t_summ_stuid" column="t_summ_stuid"></property>
         <property name="t_summ_remark" column="t_summ_remark"></property>
+
+       <!-- <many-to-one name="t_students" class="com.ht.bean.T_students" column="t_stu_id"></many-to-one>-->
     </class>
 
 </hibernate-mapping>

@@ -7,6 +7,7 @@
     <class name="T_course" table="t_course">
         <id name="t_cou_id" column="t_cou_id"></id>
         <property name="t_cou_teach" column="t_cou_teach"></property>
-        <property name="t_cou_staid" column="t_cou_staid"></property>
+
+        <many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_cou_staid"></many-to-one>
     </class>
 </hibernate-mapping>

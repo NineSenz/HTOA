@@ -4,6 +4,7 @@ public class T_OfficeDepot {
     private String t_work_name;
     private String t_work_type;
     private int t_work_count;
+    private T_staff t_staff;
 
     public T_OfficeDepot() {
     }
@@ -44,6 +45,14 @@ public class T_OfficeDepot {
 
     public void setT_work_count(int t_work_count) {
         this.t_work_count = t_work_count;
+    }
+
+    public T_staff getT_staff() {
+        return t_staff;
+    }
+
+    public void setT_staff(T_staff t_staff) {
+        this.t_staff = t_staff;
     }
 
     @Override

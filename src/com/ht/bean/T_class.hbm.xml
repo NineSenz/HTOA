@@ -5,12 +5,18 @@
 <hibernate-mapping package="com.ht.bean">
     <class name="T_class" table="t_class">
         <id name="t_cla_id" column="t_cla_id"></id>
-        <property name="t_cla_name" column="t_cla_name"></property>
-        <property name="t_cla_num" column="t_cla_num"></property>
-        <property name="t_cla_teach" column="t_cla_teach"></property>
-        <property name="t_cla_coach" column="t_cla_coach"></property>
-        <property name="t_cla_claadm" column="t_cla_claadm"></property>
-        <property name="t_cla_adds" column="t_cla_adds"></property>
-        <property name="t_cla_create" column="t_cla_create"></property>
+        <property name="t_cla_name" column="t_cla_name" />
+        <property name="t_cla_num" column="t_cla_num" />
+        <property name="t_cla_teach" column="t_cla_teach" />
+        <property name="t_cla_coach" column="t_cla_coach" />
+        <property name="t_cla_claadm" column="t_cla_claadm" />
+        <property name="t_cla_adds" column="t_cla_adds" />
+        <property name="t_cla_create" column="t_cla_create" />
+
+        <set name="t_students" inverse="true">
+            <key column="t_stu_claid"></key>
+            <one-to-many class="com.ht.bean.T_students"></one-to-many>
+        </set>
+
     </class>
 </hibernate-mapping>

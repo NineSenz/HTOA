@@ -7,6 +7,7 @@ public class T_course {
     private String t_cou_id;
     private String t_cou_teach;
     private String t_cou_staid;
+    private T_staff t_staff;
 
     public String getT_cou_staid() {
         return t_cou_staid;
@@ -30,5 +31,13 @@ public class T_course {
 
     public void setT_cou_teach(String t_cou_teach) {
         this.t_cou_teach = t_cou_teach;
+    }
+
+    public T_staff getT_staff() {
+        return t_staff;
+    }
+
+    public void setT_staff(T_staff t_staff) {
+        this.t_staff = t_staff;
     }
 }

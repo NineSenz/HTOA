@@ -12,7 +12,7 @@ public class T_undergo {
     private String t_FirmPost;
     private String t_prove;
     private String t_ProvePhone;
-    private com.ht.bean.T_staff t_staff;
+    private T_staff t_staff;
 
     public T_undergo() {
     }
@@ -92,11 +92,11 @@ public class T_undergo {
         return t_ProvePhone;
     }
 
-    public com.ht.bean.T_staff getT_staff() {
+    public T_staff getT_staff() {
         return t_staff;
     }
 
-    public void setT_staff(com.ht.bean.T_staff t_staff) {
+    public void setT_staff(T_staff t_staff) {
         this.t_staff = t_staff;
     }
 

@@ -9,6 +9,7 @@ public class T_opinion {
     private String t_op_title;
     private String t_op_content;
     private String t_op_date;
+    private T_students t_students;
 
     public String getT_op_id() {
         return t_op_id;
@@ -48,5 +49,13 @@ public class T_opinion {
 
     public void setT_op_date(String t_op_date) {
         this.t_op_date = t_op_date;
+    }
+
+    public T_students getT_students() {
+        return t_students;
+    }
+
+    public void setT_students(T_students t_students) {
+        this.t_students = t_students;
     }
 }

@@ -7,6 +7,7 @@ public class T_ssummarize {
     private String t_summ_id;
     private String t_summ_stuid;
     private String t_summ_remark;
+    private T_students t_students;
 
     public T_ssummarize(String t_summ_id, String t_summ_stuid, String t_summ_remark) {
         this.t_summ_id = t_summ_id;
@@ -39,6 +40,14 @@ public class T_ssummarize {
 
     public void setT_summ_remark(String t_summ_remark) {
         this.t_summ_remark = t_summ_remark;
+    }
+
+    public T_students getT_students() {
+        return t_students;
+    }
+
+    public void setT_students(T_students t_students) {
+        this.t_students = t_students;
     }
 
     @Override

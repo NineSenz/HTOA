@@ -10,6 +10,7 @@ public class T_announcement {
     private String t_ac_admid;
     private int t_ac_status;
     private String t_ac_address;
+    private T_admin t_admin;
 
     public String getT_ac_id() {
         return t_ac_id;
@@ -57,5 +58,13 @@ public class T_announcement {
 
     public void setT_ac_address(String t_ac_address) {
         this.t_ac_address = t_ac_address;
+    }
+
+    public T_admin getT_admin() {
+        return t_admin;
+    }
+
+    public void setT_admin(T_admin t_admin) {
+        this.t_admin = t_admin;
     }
 }

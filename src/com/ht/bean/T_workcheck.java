@@ -1,5 +1,7 @@
 package com.ht.bean;
 
+import java.util.Set;
+
 /**
  * Created by Tom on 2016/8/17.
  */
@@ -11,7 +13,8 @@ public class T_workcheck {
     private String t_clock_TimeTwo;
     private String t_clock_TimeThree;
     private String t_clock_TimeFour;
-    private com.ht.bean.T_staff t_staff;
+    private T_staff t_staff;
+    private Set<T_workcheckunusual> t_workcheckunusuals;
 
     public T_workcheck(){}
 
@@ -81,12 +84,20 @@ public class T_workcheck {
         this.t_clock_TimeFour = t_clock_TimeFour;
     }
 
-    public com.ht.bean.T_staff getT_staff() {
+    public T_staff getT_staff() {
         return t_staff;
     }
 
-    public void setT_staff(com.ht.bean.T_staff t_staff) {
+    public void setT_staff(T_staff t_staff) {
         this.t_staff = t_staff;
+    }
+
+    public Set<T_workcheckunusual> getT_workcheckunusuals() {
+        return t_workcheckunusuals;
+    }
+
+    public void setT_workcheckunusuals(Set<T_workcheckunusual> t_workcheckunusuals) {
+        this.t_workcheckunusuals = t_workcheckunusuals;
     }
 
     @Override

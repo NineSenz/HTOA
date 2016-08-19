@@ -9,7 +9,7 @@ public class T_beonduty {
     private String t_BeondutyTime;
     private String t_scope;
     private String t_record;
-    private com.ht.bean.T_staff t_staff;
+    private T_staff t_staff;
 
     public T_beonduty(){}
 
@@ -61,11 +61,11 @@ public class T_beonduty {
         this.t_record = t_record;
     }
 
-    public com.ht.bean.T_staff getT_staff() {
+    public T_staff getT_staff() {
         return t_staff;
     }
 
-    public void setT_staff(com.ht.bean.T_staff t_staff) {
+    public void setT_staff(T_staff t_staff) {
         this.t_staff = t_staff;
     }
 

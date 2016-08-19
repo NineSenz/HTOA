@@ -1,5 +1,7 @@
 package com.ht.bean;
 
+import java.util.Set;
+
 /**
  * Created by liujie on 2016/8/16.
  */
@@ -12,6 +14,7 @@ public class T_class {
     private String t_cla_claadm;
     private String t_cla_adds;
     private String t_cla_create;
+    private Set<T_students> t_students;
 
     public T_class() {
     }
@@ -89,6 +92,14 @@ public class T_class {
 
     public String getT_cla_create() {
         return t_cla_create;
+    }
+
+    public Set<T_students> getT_students() {
+        return t_students;
+    }
+
+    public void setT_students(Set<T_students> t_students) {
+        this.t_students = t_students;
     }
 
     @Override

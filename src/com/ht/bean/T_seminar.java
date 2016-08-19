@@ -11,6 +11,7 @@ public class T_seminar {
     private String t_sn_content;
     private String t_sn_question;
     private String t_sn_result;
+    private T_seminar t_seminar;
 
     public String getT_sn_id() {
         return t_sn_id;
@@ -66,5 +67,13 @@ public class T_seminar {
 
     public void setT_sn_result(String t_sn_result) {
         this.t_sn_result = t_sn_result;
+    }
+
+    public T_seminar getT_seminar() {
+        return t_seminar;
+    }
+
+    public void setT_seminar(T_seminar t_seminar) {
+        this.t_seminar = t_seminar;
     }
 }

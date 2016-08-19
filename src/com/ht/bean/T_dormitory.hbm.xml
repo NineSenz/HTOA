@@ -8,9 +8,11 @@
         <property name="t_dorm_name" column="t_dorm_name"></property>
         <property name="t_dorm_aunt" column="t_dorm_aunt"></property>
         <property name="t_dorm_stuid" column="t_dorm_stuid"></property>
-       <!-- <set name="t_students" inverse="true">
-            <key column="t_dorm_id"></key>
+
+        <set name="t_students" inverse="true">
+            <key column="t_stu_dormid"></key>
             <one-to-many class="com.ht.bean.T_students"></one-to-many>
-        </set>-->
+        </set>
+
     </class>
 </hibernate-mapping>

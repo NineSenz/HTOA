@@ -8,6 +8,7 @@ public class T_schedule {
     private String t_sch_couid;
     private String t_sch_stuid;
     private String t_sch_content;
+    private T_staff t_staff;
 
     public String getT_sch_id() {
         return t_sch_id;
@@ -39,5 +40,13 @@ public class T_schedule {
 
     public void setT_sch_content(String t_sch_content) {
         this.t_sch_content = t_sch_content;
+    }
+
+    public T_staff getT_staff() {
+        return t_staff;
+    }
+
+    public void setT_staff(T_staff t_staff) {
+        this.t_staff = t_staff;
     }
 }

@@ -5,6 +5,7 @@ public class T_inquire {
     private String t_staff_id;
     private String t_inq_name;
     private String t_inq_time;
+    private T_staff t_staff;
 
     public T_inquire() {
 
@@ -47,6 +48,14 @@ public class T_inquire {
 
     public String getT_inq_time() {
         return t_inq_time;
+    }
+
+    public T_staff getT_staff() {
+        return t_staff;
+    }
+
+    public void setT_staff(T_staff t_staff) {
+        this.t_staff = t_staff;
     }
 
     @Override

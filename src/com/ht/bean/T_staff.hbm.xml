@@ -6,7 +6,6 @@
 	
 	<class name="T_staff" table="t_staff">
 		<id name="t_sta_id" column="t_sta_id"></id>
-		<property name="t_sta_depid" column="t_sta_depid" />
 		<property name="t_sta_name" column="t_sta_name" />
 		<property name="t_sta_sex" column="t_sta_sex" />
 		<property name="t_sta_place" column="t_sta_place" />
@@ -17,6 +16,84 @@
 		<property name="t_sta_addr" column="t_sta_addr" />
 		<property name="t_sta_create" column="t_sta_create" />
 		<property name="t_sta_status" column="t_sta_status" />
+
+		<set name="t_students" inverse="true">
+			<key column="t_stu_staid"></key>
+			<one-to-many class="com.ht.bean.T_students"></one-to-many>
+		</set>
+
+		<many-to-one name="t_department" class="com.ht.bean.T_department" column="t_sta_depid"></many-to-one>
+
+		<!--一个员工对用对应多个教育经历-->
+		<set name="t_educations" inverse="true">
+			<key column="t_staff_id"></key>
+			<one-to-many class="com.ht.bean.T_education"></one-to-many>
+		</set>
+		<!--一个员工对应多个考勤记录-->
+		<set name="t_workchecks" inverse="true">
+			<key column="t_staff_id"></key>
+			<one-to-many class="com.ht.bean.T_workcheck"></one-to-many>
+		</set>
+		<!--一个员工对应多个工作经历-->
+		<set name="t_undergos" inverse="true">
+			<key column="t_staff_id"></key>
+			<one-to-many class="com.ht.bean.T_undergo"></one-to-many>
+		</set>
+		<!--一个员工对应多个反馈记录-->
+		<set name="t_ticklings" inverse="true">
+			<key column="t_staff_id"></key>
+			<one-to-many class="com.ht.bean.T_tickling"></one-to-many>
+		</set>
+		<!--一个员工对应多个值班记录-->
+		<set name="t_beonduties" inverse="true">
+			<key column="t_staff_id"></key>
+			<one-to-many class="com.ht.bean.T_beonduty"></one-to-many>
+		</set>
+		<!--一个员工对应多个家庭联系人记录-->
+		<set name="t_familys" inverse="true">
+			<key column="t_staff_id"></key>
+			<one-to-many class="com.ht.bean.T_familys"></one-to-many>
+		</set>
+		<!--一个员工对应多个工作日志记录-->
+		<set name="t_journals" inverse="true">
+			<key column="t_staff_id"></key>
+			<one-to-many class="com.ht.bean.T_journal"></one-to-many>
+		</set>
+		<!--一个员工对应多个办公用品记录-->
+		<set name="t_officeDepots" inverse="true">
+			<key column="t_work_staid"></key>
+			<one-to-many class="com.ht.bean.T_OfficeDepot"></one-to-many>
+		</set>
+		<!--一个员工对应多条巡查记录-->
+		<set name="t_inquires" inverse="true">
+			<key column="t_staff_id"></key>
+			<one-to-many class="com.ht.bean.T_inquire"></one-to-many>
+		</set>
+		<!--一个员工对应多门课程-->
+		<set name="t_courses" inverse="true">
+			<key column="t_cou_staid"></key>
+			<one-to-many class="com.ht.bean.T_course"></one-to-many>
+		</set>
+		<!--一个员工对应多条反馈-->
+		<set name="t_feedbacks" inverse="true">
+			<key column="t_fb_staid"></key>
+			<one-to-many class="com.ht.bean.T_feedback"></one-to-many>
+		</set>
+		<!--一个员工对应多次研讨会-->
+		<set name="t_seminars" inverse="true">
+			<key column="t_sn_staid"></key>
+			<one-to-many class="com.ht.bean.T_seminar"	></one-to-many>
+		</set>
+		<!--一个员工对应多个课程进度-->
+		<set name="t_schedules" inverse="true">
+			<key column="t_fb_staid"></key>
+			<one-to-many class="com.ht.bean.T_schedule"></one-to-many>
+		</set>
+		<!--一个员工对应多月工资-->
+		<set name="t_wages" inverse="true">
+			<key column="t_wang_staid"></key>
+			<one-to-many class="com.ht.bean.T_wages"></one-to-many>
+		</set>
 	</class>
    
 </hibernate-mapping>

@@ -6,9 +6,10 @@
 
     <class name="T_feedback" table="t_feedback">
         <id name="t_fb_id" column="t_fb_id"></id>
-        <property name="t_fb_staid" column="t_fb_staid" />
         <property name="t_fb_question" column="t_fb_question" />
         <property name="t_fb_answer" column="t_fb_answer" />
+
+        <many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_fb_staid"></many-to-one>
     </class>
 
 </hibernate-mapping>

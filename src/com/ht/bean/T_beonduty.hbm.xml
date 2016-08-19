@@ -6,11 +6,11 @@
 
     <class name="T_beonduty" table="t_beonduty">
         <id name="t_beonduty_id" column="t_beonduty_id"></id>
-        <property name="t_staff_id" column="t_staff_id" />
         <property name="t_BeondutyTime" column="t_BeondutyTime" />
         <property name="t_scope" column="t_scope" />
         <property name="t_record" column="t_record" />
-        <!--<many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_sta_id"></many-to-one>-->
+
+        <many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_staff_id"></many-to-one>
     </class>
 
 </hibernate-mapping>

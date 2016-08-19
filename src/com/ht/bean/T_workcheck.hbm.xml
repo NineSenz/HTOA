@@ -5,13 +5,17 @@
 <hibernate-mapping package="com.ht.bean" >
         <class name="T_workcheck" table="t_workcheck">
             <id name="t_work_id" column="t_work_id"></id>
-            <property name="t_staff_id" column="t_staff_id"></property>
             <property name="t_time" column="t_time"></property>
             <property name="t_clock_TimeOne" column="t_clock_TimeOne"></property>
             <property name="t_clock_TimeTwo" column="t_clock_TimeTwo"></property>
             <property name="t_clock_TimeThree" column="t_clock_TimeThree"></property>
             <property name="t_clock_TimeFour" column="t_clock_TimeFour"></property>
 
-            <!--<many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_sta_id"></many-to-one>-->
+            <many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_staff_id"></many-to-one>
+            <!--一个考勤中对应多个考勤异样记录-->
+            <set name="t_workcheckunusuals" inverse="true">
+                <key column="t_work_id"></key>
+                <one-to-many class="com.ht.bean.T_workcheckunusual"></one-to-many>
+            </set>
         </class>
 </hibernate-mapping>

@@ -7,8 +7,10 @@
         <id name="t_rap_id" column="t_rap_id"></id>
         <property name="t_rap_title" column="t_rap_title"></property>
         <property name="t_rap_datails" column="t_rap_datails"></property>
-        <property name="t_rap_stuid" column="t_rap_stuid"></property>
         <property name="t_rap_time" column="t_rap_time"></property>
         <property name="t_rap_status" column="t_rap_status"></property>
+
+        <many-to-one name="t_students" class="com.ht.bean.T_students" column="t_stu_rapid"></many-to-one>
+
     </class>
 </hibernate-mapping>

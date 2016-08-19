@@ -5,7 +5,6 @@
 <hibernate-mapping package="com.ht.bean">
     <class name="T_journal" table="t_journal">
         <id name="t_log_id" column="t_log_id"></id>
-        <property name="t_staff_id" column="t_staff_id"></property>
         <property name="t_date" column="t_date"></property>
         <property name="t_WeekSeven" column="t_WeekSeven"></property>
         <property name="t_WeekOne" column="t_WeekOne"></property>
@@ -16,6 +15,6 @@
         <property name="t_WeekSix" column="t_WeekSix"></property>
         <property name="t_summary" column="t_summary"></property>
 
-        <!--<many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_sta_id"></many-to-one>-->
+        <many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_staff_id"></many-to-one>
     </class>
 </hibernate-mapping>

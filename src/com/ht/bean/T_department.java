@@ -9,9 +9,8 @@ public class T_department {
     private String t_dep_name;
     private int t_dep_status;
     private String t_dep_createtime;
+    private Set<T_staff> t_staffs;
     private T_admin t_admin;
-    private Set<T_staff> t_staff;
-
 
     public  T_department(){};
 
@@ -35,14 +34,6 @@ public class T_department {
         this.t_dep_createtime = t_dep_createtime;
     }
 
-    public void setT_admin(T_admin t_admin) {
-        this.t_admin = t_admin;
-    }
-
-    public void setT_staff(Set<T_staff> t_staff) {
-        this.t_staff = t_staff;
-    }
-
     public String getT_dep_id() {
         return t_dep_id;
     }
@@ -61,6 +52,22 @@ public class T_department {
 
     public String getT_dep_createtime() {
         return t_dep_createtime;
+    }
+
+    public Set<T_staff> getT_staffs() {
+        return t_staffs;
+    }
+
+    public void setT_staffs(Set<T_staff> t_staffs) {
+        this.t_staffs = t_staffs;
+    }
+
+    public T_admin getT_admin() {
+        return t_admin;
+    }
+
+    public void setT_admin(T_admin t_admin) {
+        this.t_admin = t_admin;
     }
 
     @Override

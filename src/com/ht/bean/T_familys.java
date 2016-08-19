@@ -10,7 +10,7 @@ public class T_familys {
     private String t_family_post;
     private String t_relation;
     private String t_contact_phone;
-    private com.ht.bean.T_staff t_staff;
+    private T_staff t_staff;
 
     public T_familys() {
     }
@@ -72,11 +72,11 @@ public class T_familys {
         return t_contact_phone;
     }
 
-    public com.ht.bean.T_staff getT_staff() {
+    public T_staff getT_staff() {
         return t_staff;
     }
 
-    public void setT_staff(com.ht.bean.T_staff t_staff) {
+    public void setT_staff(T_staff t_staff) {
         this.t_staff = t_staff;
     }
 

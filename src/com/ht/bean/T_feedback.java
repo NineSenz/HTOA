@@ -8,6 +8,7 @@ public class T_feedback {
     private String t_fb_staid;
     private String t_fb_question;
     private String t_fb_answer;
+    private T_staff t_staff;
 
     public String getT_fb_id() {
         return t_fb_id;
@@ -39,5 +40,13 @@ public class T_feedback {
 
     public void setT_fb_answer(String t_fb_answer) {
         this.t_fb_answer = t_fb_answer;
+    }
+
+    public T_staff getT_staff() {
+        return t_staff;
+    }
+
+    public void setT_staff(T_staff t_staff) {
+        this.t_staff = t_staff;
     }
 }

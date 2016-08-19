@@ -6,9 +6,17 @@
 
     <class name="T_department" table="t_department">
         <id name="t_dep_id" column="t_dep_id"></id>
-        <property name="t_dep_admid" column="t_dep_admid"></property>
         <property name="t_dep_name" column="t_dep_name"></property>
         <property name="t_dep_status" column="t_dep_status"></property>
         <property name="t_dep_createtime" column="t_dep_createtime"></property>
+
+        <!--一个部门对应多个员工-->
+        <set name="t_staffs" inverse="true">
+            <key column="t_sta_depid"></key>
+            <one-to-many class="com.ht.bean.T_staff"></one-to-many>
+        </set>
+
+        <many-to-one name="t_admin" class="com.ht.bean.T_admin" column="t_dep_admid"></many-to-one>
+
     </class>
 </hibernate-mapping>

@@ -8,5 +8,7 @@
         <property name="t_sch_couid" column="t_sch_couid"></property>
         <property name="t_sch_stuid" column="t_sch_stuid"></property>
         <property name="t_sch_content" column="t_sch_content"></property>
+
+        <many-to-one name="t_staff" class="com.ht.bean.T_staff" column="t_fb_staid"></many-to-one>
     </class>
 </hibernate-mapping>

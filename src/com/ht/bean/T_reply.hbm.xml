@@ -11,6 +11,12 @@
 		<property name="t_rep_stuid" column="t_rep_stuid" />
 		<property name="t_rep_score" column="t_rep_score" />
 		<property name="t_rep_date" column="t_rep_date" />
+
+		<set name="t_students" inverse="true">
+			<key column="t_rep_id"></key>
+			<one-to-many class="com.ht.bean.T_students"></one-to-many>
+		</set>
+
 	</class>
    
 </hibernate-mapping>

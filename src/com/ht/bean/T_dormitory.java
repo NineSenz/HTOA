@@ -10,7 +10,7 @@ public class T_dormitory {
     private String t_dorm_name;
     private String t_dorm_aunt;
     private String t_dorm_stuid;
-    private Set<com.ht.bean.T_students> t_students;
+    private Set<T_students> t_students;
 
     public T_dormitory() {}
 
@@ -53,11 +53,11 @@ public class T_dormitory {
         return t_dorm_stuid;
     }
 
-    public Set<com.ht.bean.T_students> getT_students() {
+    public Set<T_students> getT_students() {
         return t_students;
     }
 
-    public void setT_students(Set<com.ht.bean.T_students> t_students) {
+    public void setT_students(Set<T_students> t_students) {
         this.t_students = t_students;
     }
 

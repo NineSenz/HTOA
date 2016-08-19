@@ -10,7 +10,7 @@ public class T_education {
     private String t_EndTime;
     private String t_school;
     private String t_education;
-    private com.ht.bean.T_staff t_staff;
+    private T_staff t_staff;
 
     public T_education(){}
 
@@ -71,11 +71,11 @@ public class T_education {
         this.t_education = t_education;
     }
 
-    public com.ht.bean.T_staff getT_staff() {
+    public T_staff getT_staff() {
         return t_staff;
     }
 
-    public void setT_staff(com.ht.bean.T_staff t_staff) {
+    public void setT_staff(T_staff t_staff) {
         this.t_staff = t_staff;
     }
 

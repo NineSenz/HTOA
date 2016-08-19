@@ -10,6 +10,7 @@ public class T_grade {
     private String t_gr_stuid;
     private String t_gr_claid;
     private String t_gr_time;
+    private T_students t_students;
 
     public String getT_gr_id() {
         return t_gr_id;
@@ -57,6 +58,14 @@ public class T_grade {
 
     public void setT_gr_time(String t_gr_time) {
         this.t_gr_time = t_gr_time;
+    }
+
+    public T_students getT_students() {
+        return t_students;
+    }
+
+    public void setT_students(T_students t_students) {
+        this.t_students = t_students;
     }
 
     @Override

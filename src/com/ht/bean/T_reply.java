@@ -1,5 +1,7 @@
 package com.ht.bean;
 
+import java.util.Set;
+
 /**
  * Created by please fresh on 2016/8/16.
  */
@@ -10,6 +12,7 @@ public class T_reply {
     private String t_rep_stuid;
     private float t_rep_score;
     private String t_rep_date;
+    private Set<T_students> t_students;
 
     public String getT_rep_id() {
         return t_rep_id;
@@ -57,6 +60,14 @@ public class T_reply {
 
     public void setT_rep_date(String t_rep_date) {
         this.t_rep_date = t_rep_date;
+    }
+
+    public Set<T_students> getT_students() {
+        return t_students;
+    }
+
+    public void setT_students(Set<T_students> t_students) {
+        this.t_students = t_students;
     }
 
     @Override

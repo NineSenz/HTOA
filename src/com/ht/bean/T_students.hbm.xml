@@ -5,8 +5,6 @@
 <hibernate-mapping package="com.ht.bean">
 <class name="T_students" table="t_students">
     <id name="t_stu_id" column="t_stu_id"></id>
-    <property name="t_stu_dormid" column="t_stu_dormid"></property>
-    <property name="t_stu_claid" column="t_stu_claid"></property>
     <property name="t_stu_name" column="t_stu_name"></property>
     <property name="t_stu_sex" column="t_stu_sex"></property>
     <property name="t_stu_age" column="t_stu_age"></property>
@@ -19,5 +17,39 @@
     <property name="t_stu_addr" column="t_stu_addr"></property>
     <property name="t_stu_create" column="t_stu_create"></property>
     <property name="t_stu_status" column="t_stu_status"></property>
+
+    <!--多个学生对应一个宿舍-->
+    <many-to-one name="t_dormitory" class="com.ht.bean.T_dormitory" column="t_stu_dormid"></many-to-one>
+    <!--多个学生对应一个班级-->
+    <many-to-one name="t_class" class="com.ht.bean.T_class" column="t_stu_claid"></many-to-one>
+    <!--多个学生对应一个老师-->
+    <many-to-one name="t_staffs" class="com.ht.bean.T_staff" column="t_stu_staid"></many-to-one>
+    <!--一个学生对应多个奖励-->
+    <set name="t_raps" inverse="true">
+        <key column="t_rap_stuid"></key>
+        <one-to-many class="com.ht.bean.T_rap"></one-to-many>
+    </set>
+    <!--一个学生对应多门成绩-->
+    <set name="t_grades" inverse="true">
+        <key column="t_gr_stuid"></key>
+        <one-to-many class="com.ht.bean.T_grade"></one-to-many>
+    </set>
+    <!--多个学生对应一个项目-->
+    <many-to-one name="t_reply" class="com.ht.bean.T_reply" column="t_stu_rapid"></many-to-one>
+    <!--一个学生对应条个总结-->
+    <set name="t_ssummarize" inverse="true">
+        <key column="t_stu_id"></key>
+        <one-to-many class="com.ht.bean.T_ssummarize"></one-to-many>
+    </set>
+    <!--一个学生对应多个工作-->
+    <set name="t_obtainjob" inverse="true">
+        <key column="t_obt_stuid"></key>
+        <one-to-many class="com.ht.bean.T_obtainjob"></one-to-many>
+    </set>
+    <!-- 一个学生对应多个意见反馈-->
+    <set name="t_opinions" inverse="true">
+        <key column="t_op_stuid"></key>
+        <one-to-many class="com.ht.bean.T_opinion"></one-to-many>
+    </set>
 </class>
 </hibernate-mapping>
