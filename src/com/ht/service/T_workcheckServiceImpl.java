@@ -17,8 +17,9 @@ public class T_workcheckServiceImpl implements T_workcheckService{
     }
 
     @Override
-    public void save(T_workcheck t_workcheck) {
-        t_workcheckDAO.save(t_workcheck);
+    public T_workcheck save(T_workcheck t_workcheck) {
+        return t_workcheckDAO.save(t_workcheck);
+
     }
 
     @Override

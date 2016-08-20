@@ -24,11 +24,12 @@ public class T_dormitoryDAOImpl implements T_dormitoryDAO {
     }
 
     @Override
-    public void save(T_dormitory t_dormitory) {
+    public T_dormitory save(T_dormitory t_dormitory) {
         session=sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_dormitory);
         session.getTransaction().commit();
+        return t_dormitory;
     }
 
     @Override

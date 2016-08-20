@@ -19,11 +19,12 @@ public class T_replyDAOImpl implements T_replyDAO{
         this.sessionFactory = sessionFactory;
     }
     @Override
-    public void save(T_reply t_reply) {
+    public T_reply save(T_reply t_reply) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_reply);
         session.getTransaction().commit();
+        return t_reply;
     }
 
     @Override

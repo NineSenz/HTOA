@@ -52,7 +52,7 @@
         function doEdit() {
             if ($("#editForm").form("validate")) { // 验证整个表单里的所有validatabox是否通过验证
                 $.post(
-                        'product/update',
+                        '<%=path%>/test/update',
                         $("#editForm").serialize(),
                         function(data){
                             if(data.result == 'success'){
@@ -73,7 +73,7 @@
         function doAdd(){
 
             if($("#addForm").form("validate")){
-                $.post('<%=path%>/admin/save',$("#addForm").serialize());
+                $.post('<%=path%>/test/save',$("#addForm").serialize());
                 $("#addWin").window("close");
                 $("#list").datagrid("reload");
                 $("#addForm").form("clear");
@@ -83,7 +83,7 @@
             var row = $("#list").datagrid("getSelected");
             if(row){
                 $.post(
-                        'product/remove',{'id':row.id},function(data){
+                        '<%=path%>/test/remove',{'id':row.id},function(data){
                             if(data.result == 'success'){
                                 $.messager.alert("提示",data.msg,"info",function(){
                                     $("#list").datagrid("reload");
@@ -98,7 +98,7 @@
 </head>
 <body>
     <table id="list" class="easyui-datagrid" toolbar="#tb" data-options="
-            url:'<%=path %>/admin/queryByPager',
+            url:'<%=path %>/test/pagerList',
             method:'get',
             rownumbers:true,
             singleSelect:true,
@@ -108,18 +108,15 @@
             pageSize:10">
         <thead>
         <tr>
-            <th field="t_adm_id" width="100">管理编号</th>
-            <th field="t_adm_name" width="100">姓名</th>
-            <th field="t_adm_email"  width="100">邮箱</th>
-            <th field="t_adm_pwd"  width="100">密码</th>
-            <th field="t_adm_phone"  width="100">电话</th>
-            <th field="t_adm_identity" width="100">管理部门</th>
+            <th field="test.id" width="100">编号</th>
+            <th field="test.name" width="100">姓名</th>
+            <th field="test.money"  width="100">票子</th>
+            <th field="test.birth"  width="100">生日</th>
         </tr>
         </thead>
     </table>
     <div id="tb" style="padding:10px;">
         <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-picture-add'" onclick="add();">添加</a>
-        <!-- 链接按钮控件 -->
         <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-picture-edit'" onclick="edit();">修改</a>
         <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-picture-delete'" onclick="removePro();">移除</a>
     </div>

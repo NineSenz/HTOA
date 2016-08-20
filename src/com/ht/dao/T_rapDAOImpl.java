@@ -20,11 +20,12 @@ public class T_rapDAOImpl implements T_rapDAO {
     }
 
     @Override
-    public void save(T_rap t_rap) {
+    public T_rap save(T_rap t_rap) {
         session=sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_rap);
         session.getTransaction().commit();
+        return t_rap;
     }
 
     @Override

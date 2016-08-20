@@ -17,8 +17,9 @@ public class T_scheduleServiceImpl implements T_scheduleService {
     }
 
     @Override
-    public void save(T_schedule t_schedule) {
-        t_scheduleDAO.save(t_schedule);
+    public T_schedule save(T_schedule t_schedule) {
+        return t_scheduleDAO.save(t_schedule);
+
     }
 
     @Override

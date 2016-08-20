@@ -20,11 +20,12 @@ public class T_gradeDAOImpl implements T_gradeDAO{
     }
 
     @Override
-    public void save(T_grade t_grade) {
+    public T_grade save(T_grade t_grade) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_grade);
         session.getTransaction().commit();
+        return t_grade;
     }
 
     @Override

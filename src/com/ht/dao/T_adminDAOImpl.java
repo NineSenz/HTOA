@@ -2,9 +2,11 @@ package com.ht.dao;
 
 import com.ht.bean.T_admin;
 import com.ht.util.Pager;
+import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Projections;
 
 import java.util.List;
 
@@ -20,11 +22,12 @@ public class T_adminDAOImpl implements T_adminDAO {
     private Session session;
 
     @Override
-    public void save(T_admin t_admin) {
+    public T_admin save(T_admin t_admin) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_admin);
         session.getTransaction().commit();
+        return t_admin;
     }
 
     @Override
@@ -37,8 +40,10 @@ public class T_adminDAOImpl implements T_adminDAO {
 
     @Override
     public T_admin update(T_admin t_admin) {
+        System.out.println("修改===========");
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
+        System.out.println(t_admin);
         session.saveOrUpdate(t_admin);
         session.getTransaction().commit();
         return t_admin;
@@ -70,12 +75,26 @@ public class T_adminDAOImpl implements T_adminDAO {
 
     @Override
     public int count() {
-        return 0;
+        session = sessionFactory.openSession();
+        session.beginTransaction();
+        Criteria criteria = session.createCriteria(T_admin.class);
+        criteria.setProjection(Projections.rowCount());
+        Object object = criteria.uniqueResult();
+        session.getTransaction().commit();
+        return Integer.valueOf(object.toString());
     }
 
     @Override
     public Pager<T_admin> pagerList(Pager Pager) {
-        return null;
+        session = sessionFactory.openSession();
+        session.beginTransaction();
+        Query query = session.createQuery("from T_admin ");
+        query.setFirstResult(Pager.getBeginIndex());
+        query.setMaxResults(Pager.getPageSize());
+        Pager.setRows(query.list());
+        Pager.setTotal(count());
+        System.out.println(Pager.getRows()+"================="+Pager.getTotal());
+        return Pager;
     }
 
 

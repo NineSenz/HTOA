@@ -18,8 +18,9 @@ public class T_ssummarizeServiceImpl implements T_ssummarizeService {
     }
 
     @Override
-    public void save(T_ssummarize t_ssummarize) {
-        t_ssummarizeDAO.save(t_ssummarize);
+    public T_ssummarize save(T_ssummarize t_ssummarize) {
+        return t_ssummarizeDAO.save(t_ssummarize);
+
     }
 
     @Override

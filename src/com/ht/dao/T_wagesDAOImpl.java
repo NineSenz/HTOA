@@ -24,11 +24,12 @@ public class T_wagesDAOImpl implements T_wagesDAO{
     }
 
     @Override
-    public void save(T_wages t_wages) {
+    public T_wages save(T_wages t_wages) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_wages);
         session.getTransaction().commit();
+        return t_wages;
     }
 
     @Override

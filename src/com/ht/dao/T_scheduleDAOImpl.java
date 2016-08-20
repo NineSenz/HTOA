@@ -23,11 +23,12 @@ public class T_scheduleDAOImpl implements T_scheduleDAO {
     }
 
     @Override
-    public void save(T_schedule t_schedule) {
+    public T_schedule save(T_schedule t_schedule) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_schedule);
         session.getTransaction().commit();
+        return t_schedule;
     }
 
     @Override

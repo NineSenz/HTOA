@@ -24,11 +24,12 @@ public class T_workcheckunusualDAOImpl implements T_workcheckunusualDAO {
     }
 
     @Override
-    public void save(T_workcheckunusual t_workcheckunusual) {
+    public T_workcheckunusual save(T_workcheckunusual t_workcheckunusual) {
         session=sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_workcheckunusual);
         session.getTransaction().commit();
+        return t_workcheckunusual;
     }
 
     @Override

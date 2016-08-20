@@ -19,11 +19,12 @@ public class T_journalDAOImpl implements T_journalDAO{
         this.sessionFactory = sessionFactory;
     }
     @Override
-    public void save(T_journal t_journal) {
+    public T_journal save(T_journal t_journal) {
         session=sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_journal);
         session.getTransaction().commit();
+        return t_journal;
     }
 
     @Override

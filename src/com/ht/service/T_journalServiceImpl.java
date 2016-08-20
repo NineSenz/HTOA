@@ -17,8 +17,9 @@ public class T_journalServiceImpl implements T_journalService{
     }
 
     @Override
-    public void save(T_journal t_journal) {
-        t_journalDAO.save(t_journal);
+    public T_journal save(T_journal t_journal) {
+        return t_journalDAO.save(t_journal);
+
     }
 
     @Override

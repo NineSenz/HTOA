@@ -20,11 +20,12 @@ public class T_computerDAOImpl implements T_computerDAO {
     private Session session;
 
     @Override
-    public void save(T_computer t_computer) {
+    public T_computer save(T_computer t_computer) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_computer);
         session.getTransaction().commit();
+        return t_computer;
     }
 
     @Override

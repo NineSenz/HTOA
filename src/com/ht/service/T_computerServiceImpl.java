@@ -18,8 +18,9 @@ public class T_computerServiceImpl implements T_computerService {
     }
 
     @Override
-    public void save(T_computer t_computer) {
-        t_computerDAO.save(t_computer);
+    public T_computer save(T_computer t_computer) {
+        return t_computerDAO.save(t_computer);
+
     }
 
     @Override

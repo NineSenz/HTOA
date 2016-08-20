@@ -4,7 +4,7 @@
         "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
         "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
-    <package name="Testjson-struts" extends="json-default" namespace="/TJson">
+    <package name="Testjson-struts" extends="json-default" namespace="/Jtest">
         <action name="*" class="com.ht.action.TestAction" method="{1}">
             <result type="json"/>
             <result name="all">/product/products.jsp</result>

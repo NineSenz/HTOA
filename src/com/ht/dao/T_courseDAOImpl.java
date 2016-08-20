@@ -24,11 +24,12 @@ public class T_courseDAOImpl implements T_courseDAO {
     }
 
     @Override
-    public void save(T_course t_course) {
+    public T_course save(T_course t_course) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_course);
         session.getTransaction().commit();
+        return t_course;
     }
 
     @Override

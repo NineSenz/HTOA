@@ -20,11 +20,12 @@ public class T_expendDAOImpl implements T_expendDAO{
     }
 
     @Override
-    public void save(T_expend t_expend) {
+    public T_expend save(T_expend t_expend) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_expend);
         session.getTransaction().commit();
+        return t_expend;
     }
 
     @Override

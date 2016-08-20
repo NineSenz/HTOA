@@ -18,11 +18,12 @@ public class T_educationDAOImpl implements T_educationDAO{
     }
 
     @Override
-    public void save(T_education t_education) {
+    public T_education save(T_education t_education) {
         Session session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_education);
         session.getTransaction().commit();
+        return t_education;
     }
 
     @Override

@@ -17,8 +17,9 @@ public class T_undergoServiceImpl implements T_undergoService{
     }
 
     @Override
-    public void save(T_undergo t_undergo) {
-        t_undergoDAO.save(t_undergo);
+    public T_undergo save(T_undergo t_undergo) {
+        return t_undergoDAO.save(t_undergo);
+
     }
 
     @Override

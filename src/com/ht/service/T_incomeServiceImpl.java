@@ -1,7 +1,6 @@
 package com.ht.service;
 
 import com.ht.bean.T_income;
-import com.ht.dao.T_computerDAO;
 import com.ht.dao.T_incomeDAO;
 import com.ht.util.Pager;
 
@@ -20,8 +19,9 @@ public class T_incomeServiceImpl implements T_incomeService {
     }
 
     @Override
-    public void save(T_income t_income) {
-        t_incomeDAO.save(t_income);
+    public T_income save(T_income t_income) {
+        return t_incomeDAO.save(t_income);
+
     }
 
     @Override

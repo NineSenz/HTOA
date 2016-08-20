@@ -2,9 +2,11 @@ package com.ht.dao;
 
 import com.ht.bean.T_department;
 import com.ht.util.Pager;
+import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Projections;
 
 import java.util.List;
 
@@ -20,12 +22,15 @@ public class T_departmentDAOImpl implements T_departmentDAO{
     public void setSessionFactory(SessionFactory sessionFactory) {
         this.sessionFactory = sessionFactory;
     }
+
     @Override
-    public void save(T_department t_department) {
+
+    public T_department save(T_department t_department) {
         session=sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_department);
         session.getTransaction().commit();
+        return t_department;
     }
 
     @Override
@@ -56,7 +61,13 @@ public class T_departmentDAOImpl implements T_departmentDAO{
 
     @Override
     public T_department query(String p) {
-        return null;
+        session = sessionFactory.getCurrentSession();
+        session.beginTransaction();
+        Query query = session.createQuery("from T_department where t_dep_id=:p");
+        query.setString("p",p);
+        T_department t_department = (T_department) query.uniqueResult();
+        session.getTransaction().commit();
+        return t_department;
     }
 
 
@@ -68,12 +79,25 @@ public class T_departmentDAOImpl implements T_departmentDAO{
 
     @Override
     public int count() {
-        return 0;
+        session = sessionFactory.openSession();
+        session.beginTransaction();
+        Criteria criteria = session.createCriteria(T_department.class);
+        criteria.setProjection(Projections.rowCount());
+        Object object = criteria.uniqueResult();
+        session.getTransaction().commit();
+        return Integer.valueOf(object.toString());
     }
 
     @Override
     public Pager<T_department> pagerList(Pager pager) {
-        return null;
+        session = sessionFactory.openSession();
+        session.beginTransaction();
+        Query query = session.createQuery("from T_department ");
+        query.setFirstResult(pager.getBeginIndex());
+        query.setMaxResults(pager.getPageSize());
+        pager.setRows(query.list());
+        pager.setTotal(count());
+        return pager;
     }
 }
 

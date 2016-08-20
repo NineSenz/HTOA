@@ -18,8 +18,9 @@ public class T_ticklingServiceImpl implements T_ticklingService{
     }
 
     @Override
-    public void save(T_tickling t_tickling) {
-        t_ticklingDAO.save(t_tickling);
+    public T_tickling save(T_tickling t_tickling) {
+        return t_ticklingDAO.save(t_tickling);
+
     }
 
     @Override

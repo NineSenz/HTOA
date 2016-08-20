@@ -19,11 +19,12 @@ public class T_inquireDAOImpl implements T_inquireDAO{
         this.sessionFactory = sessionFactory;
     }
     @Override
-    public void save(T_inquire t_inquire) {
+    public T_inquire save(T_inquire t_inquire) {
         session=sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_inquire);
         session.getTransaction().commit();
+        return t_inquire;
     }
 
     @Override

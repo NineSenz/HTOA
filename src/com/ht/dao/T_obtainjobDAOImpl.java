@@ -1,6 +1,5 @@
 package com.ht.dao;
 
-import com.ht.bean.T_admin;
 import com.ht.bean.T_obtainjob;
 import com.ht.util.Pager;
 import org.hibernate.Query;
@@ -20,11 +19,12 @@ public class T_obtainjobDAOImpl implements T_obtainjobDAO {
     }
 
     @Override
-    public void save(T_obtainjob t_obtainjob) {
+    public T_obtainjob save(T_obtainjob t_obtainjob) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_obtainjob);
         session.getTransaction().commit();
+        return t_obtainjob;
     }
 
     @Override

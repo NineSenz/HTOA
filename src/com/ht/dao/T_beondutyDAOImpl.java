@@ -20,11 +20,12 @@ public class T_beondutyDAOImpl implements T_beondutyDAO{
     }
 
     @Override
-    public void save(T_beonduty t_beonduty) {
+    public T_beonduty save(T_beonduty t_beonduty) {
         Session session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_beonduty);
         session.getTransaction().commit();
+        return t_beonduty;
     }
 
     @Override

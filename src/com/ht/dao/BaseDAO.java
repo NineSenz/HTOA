@@ -7,7 +7,7 @@ import java.util.List;
  * Created by GMB on 2016/8/11.
  */
 public interface BaseDAO<T,PK> {
-    public void save(T t);
+    public T save(T t);
     public void delete(T t);
     public T update(T t);
     public List<T> queryAll();

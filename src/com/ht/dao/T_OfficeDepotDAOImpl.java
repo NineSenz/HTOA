@@ -23,11 +23,12 @@ public class T_OfficeDepotDAOImpl implements T_OfficeDepotDAO{
         this.sessionFactory = sessionFactory;
     }
     @Override
-    public void save(T_OfficeDepot t_officeDepot) {
+    public T_OfficeDepot save(T_OfficeDepot t_officeDepot) {
         session=sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_officeDepot);
         session.getTransaction().commit();
+        return t_officeDepot;
     }
 
     @Override

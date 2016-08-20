@@ -20,11 +20,12 @@ public class T_staffDAOImpl implements T_staffDAO{
     }
 
     @Override
-    public void save(T_staff t_staff) {
+    public T_staff save(T_staff t_staff) {
         Session sion = sessionFactory.getCurrentSession();
         sion.beginTransaction();
         sion.save(t_staff);
         sion.getTransaction().commit();
+        return t_staff;
     }
 
     @Override

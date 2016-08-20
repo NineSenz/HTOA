@@ -16,8 +16,9 @@ public class TestServiceImpl implements TestService {
         this.testDAO = testDAO;
     }
     @Override
-    public void save(TTest test) {
-        testDAO.save(test);
+    public TTest save(TTest test) {
+        return testDAO.save(test);
+
     }
 
     @Override

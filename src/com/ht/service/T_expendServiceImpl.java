@@ -1,6 +1,5 @@
 package com.ht.service;
 
-import com.ht.bean.T_admin;
 import com.ht.bean.T_expend;
 import com.ht.dao.T_expendDAO;
 import com.ht.util.Pager;
@@ -19,8 +18,9 @@ public class T_expendServiceImpl implements T_expendService{
 
 
     @Override
-    public void save(T_expend t_expend) {
-        t_expendDAO.save(t_expend);
+    public T_expend save(T_expend t_expend) {
+        return t_expendDAO.save(t_expend);
+
     }
 
     @Override

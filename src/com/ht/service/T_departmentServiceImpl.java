@@ -17,8 +17,9 @@ public class T_departmentServiceImpl implements T_departmentService{
     }
 
     @Override
-    public void save(T_department t_department) {
-        t_departmentDAO.save(t_department);
+    public T_department save(T_department t_department) {
+        return t_departmentDAO.save(t_department);
+
     }
 
     @Override

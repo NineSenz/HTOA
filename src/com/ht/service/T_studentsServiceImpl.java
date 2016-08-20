@@ -17,8 +17,9 @@ public class T_studentsServiceImpl implements T_studentsService{
     }
 
     @Override
-    public void save(T_students t_students) {
-        t_studentsDAO.save(t_students);
+    public T_students save(T_students t_students) {
+        return t_studentsDAO.save(t_students);
+
     }
 
     @Override

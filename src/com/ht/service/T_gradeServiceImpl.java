@@ -17,8 +17,9 @@ public class T_gradeServiceImpl implements T_gradeService{
     }
 
     @Override
-    public void save(T_grade t_grade) {
-        t_gradeDAO.save(t_grade);
+    public T_grade save(T_grade t_grade) {
+        return t_gradeDAO.save(t_grade);
+
     }
 
     @Override

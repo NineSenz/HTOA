@@ -17,8 +17,9 @@ public class T_dormitoryServiceImpl implements T_dormitoryService{
     }
 
     @Override
-    public void save(T_dormitory t_dormitory) {
-        t_dormitoryDAO.save(t_dormitory);
+    public T_dormitory save(T_dormitory t_dormitory) {
+        return t_dormitoryDAO.save(t_dormitory);
+
     }
 
     @Override

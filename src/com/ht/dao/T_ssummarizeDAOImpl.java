@@ -1,6 +1,5 @@
 package com.ht.dao;
 
-import com.ht.bean.T_department;
 import com.ht.bean.T_ssummarize;
 import com.ht.util.Pager;
 import org.hibernate.Query;
@@ -27,11 +26,12 @@ public class T_ssummarizeDAOImpl implements T_ssummarizeDAO{
     }
 
     @Override
-    public void save(T_ssummarize t_ssummarize) {
+    public T_ssummarize save(T_ssummarize t_ssummarize) {
         session=sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_ssummarize);
         session.getTransaction().commit();
+        return t_ssummarize;
     }
     @Override
     public void delete(T_ssummarize t_ssummarize) {

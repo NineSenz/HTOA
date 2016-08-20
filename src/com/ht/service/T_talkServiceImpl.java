@@ -18,8 +18,9 @@ public class T_talkServiceImpl implements T_talkService{
     }
 
     @Override
-    public void save(T_talk t_talk) {
-        t_talkDAO.save(t_talk);
+    public T_talk save(T_talk t_talk) {
+        return t_talkDAO.save(t_talk);
+
     }
 
     @Override

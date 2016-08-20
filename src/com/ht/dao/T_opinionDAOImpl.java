@@ -24,11 +24,12 @@ public class T_opinionDAOImpl implements T_opinionDAO{
     }
 
     @Override
-    public void save(T_opinion t_opinion) {
+    public T_opinion save(T_opinion t_opinion) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_opinion);
         session.getTransaction().commit();
+        return t_opinion;
     }
 
     @Override

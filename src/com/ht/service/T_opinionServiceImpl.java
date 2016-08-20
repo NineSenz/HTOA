@@ -17,8 +17,9 @@ public class T_opinionServiceImpl implements T_opinionService{
     }
 
     @Override
-    public void save(T_opinion t_opinion) {
-        t_opinionDAO.save(t_opinion);
+    public T_opinion save(T_opinion t_opinion) {
+        return t_opinionDAO.save(t_opinion);
+
     }
 
     @Override

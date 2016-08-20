@@ -21,11 +21,12 @@ public class T_incomeDAOImpl implements T_incomeDAO {
     }
 
     @Override
-    public void save(T_income t_income) {
+    public T_income save(T_income t_income) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_income);
         session.getTransaction().commit();
+        return t_income;
     }
 
     @Override

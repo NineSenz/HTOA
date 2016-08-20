@@ -23,11 +23,12 @@ public class T_talkDAOImpl implements T_talkDAO{
         this.sessionFactory = sessionFactory;
     }
     @Override
-    public void save(T_talk t_talk) {
+    public T_talk save(T_talk t_talk) {
         session=sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_talk);
         session.getTransaction().commit();
+        return t_talk;
     }
 
     @Override

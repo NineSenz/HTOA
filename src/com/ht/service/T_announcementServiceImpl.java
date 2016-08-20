@@ -16,8 +16,9 @@ public class T_announcementServiceImpl implements T_announcementService{
     }
 
     @Override
-    public void save(T_announcement t_announcement) {
-        t_announcementDAO.save(t_announcement);
+    public T_announcement save(T_announcement t_announcement) {
+
+        return t_announcementDAO.save(t_announcement);
     }
 
     @Override

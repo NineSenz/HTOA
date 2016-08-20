@@ -23,11 +23,12 @@ public class T_classDAOImpl implements T_classDAO {
         this.sessionFactory = sessionFactory;
     }
     @Override
-    public void save(T_class t_class) {
+    public T_class save(T_class t_class) {
         session=sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_class);
         session.getTransaction().commit();
+        return t_class;
     }
 
     @Override

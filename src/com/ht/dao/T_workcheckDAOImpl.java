@@ -20,11 +20,12 @@ public class T_workcheckDAOImpl implements T_workcheckDAO{
 
 
     @Override
-    public void save(T_workcheck t_workcheck) {
+    public T_workcheck save(T_workcheck t_workcheck) {
         Session session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_workcheck);
         session.getTransaction().commit();
+        return t_workcheck;
     }
 
     @Override

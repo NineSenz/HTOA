@@ -17,8 +17,9 @@ public class T_wagesServiceImpl implements T_wagesService{
     }
 
     @Override
-    public void save(T_wages t_wages) {
-        t_wagesDAO.save(t_wages);
+    public T_wages save(T_wages t_wages) {
+        return t_wagesDAO.save(t_wages);
+
     }
 
     @Override

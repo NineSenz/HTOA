@@ -20,11 +20,12 @@ public class T_undergoDAOImpl implements T_undergoDAO {
     }
 
     @Override
-    public void save(T_undergo t_undergo) {
+    public T_undergo save(T_undergo t_undergo) {
         session=sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_undergo);
         session.getTransaction().commit();
+        return t_undergo;
     }
 
     @Override

@@ -20,11 +20,12 @@ public class T_ticklingDAOImpl implements T_ticklingDAO{
     }
 
     @Override
-    public void save(T_tickling t_tickling) {
+    public T_tickling save(T_tickling t_tickling) {
         Session session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_tickling);
         session.getTransaction().commit();
+        return t_tickling;
     }
 
     @Override

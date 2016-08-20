@@ -17,8 +17,8 @@ public class T_classServiceImpl implements T_classService {
     }
 
     @Override
-    public void save(T_class t_class) {
-        t_classDAO.save(t_class);
+    public T_class save(T_class t_class) {
+        return t_classDAO.save(t_class);
     }
 
     @Override

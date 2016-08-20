@@ -17,8 +17,9 @@ public class T_replyServiceImpl implements T_replyService{
     }
 
     @Override
-    public void save(T_reply t_reply) {
-        t_replyDAO.save(t_reply);
+    public T_reply save(T_reply t_reply) {
+        return t_replyDAO.save(t_reply);
+
     }
 
     @Override

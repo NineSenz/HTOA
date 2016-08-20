@@ -17,8 +17,9 @@ public class T_feedbackServiceImpl implements T_feedbackService {
     }
 
     @Override
-    public void save(T_feedback t_feedback) {
-        t_feedbackDAO.save(t_feedback);
+    public T_feedback save(T_feedback t_feedback) {
+        return t_feedbackDAO.save(t_feedback);
+
     }
 
     @Override

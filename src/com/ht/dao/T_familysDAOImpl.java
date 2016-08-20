@@ -20,11 +20,12 @@ public class T_familysDAOImpl implements T_familysDAO {
     }
 
     @Override
-    public void save(T_familys t_familys) {
+    public T_familys save(T_familys t_familys) {
         session=sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_familys);
         session.getTransaction().commit();
+        return t_familys;
     }
 
     @Override

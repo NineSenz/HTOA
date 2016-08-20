@@ -25,11 +25,12 @@ public class T_feedbackDAOImpl implements T_feedbackDAO {
     }
 
     @Override
-    public void save(T_feedback t_feedback) {
+    public T_feedback save(T_feedback t_feedback) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_feedback);
         session.getTransaction().commit();
+        return t_feedback;
     }
 
     @Override

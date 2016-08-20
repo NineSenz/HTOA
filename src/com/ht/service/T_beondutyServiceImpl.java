@@ -18,8 +18,9 @@ public class T_beondutyServiceImpl implements T_beondutyService{
     }
 
     @Override
-    public void save(T_beonduty t_beonduty) {
-        t_beondutyDAO.save(t_beonduty);
+    public T_beonduty save(T_beonduty t_beonduty) {
+
+        return t_beondutyDAO.save(t_beonduty);
     }
 
     @Override

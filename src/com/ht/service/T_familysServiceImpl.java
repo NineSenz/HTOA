@@ -16,8 +16,9 @@ public class T_familysServiceImpl implements T_familysService{
     }
 
     @Override
-    public void save(T_familys t_familys) {
-        t_familysDAO.save(t_familys);
+    public T_familys save(T_familys t_familys) {
+        return t_familysDAO.save(t_familys);
+
     }
 
     @Override

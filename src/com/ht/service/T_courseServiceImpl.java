@@ -17,8 +17,9 @@ public class T_courseServiceImpl implements T_courseService{
     }
 
     @Override
-    public void save(T_course t_course) {
-        t_courseDAO.save(t_course);
+    public T_course save(T_course t_course) {
+        return t_courseDAO.save(t_course);
+
     }
 
     @Override

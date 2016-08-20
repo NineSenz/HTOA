@@ -18,8 +18,9 @@ public class T_obtainjobServiceImpl implements T_obtainjobService {
     }
 
     @Override
-    public void save(T_obtainjob t_obtainjob) {
-        t_obtainjobDAO.save(t_obtainjob);
+    public T_obtainjob save(T_obtainjob t_obtainjob) {
+        return t_obtainjobDAO.save(t_obtainjob);
+
     }
 
     @Override

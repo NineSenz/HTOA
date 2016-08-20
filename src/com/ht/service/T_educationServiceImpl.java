@@ -3,7 +3,6 @@ package com.ht.service;
 
 import com.ht.bean.T_education;
 import com.ht.dao.T_educationDAO;
-import com.ht.dao.T_expendDAO;
 import com.ht.util.Pager;
 
 import java.util.List;
@@ -20,8 +19,9 @@ public class T_educationServiceImpl implements T_educationService{
 
 
     @Override
-    public void save(T_education t_education) {
-        t_educationDAO.save(t_education);
+    public T_education save(T_education t_education) {
+        return t_educationDAO.save(t_education);
+
     }
 
     @Override

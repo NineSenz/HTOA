@@ -17,8 +17,9 @@ public class T_OfficeDepotServiceImpl implements T_OfficeDepotService {
     }
 
     @Override
-    public void save(T_OfficeDepot t_officeDepot) {
-        t_officeDepotDAO.save(t_officeDepot);
+    public T_OfficeDepot save(T_OfficeDepot t_officeDepot) {
+        return t_officeDepotDAO.save(t_officeDepot);
+
     }
 
     @Override

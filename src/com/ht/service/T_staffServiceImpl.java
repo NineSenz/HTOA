@@ -47,8 +47,9 @@ public class T_staffServiceImpl implements T_staffService{
     }
 
     @Override
-    public void save(T_staff t_staff) {
-        t_staffDAO.save(t_staff);
+    public T_staff save(T_staff t_staff) {
+        return t_staffDAO.save(t_staff);
+
     }
 
     @Override

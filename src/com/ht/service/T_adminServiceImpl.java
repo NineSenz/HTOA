@@ -23,8 +23,8 @@ public class T_adminServiceImpl implements T_adminService{
     }
 
     @Override
-    public void save(T_admin t_admin) {
-        t_adminDAO.save(t_admin);
+    public T_admin save(T_admin t_admin) {
+        return t_adminDAO.save(t_admin);
     }
 
     @Override

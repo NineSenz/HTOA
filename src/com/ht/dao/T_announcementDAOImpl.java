@@ -23,11 +23,12 @@ public class T_announcementDAOImpl implements T_announcementDAO {
     }
 
     @Override
-    public void save(T_announcement t_announcement) {
+    public T_announcement save(T_announcement t_announcement) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_announcement);
         session.getTransaction().commit();
+        return t_announcement;
     }
 
     @Override

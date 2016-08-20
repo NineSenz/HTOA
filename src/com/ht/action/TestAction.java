@@ -5,16 +5,14 @@ import com.ht.dao.TestDAO;
 import com.ht.service.TestService;
 import com.ht.util.Pager;
 import com.ht.util.StampUtil;
-import org.apache.struts2.json.annotations.JSON;
+import org.apache.struts2.ServletActionContext;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 public class TestAction{
     private TestDAO testDAO;
@@ -23,7 +21,8 @@ public class TestAction{
     private Pager<TTest> pager;
     private String pageNo;
     private String pageSize;
-
+    private List<TTest> rows;
+    private int total;
     public String getPageNo() {
         return pageNo;
     }
@@ -71,9 +70,9 @@ public class TestAction{
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String date = sdf.format(cld);
         test.setId(StampUtil.dateToStamp(date));
-        test.setName("小明");
-        test.setMoney(9844.56);
-        test.setBirth(date);
+        //test.setName("小明");
+        //test.setMoney(9844.56);
+        //test.setBirth(date);
         System.out.println(test);
         testService.save(test);
         testDAO.close();
@@ -84,10 +83,21 @@ public class TestAction{
         return "update";
     }
     public String pagerList(){
-        pager.setPageNo(Integer.parseInt(pageNo));
-        pager.setPageSize(Integer.parseInt(pageSize));
+        System.out.println("15558dsdsads");HttpServletRequest req = ServletActionContext.getRequest();
+        System.out.println(Integer.parseInt(req.getParameter("page")));
+        System.out.println(Integer.parseInt(req.getParameter("rows")));
+
+
+        pager.setPageNo(Integer.parseInt(req.getParameter("page")));
+        pager.setPageSize(Integer.parseInt(req.getParameter("rows")));
+        pager.setTotal(testService.count());
         Pager<TTest> pagerlist = testService.pagerList(pager);
-        testDAO.close();
+        for(TTest t:pagerlist.getRows()){
+            System.out.println(t);
+        }
+        rows = pager.getRows();
+        total = pager.getTotal();
+        //testDAO.close();
         return "pager";
     }
 }

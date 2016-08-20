@@ -17,8 +17,9 @@ public class T_rapServiceImpl implements T_rapService {
     }
 
     @Override
-    public void save(T_rap t_rap) {
-        t_rapDAO.save(t_rap);
+    public T_rap save(T_rap t_rap) {
+        return t_rapDAO.save(t_rap);
+
     }
 
     @Override

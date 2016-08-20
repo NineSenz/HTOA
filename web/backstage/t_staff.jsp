@@ -20,12 +20,12 @@
             padding:0px;
         }
     </style>
-    <link rel="stylesheet" type="text/css" href="<%=path %>/themes/default/easyui.css">
-    <link rel="stylesheet" type="text/css" href="<%=path %>/htoa/css/icon.css">
+    <link rel="stylesheet" type="text/css" href="<%=path %>/jquery-easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="<%=path %>/jquery-easyui/themes/icon.css">
     <link rel="stylesheet" type="text/css" href="<%=path %>/htoa/css/style.css"/>
     <script type="text/javascript" src="<%=path %>/htoa/js/jquery-3.0.0.min.js"></script>
-    <script type="text/javascript" src="<%=path %>/locale/easyui-lang-zh_CN.js"></script>
-    <script type="text/javascript" src="<%=path %>/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="<%=path %>/jquery-easyui/locale/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript" src="<%=path %>/jquery-easyui/jquery.easyui.min.js"></script>
 
     <script>
 

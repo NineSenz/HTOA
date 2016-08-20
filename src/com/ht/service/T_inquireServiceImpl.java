@@ -17,8 +17,9 @@ public class T_inquireServiceImpl implements T_inquireService {
     }
 
     @Override
-    public void save(T_inquire t_inquire) {
-        t_inquireDAO.save(t_inquire);
+    public T_inquire save(T_inquire t_inquire) {
+        return t_inquireDAO.save(t_inquire);
+
     }
 
     @Override

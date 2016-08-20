@@ -24,11 +24,12 @@ public class T_seminarDAOImpl implements T_seminarDAO{
     }
 
     @Override
-    public void save(T_seminar t_seminar) {
+    public T_seminar save(T_seminar t_seminar) {
         session = sessionFactory.getCurrentSession();
         session.beginTransaction();
         session.save(t_seminar);
         session.getTransaction().commit();
+        return t_seminar;
     }
 
     @Override

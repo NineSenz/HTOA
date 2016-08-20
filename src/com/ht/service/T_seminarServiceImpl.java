@@ -16,8 +16,9 @@ public class T_seminarServiceImpl implements T_seminarService{
     }
 
     @Override
-    public void save(T_seminar t_seminar) {
-        t_seminarDAO.save(t_seminar);
+    public T_seminar save(T_seminar t_seminar) {
+        return t_seminarDAO.save(t_seminar);
+
     }
 
     @Override

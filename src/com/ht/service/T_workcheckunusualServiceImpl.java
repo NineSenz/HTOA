@@ -17,8 +17,9 @@ public class T_workcheckunusualServiceImpl implements T_workcheckunusualService 
     }
 
     @Override
-    public void save(T_workcheckunusual t_workcheckunusual) {
-        t_workcheckunusualDAO.save(t_workcheckunusual);
+    public T_workcheckunusual save(T_workcheckunusual t_workcheckunusual) {
+        return t_workcheckunusualDAO.save(t_workcheckunusual);
+
     }
 
     @Override

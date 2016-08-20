@@ -19,12 +19,13 @@ public class TestDAOImpl implements TestDAO {
     }
 
     @Override
-    public void save(TTest test) {
+    public TTest save(TTest test) {
         sion = sessionFactory.getCurrentSession();
         sion.beginTransaction();
         //System.out.println(test);
         sion.save(test);
         sion.getTransaction().commit();
+        return test;
     }
 
     @Override
