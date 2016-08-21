@@ -13,7 +13,7 @@
 	<package name="my-package" extends="struts-default"/>
 	<package name="test-package" extends="json-default" namespace="/test">
 		<action name="*" class="com.ht.action.TestAction" method="{1}">
-			<result type="json"/>
+			<result type="json"></result>
 		</action>
 	</package>
 	<include file="../config/struts-T_admin.xml"/>

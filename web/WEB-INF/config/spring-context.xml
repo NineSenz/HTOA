@@ -168,4 +168,6 @@
   <bean id="t_dormitoryService" class="com.ht.service.T_dormitoryServiceImpl" autowire="byType"/>
   <bean id="t_dormitoryAction" class="com.ht.action.T_dormitoryAction" autowire="byType"/>
   <bean id="t_dormitory" class="com.ht.bean.T_dormitory" autowire="byType"/>
+
+  <bean id="pager" class="com.ht.util.Pager" autowire="byType"/>
 </beans>

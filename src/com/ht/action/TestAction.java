@@ -1,10 +1,11 @@
 package com.ht.action;
 
 import com.ht.bean.TTest;
-import com.ht.dao.TestDAO;
 import com.ht.service.TestService;
+import com.ht.util.ControllerResult;
 import com.ht.util.Pager;
 import com.ht.util.StampUtil;
+import com.opensymphony.xwork2.ActionSupport;
 import org.apache.struts2.ServletActionContext;
 
 import javax.servlet.http.HttpServletRequest;
@@ -14,33 +15,59 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-public class TestAction{
-    private TestDAO testDAO;
+public class TestAction extends ActionSupport{
     private TestService testService;
     private TTest test;
     private Pager<TTest> pager;
-    private String pageNo;
-    private String pageSize;
     private List<TTest> rows;
     private int total;
-    public String getPageNo() {
-        return pageNo;
+    private String name;
+    private double money;
+    private String birth;
+    private String id;
+    private ControllerResult result;
+
+    public String getId() {
+        return id;
     }
 
-    public void setPageNo(String pageNo) {
-        this.pageNo = pageNo;
+    public void setId(String id) {
+        this.id = id;
+    }
+    public ControllerResult getResult() {
+        return result;
     }
 
-    public String getPageSize() {
-        return pageSize;
+    public String getName() {
+        return name;
     }
 
-    public void setPageSize(String pageSize) {
-        this.pageSize = pageSize;
+    public double getMoney() {
+        return money;
     }
 
-    public Pager<TTest> getPager() {
-        return pager;
+    public String getBirth() {
+        return birth;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setMoney(double money) {
+        this.money = money;
+    }
+
+    public void setBirth(String birth) {
+        this.birth = birth;
+    }
+
+    public List<TTest> getRows() {
+        return rows;
+    }
+
+    public int getTotal() {
+        return total;
     }
 
     public void setPager(Pager<TTest> pager) {
@@ -50,14 +77,14 @@ public class TestAction{
     public void setTest(TTest test) {
         this.test = test;
     }
+    public TTest getTest(){
+        return test;
+    }
 
     public void setTestService(TestService testService) {
         this.testService = testService;
     }
 
-    public void setTestDAO(TestDAO testDAO) {
-        this.testDAO = testDAO;
-    }
 
     public String query() throws ParseException {
         test = testService.query(test.getId());
@@ -65,39 +92,47 @@ public class TestAction{
         return "query";
     }
     public String save()throws ParseException{
-        //save?test.id=45885884&test.name=same&test.money=7845.59&test.birth=2016-10-11 12:25:35
-        Date cld = Calendar.getInstance().getTime();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String date = sdf.format(cld);
-        test.setId(StampUtil.dateToStamp(date));
-        //test.setName("小明");
-        //test.setMoney(9844.56);
-        //test.setBirth(date);
-        System.out.println(test);
-        testService.save(test);
-        testDAO.close();
-        return "save";
+        test.setId(StampUtil.getStamp());
+        String dt = StampUtil.getDate();
+        TTest obj = testService.save(test);
+        if(obj!=null){
+            result = ControllerResult.getSuccessResult("添加成功!");
+        }else{
+            result = ControllerResult.getFailResult("添加失败!");
+        }
+        System.out.println("result"+result);
+        return SUCCESS;
+    }
+    public String remove(){
+        test.setId(id);
+        testService.delete(test);
+        result = ControllerResult.getSuccessResult("删除成功!");
+        System.out.println("result"+result);
+        return SUCCESS;
     }
     public String update(){
-
-        return "update";
+        test.setId(id);
+        test.setName(name);
+        test.setMoney(money);
+        test.setBirth(birth);
+        testService.update(test);
+        if((testService.update(test))!=null){
+            result = ControllerResult.getSuccessResult("修改成功!");
+            System.out.println(result);
+        }else{
+            result = ControllerResult.getFailResult("修改失败!");
+            System.out.println(result);
+        }
+        return SUCCESS;
     }
     public String pagerList(){
-        System.out.println("15558dsdsads");HttpServletRequest req = ServletActionContext.getRequest();
-        System.out.println(Integer.parseInt(req.getParameter("page")));
-        System.out.println(Integer.parseInt(req.getParameter("rows")));
-
-
+        HttpServletRequest req = ServletActionContext.getRequest();
         pager.setPageNo(Integer.parseInt(req.getParameter("page")));
         pager.setPageSize(Integer.parseInt(req.getParameter("rows")));
-        pager.setTotal(testService.count());
-        Pager<TTest> pagerlist = testService.pagerList(pager);
-        for(TTest t:pagerlist.getRows()){
-            System.out.println(t);
-        }
+        pager = testService.pagerList(pager);
         rows = pager.getRows();
         total = pager.getTotal();
         //testDAO.close();
-        return "pager";
+        return SUCCESS;
     }
 }

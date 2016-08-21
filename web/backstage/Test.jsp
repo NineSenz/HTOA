@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="<%=path %>/themes/default/easyui.css">
     <link rel="stylesheet" type="text/css" href="<%=path %>/htoa/css/icon.css">
     <link rel="stylesheet" type="text/css" href="<%=path %>/htoa/css/style.css"/>
-    <script type="text/javascript" src="<%=path %>/htoa/js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="<%=path %>/jquery.min.js"></script>
     <script type="text/javascript" src="<%=path %>/locale/easyui-lang-zh_CN.js"></script>
     <script type="text/javascript" src="<%=path %>/jquery.easyui.min.js"></script>
     <script>
@@ -55,15 +55,16 @@
                         '<%=path%>/test/update',
                         $("#editForm").serialize(),
                         function(data){
-                            if(data.result == 'success'){
-                                $.messager.alert("提示",data.msg,"info",function(){
+                            $.messager.alert(date.result);
+                            if(data.result.result == 'success'){
+                                $.messager.alert("提示",data.result.msg,"info",function(){
                                     $("#editWin").window("close");
                                     $("#list").datagrid("reload");
                                 });
                             }else{
-                                $.messger.alert("提示",data.msg+"请稍后再试","info");
+                                $.messger.alert("提示",data.result.msg+"请稍后再试","info");
                             }
-                        },"JSON")
+                        },'json')
             }
         }
         function add() {
@@ -73,10 +74,19 @@
         function doAdd(){
 
             if($("#addForm").form("validate")){
-                $.post('<%=path%>/test/save',$("#addForm").serialize());
-                $("#addWin").window("close");
-                $("#list").datagrid("reload");
-                $("#addForm").form("clear");
+                $.post('<%=path%>/test/save',$("#addForm").serialize(),
+                    function(data) {
+
+                        if (data.result.result == 'success') {
+                            $.messager.alert("提示", data.result.msg, "info", function() {
+                                $("#addWin").window("close");
+                                $("#list").datagrid("reload");
+                                $("#addForm").form("clear");
+                            });
+                        } else {
+                            $.messager.alert("提示",data.result.msg,"info");
+                        }
+                    })
             }
         }
         function removePro(){
@@ -84,8 +94,8 @@
             if(row){
                 $.post(
                         '<%=path%>/test/remove',{'id':row.id},function(data){
-                            if(data.result == 'success'){
-                                $.messager.alert("提示",data.msg,"info",function(){
+                            if(data.result.result == 'success'){
+                                $.messager.alert("提示",data.result.msg,"info",function(){
                                     $("#list").datagrid("reload");
                                 });
                             }
@@ -108,56 +118,44 @@
             pageSize:10">
         <thead>
         <tr>
-            <th field="test.id" width="100">编号</th>
-            <th field="test.name" width="100">姓名</th>
-            <th field="test.money"  width="100">票子</th>
-            <th field="test.birth"  width="100">生日</th>
+            <th  data-options="field:'id',checkbox:true" width="100">编号</th>
+            <th field="name" width="100">姓名</th>
+            <th field="money"  width="100">票子</th>
+            <th field="birth"  width="100">生日</th>
         </tr>
         </thead>
     </table>
     <div id="tb" style="padding:10px;">
         <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-picture-add'" onclick="add();">添加</a>
         <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-picture-edit'" onclick="edit();">修改</a>
-        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-picture-delete'" onclick="removePro();">移除</a>
+        <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-picture-delete'" onclick="removePro();">移除</a>
     </div>
 
     <div id="addWin" class="easyui-window" title="添加管理员" data-options="iconCle:'icon-monitor-edit',closable:true, closed:true" style="width:300px;height:200px;padding:5px;">
-        <form id="addForm" enctype="multipart/form-data">
+        <form id="addForm" enctype="multipart/form-data" style="text-align: center; margin-left: 25px;">
             <table>
                 <tr>
-                    <td>管理编号</td>
+                    <td>编号</td>
                     <td>
-                        <input class="textbox" name="t_admin.t_adm_id"  />
+                        <input class="textbox" name="test.id" readonly />
                     </td>
                 </tr>
                 <tr>
                     <td>姓名</td>
                     <td>
-                        <input class="easyui-validatebox textbox" name="t_admin.t_adm_name" data-options="required:true, novalidate:true" />
+                        <input class="easyui-validatebox textbox" name="test.name" data-options="required:true, novalidate:true" />
                     </td>
                 </tr>
                 <tr>
-                    <td>邮箱</td>
+                    <td>票子</td>
                     <td>
-                        <input class="easyui-validatebox textbox" name="t_admin.t_adm_email" data-options="required:true, novalidate:true"/>
+                        <input class="easyui-validatebox easyui-numberbox" name="test.money" data-options="required:true, novalidate:true"/>
                     </td>
                 </tr>
                 <tr>
-                    <td>密码</td>
+                    <td>生日</td>
                     <td>
-                        <input class="easyui-validatebox textbox" name="t_admin.t_adm_pwd" data-options="required:true, novalidate:true"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>电话</td>
-                    <td>
-                        <input class="easyui-validatebox textbox" name="t_admin.t_adm_phone" data-options="required:true, novalidate:true"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>管理部门</td>
-                    <td>
-                        <input class="easyui-validatebox textbox" name="t_admin.t_adm_identity" data-options="required:true, novalidate:true"/>
+                        <input class="easyui-validatebox textbox" name="test.birth" data-options="required:true, novalidate:true"/>
                     </td>
                 </tr>
                 <tr>
@@ -170,10 +168,10 @@
         </form>
     </div>
     <div id="editWin" class="easyui-window" title="修改管理" data-options="iconCls:'icon-edit', closable:true, closed:true"  style="width:300px;height:200px;padding:5px;">
-        <form id="editForm" enctype="multipart/form-data">
+        <form id="editForm" enctype="multipart/form-data" style="text-align: center; margin-left: 25px;">
             <table>
                 <tr>
-                    <td>管理编号</td>
+                    <td>编号</td>
                     <td>
                         <input class="textbox" name="id" readonly />
                     </td>
@@ -185,28 +183,21 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>邮箱</td>
+                    <td>票子</td>
                     <td>
-                        <input class="easyui-validatebox easyui-numberbox" name="price" data-options="required:true, novalidate:true, precision:2"/>
+                        <input class="easyui-validatebox easyui-numberbox" name="money" data-options="required:true, novalidate:true, precision:2"/>
                     </td>
                 </tr>
                 <tr>
-                    <td>密码</td>
+                    <td>生日</td>
                     <td>
-                        <input class="easyui-validatebox easyui-numberbox" name="price" data-options="required:true, novalidate:true, precision:2"/>
+                        <input class="easyui-validatebox easyui-numberbox" name="birth" data-options="required:true, novalidate:true, precision:2"/>
                     </td>
                 </tr>
-                <tr>
-                    <td>电话</td>
-                    <td>
-                        <input class="easyui-validatebox easyui-numberbox" name="price" data-options="required:true, novalidate:true, precision:2"/>
-                    </td>
-                </tr>
-
                 <tr>
                     <td></td>
                     <td>
-                        <input type="button" value="确认" onclick="doAdd();" />
+                        <input type="button" value="确认" onclick="doEdit();" />
                     </td>
                 </tr>
             </table>

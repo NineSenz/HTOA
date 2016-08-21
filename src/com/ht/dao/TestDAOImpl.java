@@ -20,9 +20,8 @@ public class TestDAOImpl implements TestDAO {
 
     @Override
     public TTest save(TTest test) {
-        sion = sessionFactory.getCurrentSession();
+        Session sion = sessionFactory.getCurrentSession();
         sion.beginTransaction();
-        //System.out.println(test);
         sion.save(test);
         sion.getTransaction().commit();
         return test;
@@ -30,7 +29,7 @@ public class TestDAOImpl implements TestDAO {
 
     @Override
     public void delete(TTest test) {
-        sion = sessionFactory.getCurrentSession();
+        Session sion = sessionFactory.getCurrentSession();
         sion.beginTransaction();
         //System.out.println(test);
         sion.delete(test);
@@ -39,10 +38,10 @@ public class TestDAOImpl implements TestDAO {
 
     @Override
     public TTest update(TTest test) {
-        sion = sessionFactory.getCurrentSession();
+        Session sion = sessionFactory.getCurrentSession();
         sion.beginTransaction();
-        //System.out.println(test);
-        sion.update(test);
+        System.out.println(test);
+        sion.saveOrUpdate(test);
         sion.getTransaction().commit();
         return test;
     }
@@ -69,12 +68,13 @@ public class TestDAOImpl implements TestDAO {
     public int count() {
         sion = sessionFactory.openSession();
         int count=Integer.parseInt(sion.createQuery("select count(*) from TTest").uniqueResult().toString());
+        sion.close();
         return count;
     }
 
     @Override
     public Pager<TTest> pagerList(Pager pager) {
-        sion = sessionFactory.getCurrentSession();
+        Session sion = sessionFactory.getCurrentSession();
         sion.beginTransaction();
         Query query = sion.createQuery("from TTest");
         query.setFirstResult(pager.getBeginIndex());

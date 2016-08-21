@@ -11,6 +11,7 @@ import java.util.Date;
  * Created by GMB on 2016/8/12.
  */
 public class StampUtil {
+    private static String stamp;
     /*
      * 将时间转换为时间戳
      */
@@ -32,6 +33,23 @@ public class StampUtil {
         Date date = new Date(lt);
         res = simpleDateFormat.format(date);
         return res;
+    }
+    public static  String getStamp(){
+        Date cld = Calendar.getInstance().getTime();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String date = sdf.format(cld);
+        try {
+            stamp = dateToStamp(date);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return stamp;
+    }
+    public static  String getDate(){
+        Date cld = Calendar.getInstance().getTime();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String date = sdf.format(cld);
+        return date;
     }
     @Test
     public void testStamp(){
