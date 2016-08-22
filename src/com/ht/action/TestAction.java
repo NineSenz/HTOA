@@ -10,9 +10,6 @@ import org.apache.struts2.ServletActionContext;
 
 import javax.servlet.http.HttpServletRequest;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 public class TestAction extends ActionSupport{
@@ -70,6 +67,10 @@ public class TestAction extends ActionSupport{
         return total;
     }
 
+    public void setTotal(int total) {
+        this.total = total;
+    }
+
     public void setPager(Pager<TTest> pager) {
         this.pager = pager;
     }
@@ -111,17 +112,16 @@ public class TestAction extends ActionSupport{
         return SUCCESS;
     }
     public String update(){
+
         test.setId(id);
         test.setName(name);
         test.setMoney(money);
         test.setBirth(birth);
-        testService.update(test);
-        if((testService.update(test))!=null){
+        Object obj = testService.update(test);
+        if(obj!=null){
             result = ControllerResult.getSuccessResult("修改成功!");
-            System.out.println(result);
         }else{
             result = ControllerResult.getFailResult("修改失败!");
-            System.out.println(result);
         }
         return SUCCESS;
     }

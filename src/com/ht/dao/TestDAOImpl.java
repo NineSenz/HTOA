@@ -2,9 +2,11 @@ package com.ht.dao;
 
 import com.ht.bean.TTest;
 import com.ht.util.Pager;
+import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Projections;
 
 import java.util.List;
 
@@ -20,7 +22,7 @@ public class TestDAOImpl implements TestDAO {
 
     @Override
     public TTest save(TTest test) {
-        Session sion = sessionFactory.getCurrentSession();
+        sion = sessionFactory.getCurrentSession();
         sion.beginTransaction();
         sion.save(test);
         sion.getTransaction().commit();
@@ -29,21 +31,23 @@ public class TestDAOImpl implements TestDAO {
 
     @Override
     public void delete(TTest test) {
-        Session sion = sessionFactory.getCurrentSession();
+        sion = sessionFactory.getCurrentSession();
         sion.beginTransaction();
-        //System.out.println(test);
         sion.delete(test);
         sion.getTransaction().commit();
     }
 
     @Override
     public TTest update(TTest test) {
-        Session sion = sessionFactory.getCurrentSession();
+        sion = sessionFactory.getCurrentSession();
         sion.beginTransaction();
-        System.out.println(test);
-        sion.saveOrUpdate(test);
+        TTest T =(TTest) sion.get(TTest.class, test.getId());
+        T.setName(test.getName());
+        T.setMoney(test.getMoney());
+        T.setBirth(test.getBirth());
+        sion.update(T);
         sion.getTransaction().commit();
-        return test;
+        return test==null?null:test;
     }
 
     @Override
@@ -66,19 +70,27 @@ public class TestDAOImpl implements TestDAO {
 
     @Override
     public int count() {
-        sion = sessionFactory.openSession();
-        int count=Integer.parseInt(sion.createQuery("select count(*) from TTest").uniqueResult().toString());
-        sion.close();
-        return count;
+        sion = sessionFactory.getCurrentSession();
+        sion.beginTransaction();
+        Criteria criteria = sion.createCriteria(TTest.class);
+        criteria.setProjection(Projections.rowCount());
+        Object object = criteria.uniqueResult();
+        sion.getTransaction().commit();
+        return Integer.valueOf(object.toString());
     }
 
     @Override
     public Pager<TTest> pagerList(Pager pager) {
-        Session sion = sessionFactory.getCurrentSession();
+        sion = sessionFactory.getCurrentSession();
         sion.beginTransaction();
         Query query = sion.createQuery("from TTest");
         query.setFirstResult(pager.getBeginIndex());
         query.setMaxResults(pager.getPageSize());
+        Criteria criteria = sion.createCriteria(TTest.class);
+        criteria.setProjection(Projections.rowCount());
+        Object object = criteria.uniqueResult();
+        System.out.println(object);
+        pager.setTotal(Integer.parseInt(object.toString()));
         pager.setRows(query.list());
         sion.getTransaction().commit();
         return pager;

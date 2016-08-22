@@ -55,7 +55,6 @@
                         '<%=path%>/test/update',
                         $("#editForm").serialize(),
                         function(data){
-                            $.messager.alert(date.result);
                             if(data.result.result == 'success'){
                                 $.messager.alert("提示",data.result.msg,"info",function(){
                                     $("#editWin").window("close");
@@ -86,7 +85,7 @@
                         } else {
                             $.messager.alert("提示",data.result.msg,"info");
                         }
-                    })
+                    },'json')
             }
         }
         function removePro(){
@@ -99,7 +98,7 @@
                                     $("#list").datagrid("reload");
                                 });
                             }
-                        },"JSON");
+                        },'json');
             }else{
                 $.messager.alert("提示","请选择要移除的管理","info");
             }
@@ -126,9 +125,9 @@
         </thead>
     </table>
     <div id="tb" style="padding:10px;">
-        <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-picture-add'" onclick="add();">添加</a>
-        <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-picture-edit'" onclick="edit();">修改</a>
-        <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-picture-delete'" onclick="removePro();">移除</a>
+        <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-basket-add'" onclick="add();">添加</a>
+        <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-basket-edit'" onclick="edit();">修改</a>
+        <a href="javascript:;" class="easyui-linkbutton" data-options="iconCls:'icon-basket-delete'" onclick="removePro();">移除</a>
     </div>
 
     <div id="addWin" class="easyui-window" title="添加管理员" data-options="iconCle:'icon-monitor-edit',closable:true, closed:true" style="width:300px;height:200px;padding:5px;">
@@ -171,10 +170,8 @@
         <form id="editForm" enctype="multipart/form-data" style="text-align: center; margin-left: 25px;">
             <table>
                 <tr>
-                    <td>编号</td>
-                    <td>
-                        <input class="textbox" name="id" readonly />
-                    </td>
+                        <input type="hidden"  name="id" />
+
                 </tr>
                 <tr>
                     <td>姓名</td>
@@ -191,7 +188,7 @@
                 <tr>
                     <td>生日</td>
                     <td>
-                        <input class="easyui-validatebox easyui-numberbox" name="birth" data-options="required:true, novalidate:true, precision:2"/>
+                        <input class="easyui-datetimebox" value="1/5/2016 2:3:56" name="birth" />
                     </td>
                 </tr>
                 <tr>
